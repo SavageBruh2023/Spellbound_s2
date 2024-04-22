@@ -137,12 +137,12 @@ disable-back-on-quit: false
 
 # Everything works with SECONDS
 #Integers
-invincibility-seconds: 5
+invincibility-seconds: 10
 #This will keep the teleport request alive for X seconds
 keep-alive: 60
 #This will delay the teleportation for X seconds
 delay-back-command: 5
-delay-teleportation: 5
+delay-teleportation: 0
 #Cooldowns
 back-cooldown: 10
 tpa-cooldown: 10
