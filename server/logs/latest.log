@@ -1,691 +1,376 @@
-[19:32:23] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[19:32:23] [Server thread/INFO]: Loading properties
-[19:32:23] [Server thread/INFO]: Default game type: SURVIVAL
-[19:32:23] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[19:32:24] [Server thread/INFO]: Debug logging is disabled
-[19:32:24] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[19:32:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:12:18] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[13:12:18] [Server thread/INFO]: Loading properties
+[13:12:18] [Server thread/INFO]: Default game type: SURVIVAL
+[13:12:18] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[13:12:18] [Server thread/INFO]: Debug logging is disabled
+[13:12:18] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[13:12:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[19:32:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:32:24] [Server thread/INFO]: Data value allowed items: 
-[19:32:24] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[13:12:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:12:18] [Server thread/INFO]: Data value allowed items: 
+[13:12:18] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[19:32:24] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[13:12:18] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[19:32:24] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[13:12:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[19:32:24] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[13:12:18] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[19:32:24] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[13:12:18] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[19:32:24] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[13:12:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[19:32:24] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[13:12:18] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[19:32:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[13:12:18] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[19:32:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[13:12:18] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[19:32:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[13:12:18] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[19:32:24] [Server thread/INFO]: Generating keypair
-[19:32:24] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[19:32:24] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[19:32:24] [Server thread/INFO]: Using default channel type
-[19:32:24] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
-[19:32:24] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[19:32:24] [Server thread/INFO]: [Colors] Properties loaded.
+[13:12:18] [Server thread/INFO]: Generating keypair
+[13:12:19] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[13:12:19] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[13:12:19] [Server thread/INFO]: Using default channel type
+[13:12:19] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
+[13:12:19] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[13:12:19] [Server thread/INFO]: [Colors] Properties loaded.
 
-[19:32:24] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[19:32:24] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
-[19:32:24] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[19:32:24] [Server thread/INFO]: [Colors] Loading Colors v2.0.4
-[19:32:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[19:32:24] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
-[19:32:24] [Server thread/INFO]: [MagicSpells] Loading MagicSpells v2.15
-[19:32:24] [Server thread/INFO]: [McTeams] Loading McTeams v1.6.1
-[19:32:24] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
-[19:32:25] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[19:32:25] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
-[19:32:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:32:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:32:25] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[19:32:25] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[19:32:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:32:25] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[19:32:25] [Server thread/INFO]: Preparing level "world"
-[19:32:25] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:32:25] [Server thread/INFO]: Mob Spawn Range: 4
-[19:32:25] [Server thread/INFO]: Anti X-Ray: true
-[19:32:25] [Server thread/INFO]: 	Engine Mode: 1
-[19:32:25] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:32:25] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:32:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:32:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:32:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:32:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[19:32:25] [Server thread/INFO]: Random Lighting Updates: false
-[19:32:25] [Server thread/INFO]: Structure Info Saving: true
-[19:32:25] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:32:25] [Server thread/INFO]: Max Entity Collisions: 8
-[19:32:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:32:25] [Server thread/INFO]: Max TNT Explosions: 100
-[19:32:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:32:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:32:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:32:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:32:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:32:25] [Server thread/INFO]: View Distance: 4
-[19:32:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:32:25] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:32:25] [Server thread/INFO]: Clear tick list: false
-[19:32:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:32:25] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:32:25] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:32:25] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:32:25] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[19:32:25] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:32:25] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:32:25] [Server thread/INFO]: Water over lava flow speed: 5
-[19:32:25] [Server thread/INFO]: Fix TNT cannons: false
-[19:32:25] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:32:25] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:32:25] [Server thread/INFO]: World async lighting: false
-[19:32:25] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:32:25] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:32:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:32:25] [Server thread/INFO]: Mob Spawn Range: 4
-[19:32:25] [Server thread/INFO]: Anti X-Ray: true
-[19:32:25] [Server thread/INFO]: 	Engine Mode: 1
-[19:32:25] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:32:25] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:32:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:32:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:32:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:32:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[19:32:25] [Server thread/INFO]: Random Lighting Updates: false
-[19:32:25] [Server thread/INFO]: Structure Info Saving: true
-[19:32:25] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:32:25] [Server thread/INFO]: Max Entity Collisions: 8
-[19:32:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:32:25] [Server thread/INFO]: Max TNT Explosions: 100
-[19:32:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:32:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:32:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:32:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:32:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:32:25] [Server thread/INFO]: View Distance: 4
-[19:32:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:32:25] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:32:25] [Server thread/INFO]: Clear tick list: false
-[19:32:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:32:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:32:25] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:32:25] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:32:25] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[19:32:25] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:32:25] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:32:25] [Server thread/INFO]: Water over lava flow speed: 5
-[19:32:25] [Server thread/INFO]: Fix TNT cannons: false
-[19:32:25] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:32:25] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:32:25] [Server thread/INFO]: World async lighting: false
-[19:32:25] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:32:25] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:32:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:32:25] [Server thread/INFO]: Mob Spawn Range: 4
-[19:32:25] [Server thread/INFO]: Anti X-Ray: true
-[19:32:25] [Server thread/INFO]: 	Engine Mode: 1
-[19:32:25] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[19:32:25] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[19:32:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:32:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:32:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[19:32:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:32:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[19:32:25] [Server thread/INFO]: Random Lighting Updates: false
-[19:32:25] [Server thread/INFO]: Structure Info Saving: true
-[19:32:25] [Server thread/INFO]: Sending up to 10 chunks per packet
-[19:32:25] [Server thread/INFO]: Max Entity Collisions: 8
-[19:32:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[19:32:25] [Server thread/INFO]: Max TNT Explosions: 100
-[19:32:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:32:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:32:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:32:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[19:32:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:32:25] [Server thread/INFO]: View Distance: 4
-[19:32:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:32:25] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[19:32:25] [Server thread/INFO]: Clear tick list: false
-[19:32:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:32:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:32:25] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[19:32:25] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[19:32:25] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[19:32:25] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[19:32:25] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[19:32:25] [Server thread/INFO]: Water over lava flow speed: 5
-[19:32:25] [Server thread/INFO]: Fix TNT cannons: false
-[19:32:25] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[19:32:25] [Server thread/INFO]: Keep spawn chunk loaded: true
-[19:32:25] [Server thread/INFO]: World async lighting: false
-[19:32:25] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[19:32:25] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[19:32:25] [Server thread/INFO]: Preparing start region for level 0 (Seed: 123456789)
-[19:32:26] [Server thread/INFO]: Preparing spawn area: 69%
-[19:32:26] [Server thread/INFO]: Preparing start region for level 1 (Seed: 123456789)
-[19:32:27] [Server thread/INFO]: Preparing start region for level 2 (Seed: 123456789)
-[19:32:27] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[19:32:27] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[13:12:19] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[13:12:19] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[13:12:19] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[13:12:19] [Server thread/INFO]: [Colors] Loading Colors v2.0.4
+[13:12:19] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[13:12:19] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v1.3
+[13:12:19] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[13:12:19] [Server thread/INFO]: [MagicSpells] Loading MagicSpells v2.15
+[13:12:19] [Server thread/INFO]: [McTeams] Loading McTeams v1.6.1
+[13:12:19] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
+[13:12:20] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[13:12:20] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[13:12:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:12:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:12:20] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[13:12:20] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[13:12:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:12:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[13:12:20] [Server thread/INFO]: Preparing level "world"
+[13:12:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:12:20] [Server thread/INFO]: Mob Spawn Range: 4
+[13:12:20] [Server thread/INFO]: Anti X-Ray: true
+[13:12:20] [Server thread/INFO]: 	Engine Mode: 1
+[13:12:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:12:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:12:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:12:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:12:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:12:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:12:20] [Server thread/INFO]: Random Lighting Updates: false
+[13:12:20] [Server thread/INFO]: Structure Info Saving: true
+[13:12:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:12:20] [Server thread/INFO]: Max Entity Collisions: 8
+[13:12:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:12:20] [Server thread/INFO]: Max TNT Explosions: 100
+[13:12:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:12:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:12:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:12:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:12:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:12:20] [Server thread/INFO]: View Distance: 4
+[13:12:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:12:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:12:20] [Server thread/INFO]: Clear tick list: false
+[13:12:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:12:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:12:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:12:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:12:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:12:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:12:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:12:20] [Server thread/INFO]: Water over lava flow speed: 5
+[13:12:20] [Server thread/INFO]: Fix TNT cannons: false
+[13:12:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:12:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:12:20] [Server thread/INFO]: World async lighting: false
+[13:12:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:12:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:12:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:12:20] [Server thread/INFO]: Mob Spawn Range: 4
+[13:12:20] [Server thread/INFO]: Anti X-Ray: true
+[13:12:20] [Server thread/INFO]: 	Engine Mode: 1
+[13:12:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:12:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:12:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:12:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:12:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:12:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:12:20] [Server thread/INFO]: Random Lighting Updates: false
+[13:12:20] [Server thread/INFO]: Structure Info Saving: true
+[13:12:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:12:20] [Server thread/INFO]: Max Entity Collisions: 8
+[13:12:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:12:20] [Server thread/INFO]: Max TNT Explosions: 100
+[13:12:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:12:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:12:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:12:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:12:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:12:20] [Server thread/INFO]: View Distance: 4
+[13:12:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:12:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:12:20] [Server thread/INFO]: Clear tick list: false
+[13:12:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:12:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:12:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:12:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:12:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:12:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:12:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:12:20] [Server thread/INFO]: Water over lava flow speed: 5
+[13:12:20] [Server thread/INFO]: Fix TNT cannons: false
+[13:12:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:12:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:12:20] [Server thread/INFO]: World async lighting: false
+[13:12:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:12:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:12:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:12:20] [Server thread/INFO]: Mob Spawn Range: 4
+[13:12:20] [Server thread/INFO]: Anti X-Ray: true
+[13:12:20] [Server thread/INFO]: 	Engine Mode: 1
+[13:12:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:12:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:12:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:12:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:12:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:12:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:12:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:12:20] [Server thread/INFO]: Random Lighting Updates: false
+[13:12:20] [Server thread/INFO]: Structure Info Saving: true
+[13:12:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:12:20] [Server thread/INFO]: Max Entity Collisions: 8
+[13:12:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:12:20] [Server thread/INFO]: Max TNT Explosions: 100
+[13:12:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:12:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:12:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:12:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:12:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:12:20] [Server thread/INFO]: View Distance: 4
+[13:12:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:12:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:12:20] [Server thread/INFO]: Clear tick list: false
+[13:12:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:12:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:12:20] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:12:20] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:12:20] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:12:20] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:12:20] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:12:20] [Server thread/INFO]: Water over lava flow speed: 5
+[13:12:20] [Server thread/INFO]: Fix TNT cannons: false
+[13:12:20] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:12:20] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:12:20] [Server thread/INFO]: World async lighting: false
+[13:12:20] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:12:20] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:12:20] [Server thread/INFO]: Preparing start region for level 0 (Seed: 123456789)
+[13:12:21] [Server thread/INFO]: Preparing spawn area: 16%
+[13:12:22] [Server thread/INFO]: Preparing spawn area: 87%
+[13:12:23] [Server thread/INFO]: Preparing start region for level 1 (Seed: 123456789)
+[13:12:24] [Server thread/INFO]: Preparing start region for level 2 (Seed: 123456789)
+[13:12:24] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[13:12:24] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[19:32:27] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[13:12:24] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[19:32:27] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[19:32:27] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[19:32:27] [Server thread/INFO]: Check 1 passed
+[13:12:24] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[13:12:24] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[13:12:24] [Server thread/INFO]: Check 1 passed
 
-[19:32:28] [Server thread/INFO]: Check 3 passed
+[13:12:25] [Server thread/INFO]: Check 3 passed
 
-[19:32:28] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:28] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:28] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+[13:12:25] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
 
-[19:32:28] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+[13:12:25] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
 
-[19:32:28] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+[13:12:25] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
 
-[19:32:28] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+[13:12:25] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
 
-[19:32:28] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+[13:12:25] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
 
-[19:32:28] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:28] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:28] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[19:32:28] [Server thread/INFO]: [Colors] Enabling Colors v2.0.4
-[19:32:28] [Server thread/INFO]: [Colors] Not hooked into any permissions plugin. Using defaults.
+[13:12:25] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[13:12:25] [Server thread/INFO]: [Colors] Enabling Colors v2.0.4
+[13:12:25] [Server thread/INFO]: [Colors] Not hooked into any permissions plugin. Using defaults.
 
-[19:32:28] [Server thread/INFO]: [Colors] (Hint) install Vault if your permissions plugin was not detected.
+[13:12:25] [Server thread/INFO]: [Colors] (Hint) install Vault if your permissions plugin was not detected.
 
-[19:32:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[19:32:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[19:32:28] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[19:32:28] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
-[19:32:29] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[13:12:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:12:25] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[13:12:25] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v1.3
+[13:12:25] [Server thread/INFO]: Uber Enchant is now enabled.
+[13:12:25] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[13:12:25] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+[13:12:25] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[19:32:29] [Server thread/INFO]: Check 1 passed
+[13:12:25] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[13:12:25] [Server thread/INFO]: Check 1 passed
 
-[19:32:29] [Server thread/INFO]: Check 3 passed
+[13:12:25] [Server thread/INFO]: Check 3 passed
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+[13:12:25] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
 
-[19:32:29] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+[13:12:25] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
 
-[19:32:29] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+[13:12:25] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
 
-[19:32:29] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+[13:12:25] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
 
-[19:32:29] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+[13:12:25] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+[13:12:25] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
 
-[19:32:29] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+[13:12:25] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: --------------------------------------------[m
+[13:12:25] [Server thread/INFO]: --------------------------------------------[m
 
-[19:32:29] [Server thread/INFO]: [MagicSpells] Enabling MagicSpells v2.15
-[19:32:29] [Server thread/WARN]: [MagicSpells] This MagicSpells version is not fully compatible with this server version.
-[19:32:29] [Server thread/WARN]: [MagicSpells] Some features have been disabled.
-[19:32:29] [Server thread/WARN]: [MagicSpells] See http://nisovin.com/magicspells/volatilefeatures for more information.
-[19:32:29] [Server thread/INFO]: [MagicSpells] Spells loaded: 87
-[19:32:29] [Server thread/INFO]: [McTeams] Enabling McTeams v1.6.1
-[19:32:29] [Server thread/INFO]: [McTeams] Could not find PlaceholderAPI plugin. Those features will be unavailable.
+[13:12:25] [Server thread/INFO]: [MagicSpells] Enabling MagicSpells v2.15
+[13:12:25] [Server thread/WARN]: [MagicSpells] This MagicSpells version is not fully compatible with this server version.
+[13:12:25] [Server thread/WARN]: [MagicSpells] Some features have been disabled.
+[13:12:25] [Server thread/WARN]: [MagicSpells] See http://nisovin.com/magicspells/volatilefeatures for more information.
+[13:12:26] [Server thread/INFO]: [MagicSpells] Spells loaded: 87
+[13:12:26] [Server thread/INFO]: [McTeams] Enabling McTeams v1.6.1
+[13:12:26] [Server thread/INFO]: [McTeams] Could not find PlaceholderAPI plugin. Those features will be unavailable.
 
-[19:32:29] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[19:32:29] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[19:32:29] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[19:32:29] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[19:32:29] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[19:32:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:32:29] [Server thread/INFO]: Done (3.963s)! For help, type "help" or "?"
-[19:32:29] [Server thread/INFO]: Timings Reset
-[19:32:29] [Craft Scheduler Thread - 1/INFO]: [Metrics] Connection refused
-[19:32:29] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[13:12:26] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[13:12:26] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[13:12:26] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[13:12:26] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[13:12:26] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[13:12:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:12:26] [Server thread/INFO]: Done (6.134s)! For help, type "help" or "?"
+[13:12:26] [Server thread/INFO]: Timings Reset
+[13:12:26] [Craft Scheduler Thread - 1/INFO]: [Metrics] Connection refused
+[13:12:26] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[19:32:29] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[13:12:26] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[19:32:29] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[13:12:26] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[19:34:47] [Thread-7/INFO]: UUID of player Admin_1 is a7f24b7a-7a28-358c-8df2-c1184ee8627f
-[19:34:48] [Server thread/INFO]: Admin_1[/[0:0:0:0:0:0:0:1]:45108] logged in with entity id 271 at ([world]-192.0, 64.0, 96.0)
-[19:35:29] [Server thread/INFO]: Admin_1 lost connection: Kicked by an operator.
-[19:35:29] [Server thread/INFO]: Admin_1 left the game.
-[19:35:29] [Server thread/INFO]: Kicked Admin_1 from the game
-[19:35:29] [Server thread/WARN]: handleDisconnection() called twice
-[19:35:32] [Thread-8/INFO]: UUID of player Admin_1 is a7f24b7a-7a28-358c-8df2-c1184ee8627f
-[19:35:32] [Server thread/INFO]: Admin_1[/[0:0:0:0:0:0:0:1]:44300] logged in with entity id 361 at ([world]-192.0, 64.0, 96.0)
-[19:36:13] [Server thread/INFO]: Admin_1 issued server command: //wand
-[19:36:19] [Server thread/INFO]: Admin_1 issued server command: /plist
-[19:36:26] [Server thread/INFO]: Admin_1 issued server command: /plist 2
-[19:36:29] [Thread-9/INFO]: UUID of player Admin_2 is a6a11589-364d-3f91-8713-102df76fe512
-[19:36:29] [Server thread/INFO]: Admin_2[/[0:0:0:0:0:0:0:1]:41414] logged in with entity id 836 at ([world]-192.0, 64.0, 96.0)
-[19:36:29] [Craft Scheduler Thread - 3/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[19:36:29] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+[13:12:27] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.1.0). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+
+[13:13:50] [Thread-8/INFO]: UUID of player Admin_1 is a7f24b7a-7a28-358c-8df2-c1184ee8627f
+[13:13:51] [Server thread/INFO]: Admin_1[/[0:0:0:0:0:0:0:1]:60230] logged in with entity id 567 at ([world]-100.0, 134.0, 18.0)
+[13:14:25] [Server thread/INFO]: Admin_1 issued server command: /plugins
+[13:14:28] [Server thread/INFO]: Admin_1 issued server command: /ce
+[13:14:37] [Server thread/INFO]: Admin_1 issued server command: /help uberenchant
+[13:14:40] [Server thread/INFO]: Admin_1 issued server command: /uber
+[13:14:40] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'uber' in plugin UberEnchant v1.3
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:36:33] [Server thread/INFO]: Admin_1 issued server command: /plist 3
-[19:36:38] [Server thread/INFO]: Admin_1 issued server command: /plist 4
-[19:36:43] [Server thread/INFO]: Admin_1 issued server command: /plist 5
-[19:36:57] [Server thread/INFO]: Admin_1 issued server command: /install uberenchant
-[19:37:00] [Server thread/INFO]: Admin_2 lost connection: Login timed out!
-[19:37:00] [Server thread/INFO]: Admin_2 left the game.
-[19:37:00] [Server thread/WARN]: handleDisconnection() called twice
-[19:37:01] [Thread-10/INFO]: UUID of player EaglVool260 is e054db4f-6b62-326e-af86-c24ae4e3d0d7
-[19:37:01] [Server thread/INFO]: EaglVool260[/[0:0:0:0:0:0:0:1]:33580] logged in with entity id 896 at ([world]-192.0, 64.0, 96.0)
-[19:37:01] [Craft Scheduler Thread - 3/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[19:37:01] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at me.sciguymjm.uberenchant.UberEnchant.onCommand(UberEnchant.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[13:14:45] [Server thread/INFO]: Admin_1 issued server command: /uber
+[13:14:45] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'uber' in plugin UberEnchant v1.3
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:37:04] [Thread-11/INFO]: UUID of player Admin_2 is a6a11589-364d-3f91-8713-102df76fe512
-[19:37:04] [Server thread/INFO]: Admin_2[/[0:0:0:0:0:0:0:1]:33584] logged in with entity id 1011 at ([world]-192.0, 64.0, 96.0)
-[19:37:04] [Craft Scheduler Thread - 3/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[19:37:04] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:37:13] [Server thread/INFO]: Admin_2 has just earned the achievement [Taking Inventory]
-[19:37:19] [Server thread/INFO]: <Admin_2[0;37;1m> fuck you admin_1[m
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at me.sciguymjm.uberenchant.UberEnchant.onCommand(UberEnchant.java:41) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[13:14:50] [Server thread/INFO]: Admin_1 issued server command: /
+[13:17:55] [Server thread/INFO]: Admin_1 lost connection: Disconnected
+[13:17:55] [Server thread/INFO]: Admin_1 left the game.
+[13:18:00] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
 
-[19:37:24] [Server thread/INFO]: Admin_2 issued server command: /gamemode 1
-[19:37:28] [Server thread/INFO]: <EaglVool260[0;37;1m> its shane[m
+[13:18:03] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
 
-[19:37:35] [Server thread/INFO]: Admin_1 issued server command: //set stone
-[19:37:38] [Server thread/INFO]: <EaglVool260[0;37;1m> what happened to the magic server[m
+[13:18:06] [Server thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
 
-[19:38:05] [Server thread/INFO]: Admin_2 tried to swim in lava
-[19:38:08] [Server thread/INFO]: Admin_2 lost connection: Disconnected
-[19:38:08] [Server thread/INFO]: Admin_2 left the game.
-[19:38:08] [Server thread/INFO]: EaglVool260 has just earned the achievement [Taking Inventory]
-[19:38:36] [Thread-13/INFO]: UUID of player DomoPlanet is 6d9f24ad-89a5-31f6-ac89-cfd65aa7827b
-[19:38:36] [Server thread/INFO]: DomoPlanet[/[0:0:0:0:0:0:0:1]:60800] logged in with entity id 1512 at ([world]-192.0, 64.0, 96.0)
-[19:38:36] [Craft Scheduler Thread - 5/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[19:38:36] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:38:39] [Server thread/INFO]: Admin_1 issued server command: //set stone
-[19:38:49] [Server thread/INFO]: EaglVool260 issued server command: /sethome e
-[19:38:53] [Server thread/INFO]: Admin_1 issued server command: //set air
-[19:38:56] [Server thread/INFO]: EaglVool260 issued server command: /cast list
-[19:39:03] [Server thread/INFO]: EaglVool260 issued server command: /cast hep
-[19:39:05] [Server thread/INFO]: Admin_1 issued server command: //set bedrock
-[19:39:06] [Server thread/INFO]: EaglVool260 issued server command: /cast help
-[19:39:08] [Server thread/INFO]: DomoPlanet has just earned the achievement [Taking Inventory]
-[19:39:11] [Server thread/INFO]: Admin_1 issued server command: //set bedrock
-[19:39:13] [Server thread/INFO]: EaglVool260 issued server command: /cast help zues
-[19:39:14] [Server thread/INFO]: DomoPlanet has just earned the achievement [Getting Wood]
-[19:39:17] [Server thread/INFO]: EaglVool260 issued server command: /cast help list
-[19:39:18] [Server thread/INFO]: Admin_1 issued server command: //set bedrock
-[19:39:25] [Server thread/INFO]: Admin_1 issued server command: //set bedrock
-[19:39:25] [Server thread/INFO]: EaglVool260 issued server command: /cast help fireball
-[19:39:31] [Server thread/INFO]: Admin_1 issued server command: //set bedrock
-[19:39:41] [Server thread/INFO]: EaglVool260 was blown up by Creeper
-[19:39:43] [Server thread/INFO]: Admin_1 issued server command: //set barrier
-[19:39:47] [Server thread/INFO]: DomoPlanet has just earned the achievement [Benchmarking]
-[19:39:49] [Server thread/INFO]: EaglVool260 lost connection: Disconnected
-[19:39:49] [Server thread/INFO]: EaglVool260 left the game.
-[19:39:53] [Server thread/INFO]: DomoPlanet issued server command: /sethome a
-[19:40:16] [Server thread/INFO]: DomoPlanet has just earned the achievement [Time to Mine!]
-[19:40:25] [Server thread/INFO]: DomoPlanet has just earned the achievement [Time to Strike!]
-[19:40:36] [Server thread/INFO]: Admin_1 issued server command: //set air
-[19:40:36] [Server thread/INFO]: DomoPlanet issued server command: /cast list
-[19:40:41] [Server thread/INFO]: Admin_1 issued server command: /undo
-[19:40:54] [Server thread/INFO]: DomoPlanet has just earned the achievement [Monster Hunter]
-[19:40:54] [Server thread/INFO]: Admin_1 issued server command: //set air
-[19:41:00] [Server thread/INFO]: <DomoPlanet[0;37;1m> FUCK YEA[m
-
-[19:41:08] [Thread-14/INFO]: UUID of player maroon5 is 321c7be9-79b4-3dd7-b22f-a9fefc3e081b
-[19:41:08] [Server thread/INFO]: maroon5[/[0:0:0:0:0:0:0:1]:53908] logged in with entity id 2008 at ([world]-192.0, 64.0, 96.0)
-[19:41:08] [Craft Scheduler Thread - 6/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[19:41:08] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:41:13] [Server thread/INFO]: Admin_1 issued server command: //set water
-[19:41:18] [Server thread/INFO]: maroon5 has just earned the achievement [Taking Inventory]
-[19:41:44] [Server thread/INFO]: <DomoPlanet[0;37;1m> lucas...[m
-
-[19:41:45] [Server thread/INFO]: Admin_1 issued server command: //set grass
-[19:41:53] [Server thread/INFO]: <Admin_1[0;37;1m> yes[m
-
-[19:41:54] [Server thread/INFO]: <DomoPlanet[0;37;1m> my prize for winning last server???[m
-
-[19:41:57] [Server thread/INFO]: maroon5 has just earned the achievement [Getting Wood]
-[19:42:00] [Server thread/INFO]: <DomoPlanet[0;37;1m> let[m
-
-[19:42:03] [Server thread/INFO]: <Admin_1[0;37;1m> tp to me[m
-
-[19:42:05] [Server thread/INFO]: <maroon5[0;37;1m> WHAT ARE ALL THE NEW SPELLS[m
-
-[19:42:10] [Server thread/INFO]: <maroon5[0;37;1m> NAME THEM PS[m
-
-[19:42:11] [Server thread/INFO]: <DomoPlanet[0;37;1m> 1 sec[m
-
-[19:42:13] [Server thread/INFO]: <maroon5[0;37;1m> PLS[m
-
-[19:42:13] [Server thread/INFO]: Admin_1 issued server command: /tp DomoPlanet Admin_1
-[19:42:13] [Server thread/INFO]: [Admin_1: Teleported DomoPlanet to Admin_1]
-[19:42:29] [Craft Scheduler Thread - 7/INFO]: [Metrics] Connection refused
-[19:42:34] [Server thread/INFO]: <DomoPlanet[0;37;1m> and m ouse[m
-
-[19:42:54] [Server thread/INFO]: <DomoPlanet[0;37;1m> my house, i will give you the list[m
-
-[19:42:54] [Server thread/INFO]: Admin_1 issued server command: /undo
-[19:43:09] [Server thread/INFO]: Admin_1 issued server command: //set grass
-[19:43:44] [Server thread/INFO]: <DomoPlanet[0;37;1m> can you make a double chest at 10,000, 10,000 with the materials[m
-
-[19:43:49] [Server thread/INFO]: <DomoPlanet[0;37;1m> i'l list the materials now[m
-
-[19:43:54] [Server thread/INFO]: maroon5 has just earned the achievement [Benchmarking]
-[19:44:04] [Server thread/INFO]: maroon5 has just earned the achievement [Time to Mine!]
-[19:44:10] [Server thread/INFO]: maroon5 has just earned the achievement [Time to Strike!]
-[19:45:22] [Server thread/INFO]: maroon5 has just earned the achievement [Hot Topic]
-[19:45:30] [Server thread/INFO]: <DomoPlanet[0;37;1m> i gotta find the vid[m
-
-[19:45:44] [Server thread/INFO]: maroon5 has just earned the achievement [Getting an Upgrade]
-[19:46:43] [Server thread/INFO]: <DomoPlanet[0;37;1m> im getting the list now[m
-
-[19:47:16] [Server thread/INFO]: maroon5 tried to swim in lava
-[19:47:17] [Server thread/INFO]: maroon5 lost connection: Disconnected
-[19:47:17] [Server thread/INFO]: maroon5 left the game.
-[19:47:18] [Server thread/INFO]: Admin_1 issued server command: /give Admin_1 diamond_sword 1 0 {ench:[{id:16,lvl:26548}]}
-[19:47:18] [Server thread/INFO]: [Admin_1: Given [Diamond Sword] * 1 to Admin_1]
-[19:47:26] [Thread-15/INFO]: UUID of player maroon4 is d30db0d6-f1f2-3d04-b3a3-d7d2ba9f6117
-[19:47:27] [Server thread/INFO]: maroon4[/[0:0:0:0:0:0:0:1]:51738] logged in with entity id 2801 at ([world]-192.0, 64.0, 96.0)
-[19:47:27] [Craft Scheduler Thread - 8/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[19:47:27] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:47:49] [Server thread/INFO]: <maroon4[0;37;1m> u gotta be fucking kidding me[m
-
-[19:47:49] [Server thread/INFO]: maroon4 has just earned the achievement [Taking Inventory]
-[19:47:59] [Server thread/INFO]: <maroon4[0;37;1m> all ma shit[m
-
-[19:48:44] [Server thread/INFO]: <maroon4[0;37;1m> fuck[m
-
-[19:49:05] [Server thread/INFO]: maroon4 burned to death
-[19:49:05] [Server thread/INFO]: <maroon4[0;37;1m> fK[m
-
-[19:49:07] [Server thread/INFO]: maroon4 lost connection: Disconnected
-[19:49:07] [Server thread/INFO]: maroon4 left the game.
-[19:49:29] [Server thread/INFO]: <DomoPlanet[0;37;1m> 13x quartz, 7x quart slabs, 7x oak planks, 5x grey concrete/obsidain, 3x black glass panes, 2x leave[m
-
-[19:49:32] [Thread-16/INFO]: UUID of player ExtraCri5py is 0cfdc367-4fa1-3e0c-90e7-989ce0333608
-[19:49:32] [Server thread/INFO]: ExtraCri5py[/[0:0:0:0:0:0:0:1]:35042] logged in with entity id 3459 at ([world]-192.0, 64.0, 96.0)
-[19:49:32] [Craft Scheduler Thread - 9/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[19:49:32] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:49:34] [Server thread/INFO]: <DomoPlanet[0;37;1m> lcuas can i just get some signs[m
-
-[19:49:38] [Server thread/INFO]: <DomoPlanet[0;37;1m> nvm[m
-
-[19:49:43] [Server thread/INFO]: <ExtraCri5py[0;37;1m> i keep[m
-
-[19:49:51] [Server thread/INFO]: <ExtraCri5py[0;37;1m> FUCKING LOSING MY SHIT[m
-
-[19:50:43] [Server thread/INFO]: ExtraCri5py has just earned the achievement [Taking Inventory]
-[19:50:43] [Server thread/INFO]: ExtraCri5py has just earned the achievement [Getting Wood]
-[19:52:21] [Server thread/INFO]: DomoPlanet issued server command: /sethome a
-[19:52:24] [Server thread/INFO]: DomoPlanet issued server command: /sethome b
-[19:52:27] [Server thread/INFO]: DomoPlanet issued server command: /homes
-[19:52:29] [Craft Scheduler Thread - 10/INFO]: [Metrics] Connection refused
-[19:52:58] [Server thread/INFO]: <DomoPlanet[0;37;1m> lucas i can't carry ALL of it[m
-
-[19:53:42] [Server thread/INFO]: <DomoPlanet[0;37;1m> i mean 5x as in 5 stacks btw[m
-
-[19:54:04] [Server thread/INFO]: Admin_1 issued server command: /setworldspawn
-[19:54:04] [Server thread/INFO]: [Admin_1: Set the world spawn point to (-100, 134, 18)]
-[19:54:16] [Server thread/INFO]: Admin_1 lost connection: Disconnected
-[19:54:16] [Server thread/INFO]: Admin_1 left the game.
-[19:54:26] [Thread-17/INFO]: UUID of player SavageEagler is 83949d3a-ab99-3644-a8c0-43977ec748c0
-[19:54:26] [Server thread/INFO]: SavageEagler[/[0:0:0:0:0:0:0:1]:55326] logged in with entity id 4683 at ([world]-100.0, 134.0, 18.0)
-[19:54:26] [Craft Scheduler Thread - 11/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[19:54:26] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[19:54:29] [Server thread/INFO]: DomoPlanet lost connection: Disconnected
-[19:54:29] [Server thread/INFO]: DomoPlanet left the game.
-[19:54:45] [Server thread/INFO]: SavageEagler has just earned the achievement [Taking Inventory]
-[19:54:52] [Server thread/INFO]: SavageEagler has just earned the achievement [Getting Wood]
-[19:54:54] [Server thread/INFO]: SavageEagler has just earned the achievement [Benchmarking]
-[19:55:10] [Thread-18/INFO]: UUID of player DomoPlanet is 6d9f24ad-89a5-31f6-ac89-cfd65aa7827b
-[19:55:10] [Server thread/INFO]: DomoPlanet[/[0:0:0:0:0:0:0:1]:58664] logged in with entity id 4789 at ([world]-93.93121707616571, 133.0, 16.233690872009383)
-[19:55:18] [Server thread/INFO]: DomoPlanet issued server command: /home b
-[19:55:28] [Server thread/INFO]: SavageEagler has just earned the achievement [Time to Mine!]
-[19:55:55] [Server thread/INFO]: SavageEagler has just earned the achievement [Getting an Upgrade]
-[19:55:57] [Server thread/INFO]: SavageEagler has just earned the achievement [Time to Strike!]
-[19:56:52] [Server thread/INFO]: ExtraCri5py issued server command: /sethome j
-[19:57:22] [Server thread/INFO]: <DomoPlanet[0;37;1m> lucas, 1x = 1 stack of said block[m
-
-[19:57:33] [Server thread/INFO]: ExtraCri5py issued server command: /home j
-[19:57:33] [Server thread/INFO]: <SavageEagler[0;37;1m> get it yourself[m
-
-[19:57:37] [Server thread/INFO]: ExtraCri5py issued server command: /home j
-[19:57:40] [Server thread/INFO]: <DomoPlanet[0;37;1m> it was your rules[m
-
-[19:57:47] [Server thread/INFO]: <ExtraCri5py[0;37;1m> lucas[m
-
-[19:57:53] [Server thread/INFO]: <ExtraCri5py[0;37;1m> u should down the time of the tp[m
-
-[19:58:27] [Server thread/INFO]: ExtraCri5py issued server command: /sethome e
-[19:58:57] [Server thread/INFO]: DomoPlanet lost connection: Disconnected
-[19:58:57] [Server thread/INFO]: DomoPlanet left the game.
-[19:59:11] [Server thread/INFO]: <SavageEagler[0;37;1m> iron[m
-
-[19:59:27] [Server thread/INFO]: SavageEagler has just earned the achievement [Hot Topic]
-[20:00:10] [Server thread/INFO]: ExtraCri5py issued server command: /home e
-[20:00:18] [Server thread/INFO]: SavageEagler has just earned the achievement [Acquire Hardware]
-[20:00:24] [Server thread/INFO]: <ExtraCri5py[0;37;1m> wut[m
-
-[20:00:48] [Server thread/INFO]: ExtraCri5py issued server command: /home j
-[20:01:16] [Server thread/INFO]: <SavageEagler[0;37;1m> can u get a bed[m
-
-[20:01:24] [Server thread/INFO]: <ExtraCri5py[0;37;1m> no sheep near me[m
-
-[20:01:34] [Server thread/INFO]: <SavageEagler[0;37;1m> tp[m
-
-[20:01:39] [Server thread/INFO]: ExtraCri5py issued server command: /tpa SavageEagler
-[20:01:43] [Server thread/INFO]: SavageEagler issued server command: /tpyes
-[20:01:52] [Server thread/INFO]: ExtraCri5py issued server command: /sethome t
-[20:02:10] [Thread-19/INFO]: UUID of player DomoPlanet is 6d9f24ad-89a5-31f6-ac89-cfd65aa7827b
-[20:02:10] [Server thread/INFO]: DomoPlanet[/[0:0:0:0:0:0:0:1]:38482] logged in with entity id 5921 at ([world]-100.0, 134.0, 18.0)
-[20:02:12] [Server thread/INFO]: <ExtraCri5py[0;37;1m> ice[m
-
-[20:02:28] [Server thread/INFO]: ExtraCri5py issued server command: /home j
-[20:02:28] [Server thread/INFO]: <SavageEagler[0;37;1m> grab ur bed[m
-
-[20:02:29] [Craft Scheduler Thread - 16/INFO]: [Metrics] Connection refused
-[20:02:45] [Server thread/INFO]: SavageEagler has just earned the achievement [Monster Hunter]
-[20:03:40] [Server thread/INFO]: SavageEagler issued server command: /tpa ExtraCri5py
-[20:03:42] [Server thread/INFO]: ExtraCri5py issued server command: /tpyes
-[20:04:01] [Server thread/INFO]: <ExtraCri5py[0;37;1m> i cant find iron[m
-
-[20:04:11] [Server thread/INFO]: <DomoPlanet[0;37;1m> still issue[m
-
-[20:04:18] [Server thread/INFO]: <SavageEagler[0;37;1m> i found 4 surface iron[m
-
-[20:04:27] [Server thread/INFO]: <ExtraCri5py[0;37;1m> mainly bc of the lava pocket i died to[m
-
-[20:04:29] [Server thread/INFO]: <DomoPlanet[0;37;1m> i found 8 surface iron[m
-
-[20:04:51] [Server thread/INFO]: <SavageEagler[0;37;1m> im going further down[m
-
-[20:04:56] [Server thread/INFO]: <SavageEagler[0;37;1m> found some[m
-
-[20:05:00] [Server thread/INFO]: ExtraCri5py issued server command: /tpa SavageEagler
-[20:05:15] [Server thread/INFO]: <SavageEagler[0;37;1m> cave[m
-
-[20:05:17] [Server thread/INFO]: SavageEagler issued server command: /tpaccept
-[20:05:25] [Server thread/INFO]: <SavageEagler[0;37;1m> ravin[m
-
-[20:05:42] [Server thread/INFO]: <SavageEagler[0;37;1m> in spawn[m
-
-[20:06:07] [Server thread/INFO]: <DomoPlanet[0;37;1m> im going to die to starvation[m
-
-[20:06:14] [Server thread/INFO]: <ExtraCri5py[0;37;1m> tpa[m
-
-[20:06:16] [Server thread/INFO]: <SavageEagler[0;37;1m> come here[m
-
-[20:06:19] [Server thread/INFO]: DomoPlanet issued server command: /tpa SavageEagler
-[20:06:23] [Server thread/INFO]: SavageEagler issued server command: /tpno
-[20:06:29] [Server thread/INFO]: DomoPlanet issued server command: /tpa extra
-[20:06:41] [Server thread/INFO]: ExtraCri5py has just earned the achievement [Benchmarking]
-[20:06:42] [Server thread/INFO]: <DomoPlanet[0;37;1m> nv[m
-
-[20:07:14] [Server thread/INFO]: ExtraCri5py has just earned the achievement [Time to Mine!]
-[20:07:14] [Server thread/INFO]: ExtraCri5py has just earned the achievement [Getting an Upgrade]
-[20:07:35] [Server thread/INFO]: ExtraCri5py issued server command: /afk
-[20:09:24] [Server thread/INFO]: DomoPlanet fell from a high place
-[20:09:38] [Server thread/INFO]: DomoPlanet lost connection: Disconnected
-[20:09:38] [Server thread/INFO]: DomoPlanet left the game.
-[20:09:40] [Thread-21/INFO]: UUID of player DomoPlanet is 6d9f24ad-89a5-31f6-ac89-cfd65aa7827b
-[20:09:40] [Server thread/INFO]: DomoPlanet[/[0:0:0:0:0:0:0:1]:44666] logged in with entity id 9180 at ([world]-100.0, 134.0, 18.0)
-[20:09:49] [Server thread/INFO]: DomoPlanet lost connection: Disconnected
-[20:09:49] [Server thread/INFO]: DomoPlanet left the game.
-[20:09:53] [Thread-22/INFO]: UUID of player DomoPlanet1 is 5f275c39-b5e9-31d8-82fd-1f376c36dd6f
-[20:09:53] [Server thread/INFO]: DomoPlanet1[/[0:0:0:0:0:0:0:1]:40056] logged in with entity id 9201 at ([world]-100.0, 134.0, 18.0)
-[20:09:53] [Craft Scheduler Thread - 17/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[20:09:53] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
-java.sql.SQLException: Failed set location id in profile
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
-	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[20:10:09] [Server thread/INFO]: <DomoPlanet1[0;37;1m> i was mining down, and i fell into A FUCKING REVEIN[m
-
-[20:10:24] [Server thread/INFO]: <SavageEagler[0;37;1m> no geting ur stuff back[m
-
-[20:10:37] [Server thread/INFO]: DomoPlanet1 issued server command: /tpa ExtraCri5py
-[20:10:39] [Server thread/INFO]: ExtraCri5py issued server command: /tpyes
-[20:11:41] [Server thread/INFO]: SavageEagler lost connection: Disconnected
-[20:11:41] [Server thread/INFO]: SavageEagler left the game.
-[20:12:14] [Server thread/INFO]: ExtraCri5py issued server command: /home e
-[20:12:17] [Server thread/INFO]: ExtraCri5py issued server command: /home e
-[20:12:30] [Craft Scheduler Thread - 18/INFO]: [Metrics] Connection refused
-[20:12:55] [Server thread/INFO]: DomoPlanet1 lost connection: Disconnected
-[20:12:55] [Server thread/INFO]: DomoPlanet1 left the game.
-[20:12:59] [Server thread/INFO]: <ExtraCri5py[0;37;1m> geggy mad[m
-
-[20:14:02] [Server thread/INFO]: ExtraCri5py lost connection: Disconnected
-[20:14:02] [Server thread/INFO]: ExtraCri5py left the game.
-[20:22:30] [Craft Scheduler Thread - 19/INFO]: [Metrics] Connection refused
-[20:32:30] [Craft Scheduler Thread - 20/INFO]: [Metrics] Connection refused
+[13:18:06] [Thread-2/INFO]: Stopping server
