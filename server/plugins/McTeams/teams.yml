@@ -28,9 +28,10 @@ players:
     teamchat: 'false'
     chatspy: 'false'
   83949d3a-ab99-3644-a8c0-43977ec748c0:
-    teammanager: 'false'
+    teammanager: 'true'
     teamchat: 'false'
     chatspy: 'false'
+    team: CLOWNS
   5f275c39-b5e9-31d8-82fd-1f376c36dd6f:
     teammanager: 'false'
     teamchat: 'false'
@@ -51,3 +52,10 @@ players:
     teammanager: 'false'
     teamchat: 'false'
     chatspy: 'false'
+    team: CLOWNS
+CLOWNS:
+  ff: 'false'
+  memberlist:
+  - 83949d3a-ab99-3644-a8c0-43977ec748c0
+  - 0bc18ffe-919b-326b-9a32-f6c702ffcbe0
+  password: lol.imagine

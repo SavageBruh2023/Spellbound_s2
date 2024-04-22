@@ -345,10 +345,6 @@ Enchantments:
     - 0.0
     RunecraftingCost:
     - 0LVL&0$
-    - 0LVL&0$
-    - 0LVL&0$
-    - 0LVL&0$
-    - 0LVL&0$
     EnchantmentProbability: 6.25
   Self Destruct:
     Enabled: true
@@ -464,10 +460,6 @@ Enchantments:
     Cost:
     - 0.0
     RunecraftingCost:
-    - 0LVL&0$
-    - 0LVL&0$
-    - 0LVL&0$
-    - 0LVL&0$
     - 0LVL&0$
     EnchantmentProbability: 6.666666666666667
   Cursed:
