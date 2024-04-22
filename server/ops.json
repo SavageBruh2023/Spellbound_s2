@@ -4,5 +4,11 @@
     "name": "Admin_1",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "85d2b04f-eca1-3908-8c60-da2a685d4bf2",
+    "name": "Dab1080",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
