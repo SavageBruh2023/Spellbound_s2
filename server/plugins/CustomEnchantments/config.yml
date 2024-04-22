@@ -312,10 +312,6 @@ Enchantments:
     - 0.0
     RunecraftingCost:
     - 0LVL&0$
-    - 0LVL&0$
-    - 0LVL&0$
-    - 0LVL&0$
-    - 0LVL&0$
     EnchantmentProbability: 25.0
   Bombardment:
     Enabled: true
