@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "uuid": "2453862c-e9e9-3cc2-9d71-5268562f8232",
+    "name": "Lucasisafaggot",
+    "created": "2024-04-23 16:27:51 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "2f705455-f0fa-3b66-a464-351bbf046b4e",
+    "name": "Lucasisafaggot12",
+    "created": "2024-04-23 16:28:49 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "9073c000-9bd4-3c36-a965-66160878769b",
+    "name": "Lucasisafaggot1",
+    "created": "2024-04-23 16:28:29 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "BALLS ARE TOO SMALL"
+  }
+]

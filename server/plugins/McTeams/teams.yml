@@ -27,6 +27,7 @@ players:
     teammanager: 'false'
     teamchat: 'false'
     chatspy: 'false'
+    team: CLOWNS
   83949d3a-ab99-3644-a8c0-43977ec748c0:
     teammanager: 'true'
     teamchat: 'false'
@@ -67,6 +68,60 @@ players:
     teammanager: 'false'
     teamchat: 'false'
     chatspy: 'false'
+  5601d204-cf2b-37b8-9691-a306ee92e4db:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  2b768aa2-bdf1-3847-b56a-f6325473fc4e:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  ccd9b2bf-a446-3b37-b211-93647ad61cc6:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  70c17a1f-7877-3c37-8680-0bd3826f9710:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  f268af69-dfe6-3e31-a08a-f836d8c235ea:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  e24e17d5-2f42-3635-8a1c-b542fe4f1956:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  e6188c20-150e-392b-ba95-24ef5cbc5989:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  48833067-ac9d-3367-9696-4af2e97764c7:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  2453862c-e9e9-3cc2-9d71-5268562f8232:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  9073c000-9bd4-3c36-a965-66160878769b:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  2f705455-f0fa-3b66-a464-351bbf046b4e:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  e507ebd4-c4fc-3058-adad-0da62765b23e:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
 CLOWNS:
   ff: 'false'
   memberlist:
@@ -74,3 +129,17 @@ CLOWNS:
   - 0bc18ffe-919b-326b-9a32-f6c702ffcbe0
   - ec68be9c-2b8b-33a0-a808-87a76219b8e5
   - ad31481c-8af3-3458-821c-64132cdc8666
+  - 5601d204-cf2b-37b8-9691-a306ee92e4db
+  - 2b768aa2-bdf1-3847-b56a-f6325473fc4e
+  - ccd9b2bf-a446-3b37-b211-93647ad61cc6
+  - f268af69-dfe6-3e31-a08a-f836d8c235ea
+  - e24e17d5-2f42-3635-8a1c-b542fe4f1956
+  - 0cfdc367-4fa1-3e0c-90e7-989ce0333608
+  - 48833067-ac9d-3367-9696-4af2e97764c7
+  hq:
+    x: -118.70010447606339
+    y: 67.0
+    z: -183.1602336929788
+    yaw: 0.0
+    pitch: 0.0
+    world: world

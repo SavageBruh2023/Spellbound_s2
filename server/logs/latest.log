@@ -1,50 +1,50 @@
-[12:59:15] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[12:59:15] [Server thread/INFO]: Loading properties
-[12:59:15] [Server thread/INFO]: Default game type: SURVIVAL
-[12:59:15] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[12:59:15] [Server thread/INFO]: Debug logging is disabled
-[12:59:15] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[12:59:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:36:41] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:36:41] [Server thread/INFO]: Loading properties
+[14:36:41] [Server thread/INFO]: Default game type: SURVIVAL
+[14:36:42] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:36:42] [Server thread/INFO]: Debug logging is disabled
+[14:36:42] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[14:36:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[12:59:15] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:59:15] [Server thread/INFO]: Data value allowed items: 
-[12:59:15] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[14:36:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:36:42] [Server thread/INFO]: Data value allowed items: 
+[14:36:42] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[12:59:15] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[14:36:42] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[12:59:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[14:36:42] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[12:59:15] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[14:36:42] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[12:59:15] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[14:36:42] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[12:59:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[14:36:42] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[12:59:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[14:36:42] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[12:59:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[14:36:42] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[12:59:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[14:36:42] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[12:59:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[14:36:42] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[12:59:15] [Server thread/INFO]: Generating keypair
-[12:59:15] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[12:59:15] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[12:59:15] [Server thread/INFO]: Using default channel type
-[12:59:16] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
-[12:59:16] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[12:59:16] [Server thread/INFO]: [Colors] Properties loaded.
+[14:36:42] [Server thread/INFO]: Generating keypair
+[14:36:42] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[14:36:42] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[14:36:42] [Server thread/INFO]: Using default channel type
+[14:36:42] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
+[14:36:42] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:36:42] [Server thread/INFO]: [Colors] Properties loaded.
 
-[12:59:16] [Server thread/INFO]: [MCCore] Loading MCCore v1.67
-[12:59:16] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[12:59:16] [Server thread/INFO]: [dynmap] Loading dynmap v1.9.1-875
-[12:59:16] [Server thread/ERROR]: [dynmap] Unable to find method e for net.minecraft.server.v1_8_R3.Block
-[12:59:16] [Server thread/ERROR]: [dynmap] Unable to find field y for net.minecraft.server.v1_8_R3.BiomeBase
-[12:59:16] [Server thread/ERROR]: [dynmap] Unable to find field x for net.minecraft.server.v1_8_R3.TileEntity
-[12:59:16] [Server thread/ERROR]: [dynmap] Unable to find field y for net.minecraft.server.v1_8_R3.TileEntity
-[12:59:16] [Server thread/ERROR]: [dynmap] Unable to find field z for net.minecraft.server.v1_8_R3.TileEntity
-[12:59:16] [Server thread/ERROR]: Error initializing dynmap - bukkit version incompatible! initializing dynmap v1.9.1-875 (Is it up to date?)
+[14:36:43] [Server thread/INFO]: [MCCore] Loading MCCore v1.67
+[14:36:43] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[14:36:43] [Server thread/INFO]: [dynmap] Loading dynmap v1.9.1-875
+[14:36:43] [Server thread/ERROR]: [dynmap] Unable to find method e for net.minecraft.server.v1_8_R3.Block
+[14:36:43] [Server thread/ERROR]: [dynmap] Unable to find field y for net.minecraft.server.v1_8_R3.BiomeBase
+[14:36:43] [Server thread/ERROR]: [dynmap] Unable to find field x for net.minecraft.server.v1_8_R3.TileEntity
+[14:36:43] [Server thread/ERROR]: [dynmap] Unable to find field y for net.minecraft.server.v1_8_R3.TileEntity
+[14:36:43] [Server thread/ERROR]: [dynmap] Unable to find field z for net.minecraft.server.v1_8_R3.TileEntity
+[14:36:43] [Server thread/ERROR]: Error initializing dynmap - bukkit version incompatible! initializing dynmap v1.9.1-875 (Is it up to date?)
 java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version incompatible!
 	at org.dynmap.bukkit.BukkitVersionHelperGeneric.<init>(BukkitVersionHelperGeneric.java:106) ~[?:?]
 	at org.dynmap.bukkit.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:27) ~[?:?]
@@ -54,308 +54,311 @@ java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version i
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[12:59:16] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
-[12:59:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[12:59:16] [Server thread/INFO]: [Timber] Loading Timber v1.0.9
-[12:59:16] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v1.3
-[12:59:16] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[12:59:16] [Server thread/INFO]: [Colors] Loading Colors v2.0.4
-[12:59:16] [Server thread/INFO]: [SuperEnchants] Loading SuperEnchants v0.0.3
-[12:59:16] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
-[12:59:16] [Server thread/INFO]: [MagicSpells] Loading MagicSpells v2.15
-[12:59:16] [Server thread/INFO]: [McTeams] Loading McTeams v1.6.1
-[12:59:16] [Server thread/INFO]: [CustomEnchantments] Loading CustomEnchantments v2.4c
-[12:59:16] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
-[12:59:17] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[12:59:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
-[12:59:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:59:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:59:17] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[12:59:17] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[12:59:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:59:17] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[12:59:17] [Server thread/INFO]: Preparing level "world"
-[12:59:17] [Server thread/INFO]: -------- World Settings For [world] --------
-[12:59:17] [Server thread/INFO]: Mob Spawn Range: 4
-[12:59:17] [Server thread/INFO]: Anti X-Ray: true
-[12:59:17] [Server thread/INFO]: 	Engine Mode: 1
-[12:59:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[12:59:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[12:59:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:59:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[12:59:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:59:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[12:59:17] [Server thread/INFO]: Random Lighting Updates: false
-[12:59:17] [Server thread/INFO]: Structure Info Saving: true
-[12:59:17] [Server thread/INFO]: Sending up to 10 chunks per packet
-[12:59:17] [Server thread/INFO]: Max Entity Collisions: 8
-[12:59:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[12:59:17] [Server thread/INFO]: Max TNT Explosions: 100
-[12:59:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:59:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:59:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[12:59:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:59:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:59:17] [Server thread/INFO]: View Distance: 4
-[12:59:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:59:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[12:59:17] [Server thread/INFO]: Clear tick list: false
-[12:59:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[12:59:17] [Server thread/INFO]: -------- World Settings For [world] --------
-[12:59:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[12:59:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[12:59:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[12:59:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[12:59:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[12:59:17] [Server thread/INFO]: Water over lava flow speed: 5
-[12:59:17] [Server thread/INFO]: Fix TNT cannons: false
-[12:59:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[12:59:17] [Server thread/INFO]: Keep spawn chunk loaded: true
-[12:59:17] [Server thread/INFO]: World async lighting: false
-[12:59:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[12:59:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[12:59:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[12:59:17] [Server thread/INFO]: Mob Spawn Range: 4
-[12:59:17] [Server thread/INFO]: Anti X-Ray: true
-[12:59:17] [Server thread/INFO]: 	Engine Mode: 1
-[12:59:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[12:59:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[12:59:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:59:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[12:59:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:59:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[12:59:17] [Server thread/INFO]: Random Lighting Updates: false
-[12:59:17] [Server thread/INFO]: Structure Info Saving: true
-[12:59:17] [Server thread/INFO]: Sending up to 10 chunks per packet
-[12:59:17] [Server thread/INFO]: Max Entity Collisions: 8
-[12:59:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[12:59:17] [Server thread/INFO]: Max TNT Explosions: 100
-[12:59:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:59:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:59:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[12:59:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:59:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:59:17] [Server thread/INFO]: View Distance: 4
-[12:59:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:59:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[12:59:17] [Server thread/INFO]: Clear tick list: false
-[12:59:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[12:59:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[12:59:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[12:59:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[12:59:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[12:59:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[12:59:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[12:59:17] [Server thread/INFO]: Water over lava flow speed: 5
-[12:59:17] [Server thread/INFO]: Fix TNT cannons: false
-[12:59:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[12:59:17] [Server thread/INFO]: Keep spawn chunk loaded: true
-[12:59:17] [Server thread/INFO]: World async lighting: false
-[12:59:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[12:59:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[12:59:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[12:59:17] [Server thread/INFO]: Mob Spawn Range: 4
-[12:59:17] [Server thread/INFO]: Anti X-Ray: true
-[12:59:17] [Server thread/INFO]: 	Engine Mode: 1
-[12:59:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[12:59:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[12:59:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:59:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:59:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[12:59:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:59:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[12:59:17] [Server thread/INFO]: Random Lighting Updates: false
-[12:59:17] [Server thread/INFO]: Structure Info Saving: true
-[12:59:17] [Server thread/INFO]: Sending up to 10 chunks per packet
-[12:59:17] [Server thread/INFO]: Max Entity Collisions: 8
-[12:59:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[12:59:17] [Server thread/INFO]: Max TNT Explosions: 100
-[12:59:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:59:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:59:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[12:59:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:59:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:59:17] [Server thread/INFO]: View Distance: 4
-[12:59:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:59:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[12:59:17] [Server thread/INFO]: Clear tick list: false
-[12:59:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[12:59:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[12:59:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[12:59:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[12:59:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[12:59:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[12:59:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[12:59:17] [Server thread/INFO]: Water over lava flow speed: 5
-[12:59:17] [Server thread/INFO]: Fix TNT cannons: false
-[12:59:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[12:59:17] [Server thread/INFO]: Keep spawn chunk loaded: true
-[12:59:17] [Server thread/INFO]: World async lighting: false
-[12:59:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[12:59:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[12:59:17] [Server thread/INFO]: Preparing start region for level 0 (Seed: 123456789)
-[12:59:18] [Server thread/INFO]: Preparing start region for level 1 (Seed: 123456789)
-[12:59:19] [Server thread/INFO]: Preparing start region for level 2 (Seed: 123456789)
-[12:59:19] [Server thread/INFO]: [MCCore] Enabling MCCore v1.67
-[12:59:19] [Server thread/INFO]: Server version: 10808
-[12:59:19] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[12:59:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[14:36:43] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[14:36:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[14:36:43] [Server thread/INFO]: [Timber] Loading Timber v1.0.9
+[14:36:43] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v1.3
+[14:36:43] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[14:36:43] [Server thread/INFO]: [Colors] Loading Colors v2.0.4
+[14:36:43] [Server thread/INFO]: [SuperEnchants] Loading SuperEnchants v0.0.3
+[14:36:43] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[14:36:43] [Server thread/INFO]: [MagicSpells] Loading MagicSpells v2.15
+[14:36:43] [Server thread/INFO]: [McTeams] Loading McTeams v1.6.1
+[14:36:43] [Server thread/INFO]: [CustomEnchantments] Loading CustomEnchantments v2.4c
+[14:36:43] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
+[14:36:44] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[14:36:44] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[14:36:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:36:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:36:44] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:36:44] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[14:36:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:36:44] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:36:44] [Server thread/INFO]: Preparing level "world"
+[14:36:44] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:36:44] [Server thread/INFO]: Mob Spawn Range: 4
+[14:36:44] [Server thread/INFO]: Anti X-Ray: true
+[14:36:44] [Server thread/INFO]: 	Engine Mode: 1
+[14:36:44] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:36:44] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:36:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:36:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:36:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:36:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:36:44] [Server thread/INFO]: Random Lighting Updates: false
+[14:36:44] [Server thread/INFO]: Structure Info Saving: true
+[14:36:44] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:36:44] [Server thread/INFO]: Max Entity Collisions: 8
+[14:36:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:36:44] [Server thread/INFO]: Max TNT Explosions: 100
+[14:36:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:36:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:36:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:36:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:36:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:36:44] [Server thread/INFO]: View Distance: 4
+[14:36:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:36:44] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:36:44] [Server thread/INFO]: Clear tick list: false
+[14:36:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:36:44] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:36:44] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:36:44] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:36:44] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:36:44] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:36:44] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:36:44] [Server thread/INFO]: Water over lava flow speed: 5
+[14:36:44] [Server thread/INFO]: Fix TNT cannons: false
+[14:36:44] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:36:44] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:36:44] [Server thread/INFO]: World async lighting: false
+[14:36:44] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:36:44] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:36:44] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:36:44] [Server thread/INFO]: Mob Spawn Range: 4
+[14:36:44] [Server thread/INFO]: Anti X-Ray: true
+[14:36:44] [Server thread/INFO]: 	Engine Mode: 1
+[14:36:44] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:36:44] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:36:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:36:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:36:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:36:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:36:44] [Server thread/INFO]: Random Lighting Updates: false
+[14:36:44] [Server thread/INFO]: Structure Info Saving: true
+[14:36:44] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:36:44] [Server thread/INFO]: Max Entity Collisions: 8
+[14:36:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:36:44] [Server thread/INFO]: Max TNT Explosions: 100
+[14:36:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:36:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:36:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:36:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:36:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:36:44] [Server thread/INFO]: View Distance: 4
+[14:36:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:36:44] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:36:44] [Server thread/INFO]: Clear tick list: false
+[14:36:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:36:44] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:36:44] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:36:44] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:36:44] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:36:44] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:36:44] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:36:44] [Server thread/INFO]: Water over lava flow speed: 5
+[14:36:44] [Server thread/INFO]: Fix TNT cannons: false
+[14:36:44] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:36:44] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:36:44] [Server thread/INFO]: World async lighting: false
+[14:36:44] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:36:44] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:36:44] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:36:44] [Server thread/INFO]: Mob Spawn Range: 4
+[14:36:44] [Server thread/INFO]: Anti X-Ray: true
+[14:36:44] [Server thread/INFO]: 	Engine Mode: 1
+[14:36:44] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[14:36:44] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[14:36:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:36:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:36:44] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[14:36:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:36:44] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[14:36:44] [Server thread/INFO]: Random Lighting Updates: false
+[14:36:44] [Server thread/INFO]: Structure Info Saving: true
+[14:36:44] [Server thread/INFO]: Sending up to 10 chunks per packet
+[14:36:44] [Server thread/INFO]: Max Entity Collisions: 8
+[14:36:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[14:36:44] [Server thread/INFO]: Max TNT Explosions: 100
+[14:36:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:36:44] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:36:44] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:36:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:36:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:36:44] [Server thread/INFO]: View Distance: 4
+[14:36:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:36:44] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[14:36:44] [Server thread/INFO]: Clear tick list: false
+[14:36:44] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:36:44] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:36:44] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:36:44] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:36:44] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:36:44] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:36:44] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:36:44] [Server thread/INFO]: Water over lava flow speed: 5
+[14:36:44] [Server thread/INFO]: Fix TNT cannons: false
+[14:36:44] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:36:44] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:36:44] [Server thread/INFO]: World async lighting: false
+[14:36:44] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:36:44] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:36:44] [Server thread/INFO]: Preparing start region for level 0 (Seed: 123456789)
+[14:36:45] [Server thread/INFO]: Preparing spawn area: 99%
+[14:36:45] [Server thread/INFO]: Preparing start region for level 1 (Seed: 123456789)
+[14:36:46] [Server thread/INFO]: Preparing start region for level 2 (Seed: 123456789)
+[14:36:46] [Server thread/INFO]: [MCCore] Enabling MCCore v1.67
+[14:36:46] [Server thread/INFO]: Server version: 10808
+[14:36:46] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[14:36:46] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[12:59:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[14:36:46] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[12:59:19] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[12:59:19] [Server thread/INFO]: [dynmap] Enabling dynmap v1.9.1-875
-[12:59:19] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
-[12:59:19] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[12:59:19] [Server thread/INFO]: Check 1 passed
+[14:36:46] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[14:36:46] [Server thread/INFO]: [dynmap] Enabling dynmap v1.9.1-875
+[14:36:46] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[14:36:46] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[14:36:46] [Server thread/INFO]: Check 1 passed
 
-[12:59:19] [Server thread/INFO]: Check 3 passed
+[14:36:47] [Server thread/INFO]: Check 3 passed
 
-[12:59:19] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:19] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:19] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+[14:36:47] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
 
-[12:59:19] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+[14:36:47] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
 
-[12:59:20] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+[14:36:47] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
 
-[12:59:20] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+[14:36:47] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
 
-[12:59:20] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+[14:36:47] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[12:59:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[12:59:20] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[12:59:20] [Server thread/INFO]: [Timber] Enabling Timber v1.0.9
-[12:59:20] [Server thread/INFO]: Timber Log Materials: [LOG_2, LOG]
-[12:59:20] [Server thread/INFO]: Timber Axe Materials: [DIAMOND_AXE, WOOD_AXE, STONE_AXE, IRON_AXE, GOLD_AXE]
-[12:59:20] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v1.3
-[12:59:20] [Server thread/INFO]: Uber Enchant is now enabled.
-[12:59:20] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[12:59:20] [Server thread/INFO]: [Colors] Enabling Colors v2.0.4
-[12:59:20] [Server thread/INFO]: [Colors] Not hooked into any permissions plugin. Using defaults.
+[14:36:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[14:36:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:36:47] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[14:36:47] [Server thread/INFO]: [Timber] Enabling Timber v1.0.9
+[14:36:47] [Server thread/INFO]: Timber Log Materials: [LOG, LOG_2]
+[14:36:47] [Server thread/INFO]: Timber Axe Materials: [DIAMOND_AXE, STONE_AXE, WOOD_AXE, IRON_AXE, GOLD_AXE]
+[14:36:47] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v1.3
+[14:36:47] [Server thread/INFO]: Uber Enchant is now enabled.
+[14:36:47] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[14:36:47] [Server thread/INFO]: [Colors] Enabling Colors v2.0.4
+[14:36:47] [Server thread/INFO]: [Colors] Not hooked into any permissions plugin. Using defaults.
 
-[12:59:20] [Server thread/INFO]: [Colors] (Hint) install Vault if your permissions plugin was not detected.
+[14:36:47] [Server thread/INFO]: [Colors] (Hint) install Vault if your permissions plugin was not detected.
 
-[12:59:20] [Server thread/INFO]: [SuperEnchants] Enabling SuperEnchants v0.0.3
-[12:59:20] [Server thread/INFO]: SuperEnchants has been enabled!
+[14:36:47] [Server thread/INFO]: [SuperEnchants] Enabling SuperEnchants v0.0.3
+[14:36:47] [Server thread/INFO]: SuperEnchants has been enabled!
 
-[12:59:20] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
-[12:59:20] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[14:36:47] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+[14:36:47] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[12:59:20] [Server thread/INFO]: Check 1 passed
+[14:36:47] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[14:36:47] [Server thread/INFO]: Check 1 passed
 
-[12:59:20] [Server thread/INFO]: Check 3 passed
+[14:36:47] [Server thread/INFO]: Check 3 passed
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+[14:36:47] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
 
-[12:59:20] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+[14:36:47] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
 
-[12:59:20] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+[14:36:47] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
 
-[12:59:20] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+[14:36:47] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
 
-[12:59:20] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+[14:36:47] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+[14:36:47] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
 
-[12:59:20] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+[14:36:47] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: --------------------------------------------[m
+[14:36:47] [Server thread/INFO]: --------------------------------------------[m
 
-[12:59:20] [Server thread/INFO]: [MagicSpells] Enabling MagicSpells v2.15
-[12:59:20] [Server thread/WARN]: [MagicSpells] This MagicSpells version is not fully compatible with this server version.
-[12:59:20] [Server thread/WARN]: [MagicSpells] Some features have been disabled.
-[12:59:20] [Server thread/WARN]: [MagicSpells] See http://nisovin.com/magicspells/volatilefeatures for more information.
-[12:59:20] [Server thread/INFO]: [MagicSpells] Spells loaded: 87
-[12:59:20] [Server thread/INFO]: [McTeams] Enabling McTeams v1.6.1
-[12:59:20] [Server thread/INFO]: [McTeams] Could not find PlaceholderAPI plugin. Those features will be unavailable.
+[14:36:47] [Server thread/INFO]: [MagicSpells] Enabling MagicSpells v2.15
+[14:36:47] [Server thread/WARN]: [MagicSpells] This MagicSpells version is not fully compatible with this server version.
+[14:36:47] [Server thread/WARN]: [MagicSpells] Some features have been disabled.
+[14:36:47] [Server thread/WARN]: [MagicSpells] See http://nisovin.com/magicspells/volatilefeatures for more information.
+[14:36:47] [Server thread/INFO]: [MagicSpells] Spells loaded: 87
+[14:36:47] [Server thread/INFO]: [McTeams] Enabling McTeams v1.6.1
+[14:36:47] [Server thread/INFO]: [McTeams] Could not find PlaceholderAPI plugin. Those features will be unavailable.
 
-[12:59:20] [Server thread/INFO]: [CustomEnchantments] Enabling CustomEnchantments v2.4c
-[12:59:20] [Server thread/INFO]: [0;32;1m[CE] All Enchantments have been loaded.[m
+[14:36:48] [Server thread/INFO]: [CustomEnchantments] Enabling CustomEnchantments v2.4c
+[14:36:48] [Server thread/INFO]: [0;32;1m[CE] All Enchantments have been loaded.[m
 
-[12:59:20] [Server thread/INFO]: [0;32;1m[CE] All Items have been loaded.[m
+[14:36:48] [Server thread/INFO]: [0;32;1m[CE] All Items have been loaded.[m
 
-[12:59:20] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[12:59:20] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[12:59:20] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[12:59:20] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[12:59:20] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[12:59:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:59:21] [Server thread/INFO]: Done (3.646s)! For help, type "help" or "?"
-[12:59:21] [Server thread/INFO]: Timings Reset
-[12:59:21] [Craft Scheduler Thread - 1/INFO]: [Metrics] Connection refused
-[12:59:21] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[14:36:48] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[14:36:48] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[14:36:48] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[14:36:48] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[14:36:48] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[14:36:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:36:48] [Server thread/INFO]: Done (4.197s)! For help, type "help" or "?"
+[14:36:48] [Server thread/INFO]: Timings Reset
+[14:36:48] [Craft Scheduler Thread - 1/INFO]: [Metrics] Connection refused
+[14:36:48] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[12:59:21] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[14:36:48] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[12:59:21] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[14:36:48] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[12:59:22] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.1.0). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
+[14:37:03] [Craft Scheduler Thread - 0/INFO]: [0;32;1m[CE] Checking for updates...[m
 
-[12:59:35] [Craft Scheduler Thread - 0/INFO]: [0;32;1m[CE] Checking for updates...[m
+[14:37:03] [Craft Scheduler Thread - 0/INFO]: [0;32;1m[CE] You are using the latest Version of CE![m
 
-[12:59:36] [Craft Scheduler Thread - 0/INFO]: [0;32;1m[CE] You are using the latest Version of CE![m
-
-[13:03:05] [Thread-9/INFO]: UUID of player SavageEagler is 83949d3a-ab99-3644-a8c0-43977ec748c0
-[13:03:06] [Server thread/INFO]: SavageEagler[/[0:0:0:0:0:0:0:1]:40068] logged in with entity id 279 at ([world]-100.0, 134.0, 18.0)
-[13:03:51] [Thread-10/INFO]: UUID of player Tox1cFungusss is ec68be9c-2b8b-33a0-a808-87a76219b8e5
-[13:03:51] [Server thread/INFO]: Tox1cFungusss[/[0:0:0:0:0:0:0:1]:57770] logged in with entity id 465 at ([world]-100.0, 134.0, 18.0)
-[13:03:51] [Craft Scheduler Thread - 4/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[13:03:51] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+[14:37:42] [Thread-8/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
+[14:37:42] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:46024] logged in with entity id 294 at ([world]-100.0, 134.0, 18.0)
+[14:38:49] [Thread-9/INFO]: UUID of player DaTHC_Gobbler is 80846c0b-8a5a-36ff-8036-aefde2bd7c7b
+[14:38:49] [Server thread/INFO]: DaTHC_Gobbler[/[0:0:0:0:0:0:0:1]:42902] logged in with entity id 1045 at ([world]-106.72382124914158, 11.0, -274.30000001192093)
+[14:39:16] [Server thread/INFO]: DaTHC_Gobbler issued server command: /home b
+[14:39:26] [Server thread/INFO]: DaTHC_Gobbler has just earned the achievement [Taking Inventory]
+[14:39:34] [Thread-10/INFO]: UUID of player Kevinthegaint is 5601d204-cf2b-37b8-9691-a306ee92e4db
+[14:39:35] [Server thread/INFO]: Kevinthegaint[/[0:0:0:0:0:0:0:1]:42566] logged in with entity id 1436 at ([world]-100.0, 134.0, 18.0)
+[14:39:35] [Craft Scheduler Thread - 5/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:39:35] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
 java.sql.SQLException: Failed set location id in profile
 	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
 	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
@@ -365,52 +368,37 @@ java.sql.SQLException: Failed set location id in profile
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[13:03:56] [Server thread/INFO]: SavageEagler issued server command: /home hs
-[13:03:58] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:04:07] [Server thread/INFO]: <[0;37;1mTox1cFungusss[0;37;1m> lucas[m
+[14:39:40] [Thread-11/INFO]: UUID of player SavageEagler is 83949d3a-ab99-3644-a8c0-43977ec748c0
+[14:39:40] [Server thread/INFO]: SavageEagler[/[0:0:0:0:0:0:0:1]:49864] logged in with entity id 1534 at ([world]-100.0, 134.0, 18.0)
+[14:39:55] [Server thread/INFO]: DaTHC_Gobbler has just earned the achievement [Getting Wood]
+[14:39:56] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> i was the first one on "nerd snort"[m
 
-[13:04:09] [Server thread/INFO]: <[0;37;1mTox1cFungusss[0;37;1m> ime gregg[m
+[14:40:07] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> i was the first one on *nerd snort*[m
 
-[13:04:18] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> do /t join CLOWNS[m
+[14:40:40] [Server thread/INFO]: DaTHC_Gobbler was killed by Witch using magic
+[14:40:41] [Server thread/INFO]: DaTHC_Gobbler lost connection: Disconnected
+[14:40:41] [Server thread/INFO]: DaTHC_Gobbler left the game.
+[14:40:51] [Thread-12/INFO]: UUID of player DaTHC_Gobbler is 80846c0b-8a5a-36ff-8036-aefde2bd7c7b
+[14:40:51] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> damn[m
 
-[13:04:20] [Server thread/INFO]: <[0;37;1mTox1cFungusss[0;37;1m> wanna vape in da bathroom[m
+[14:40:51] [Server thread/INFO]: DaTHC_Gobbler[/[0:0:0:0:0:0:0:1]:44438] logged in with entity id 2016 at ([world]-100.0, 134.0, 18.0)
+[14:40:57] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> i thought of that name for him too[m
 
-[13:04:24] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> theres no pass[m
+[14:40:59] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> eli[m
 
-[13:04:25] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> yes[m
+[14:41:03] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> make your next account name[m
 
-[13:04:26] [Server thread/INFO]: Tox1cFungusss issued server command: /t join CLOWNS
-[13:04:31] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> im in ag rn tho[m
+[14:41:07] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> make it called[m
 
-[13:04:37] [Server thread/INFO]: Tox1cFungusss issued server command: /tjoin CLOWNS
-[13:04:41] [Server thread/INFO]: Tox1cFungusss issued server command: /t join CLOWNS
-[13:04:47] [Server thread/INFO]: Tox1cFungusss issued server command: /t join CLOWNS
-[13:04:54] [Server thread/INFO]: <[0;37;1mTox1cFungusss[0;37;1m> its saying incorrect password[m
+[14:41:13] [Server thread/INFO]: DaTHC_Gobbler lost connection: Disconnected
+[14:41:13] [Server thread/INFO]: DaTHC_Gobbler left the game.
+[14:41:13] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> DaTHC_Muncher[m
 
-[13:05:02] [Server thread/INFO]: SavageEagler issued server command: /t pass none
-[13:05:05] [Server thread/INFO]: Tox1cFungusss issued server command: /tpa savage
-[13:05:06] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> try now[m
-
-[13:05:10] [Server thread/INFO]: Tox1cFungusss issued server command: /t join CLOWNS
-[13:05:12] [Server thread/INFO]: <[0;37;1mTox1cFungusss[0;37;1m> there[m
-
-[13:05:17] [Server thread/INFO]: SavageEagler issued server command: /tpyes
-[13:05:27] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> set home here as h2[m
-
-[13:05:30] [Server thread/INFO]: Tox1cFungusss issued server command: /
-[13:05:34] [Server thread/INFO]: Tox1cFungusss issued server command: /set h2
-[13:05:34] [Server thread/INFO]: SavageEagler issued server command: /home h
-[13:05:37] [Server thread/INFO]: Tox1cFungusss issued server command: /sethome h2
-[13:05:39] [Server thread/INFO]: Tox1cFungusss issued server command: /home h2
-[13:05:48] [Server thread/INFO]: <[0;37;1mTox1cFungusss[0;37;1m> im burning[m
-
-[13:05:52] [Server thread/INFO]: Tox1cFungusss tried to swim in lava
-[13:05:57] [Server thread/INFO]: Tox1cFungusss lost connection: Disconnected
-[13:05:57] [Server thread/INFO]: Tox1cFungusss left the game.
-[13:06:02] [Thread-12/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
-[13:06:03] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:33788] logged in with entity id 683 at ([world]-100.0, 134.0, 18.0)
-[13:06:03] [Craft Scheduler Thread - 5/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[13:06:03] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+[14:41:52] [Server thread/INFO]: Kevinthegaint issued server command: /t join CLOWNS
+[14:41:57] [Thread-14/INFO]: UUID of player THroat_Goat is 2b768aa2-bdf1-3847-b56a-f6325473fc4e
+[14:41:57] [Server thread/INFO]: THroat_Goat[/[0:0:0:0:0:0:0:1]:44952] logged in with entity id 2299 at ([world]-100.0, 134.0, 18.0)
+[14:41:57] [Craft Scheduler Thread - 7/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:41:57] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
 java.sql.SQLException: Failed set location id in profile
 	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
 	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
@@ -420,193 +408,144 @@ java.sql.SQLException: Failed set location id in profile
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[13:06:11] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> i forgot it was hardcore[m
+[14:42:01] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> DaTHC_Muncher[m
 
-[13:06:12] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> moron[m
+[14:42:04] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> DaTHC_Muncher[m
 
-[13:06:20] [Server thread/INFO]: Tox1cFunguss issued server command: /t join CLOWNS
-[13:06:29] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> are you still alive[m
+[14:42:07] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> DaTHC_Muncher[m
 
-[13:06:29] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> i just joined the tam again[m
+[14:42:07] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> DaTHC_Muncher[m
 
-[13:06:33] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> yeah[m
+[14:42:08] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> DaTHC_Muncher[m
 
-[13:06:38] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> tp[m
+[14:42:09] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> DaTHC_Muncher[m
 
-[13:06:38] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> idk how[m
+[14:42:36] [Server thread/INFO]: THroat_Goat issued server command: /tpa savage
+[14:42:49] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:42:50] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:42:51] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:42:51] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:42:51] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:43:16] [Server thread/INFO]: Kevinthegaint has just earned the achievement [Taking Inventory]
+[14:43:21] [Server thread/INFO]: THroat_Goat issued server command: /tpa savage
+[14:43:44] [Server thread/INFO]: Kevinthegaint has just earned the achievement [Getting Wood]
+[14:43:54] [Server thread/INFO]: SavageEagler issued server command: /team
+[14:44:16] [Server thread/INFO]: SavageEagler issued server command: /home h
+[14:44:19] [Server thread/INFO]: SavageEagler issued server command: /t sethq
+[14:44:27] [Server thread/INFO]: Kevinthegaint issued server command: /t hq
+[14:44:56] [Server thread/INFO]: SavageEagler issued server command: /home h2
+[14:45:04] [Server thread/INFO]: SavageEagler issued server command: /home h
+[14:45:11] [Server thread/INFO]: THroat_Goat issued server command: /tpa savage
+[14:45:21] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> do /t join CLOWNS[m
 
-[13:06:43] [Server thread/INFO]: Tox1cFunguss issued server command: /tpa savage
-[13:06:45] [Server thread/INFO]: SavageEagler issued server command: /tpyes
-[13:06:52] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> set home as h here[m
+[14:45:27] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> then do /t hq[m
 
-[13:06:53] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> i forgot to set tp to other home[m
+[14:45:48] [Server thread/INFO]: SavageEagler issued server command: /home h2
+[14:45:50] [Server thread/INFO]: Tox1cFunguss issued server command: /t hq
+[14:45:53] [Server thread/INFO]: THroat_Goat issued server command: /t join CLOWNS
+[14:46:25] [Server thread/INFO]: Set SavageEagler's game mode to Creative Mode
+[14:46:38] [Server thread/INFO]: Set SavageEagler's game mode to Survival Mode
+[14:46:46] [Server thread/INFO]: Tox1cFunguss issued server command: /home q
+[14:46:48] [Server thread/INFO]: Tox1cFunguss issued server command: /home h2
+[14:46:48] [Craft Scheduler Thread - 8/INFO]: [Metrics] Connection refused
+[14:46:54] [Server thread/INFO]: THroat_Goat issued server command: /tpa savage
+[14:47:02] [Server thread/INFO]: SavageEagler issued server command: /home h
+[14:47:03] [Server thread/INFO]: SavageEagler issued server command: /tpyes
+[14:47:19] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> lucas what lvl are you[m
 
-[13:06:55] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome h
-[13:07:11] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> get dims and make dim gear[m
+[14:47:23] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> 7[m
 
-[13:07:50] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> ok there[m
+[14:47:28] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> 27 mb[m
 
-[13:07:50] [Server thread/INFO]: Tox1cFunguss has just earned the achievement [Taking Inventory]
-[13:08:03] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> lesssss goo[m
+[14:47:33] [Server thread/INFO]: Tox1cFunguss issued server command: /t hq
+[14:47:38] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:47:41] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> when you get 30 can you enchant my helemt[m
 
-[13:08:05] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:08:06] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> spruce wood[m
+[14:47:47] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> ye[m
 
-[13:08:10] [Server thread/INFO]: Tox1cFunguss has just earned the achievement [Getting Wood]
-[13:08:35] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:08:47] [Server thread/INFO]: Tox1cFunguss issued server command: /
-[13:08:47] [Server thread/INFO]: SavageEagler issued server command: /home h
-[13:08:54] [Server thread/INFO]: SavageEagler issued server command: /back
-[13:08:58] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:09:07] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:09:21] [Craft Scheduler Thread - 6/INFO]: [Metrics] Connection refused
-[13:09:44] [Server thread/INFO]: SavageEagler issued server command: /home m
-[13:10:46] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
-[13:11:02] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:11:07] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:12:07] [Server thread/INFO]: SavageEagler issued server command: /home h
-[13:12:17] [Server thread/INFO]: SavageEagler issued server command: /home sugar
-[13:12:39] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:13:59] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> I KEEP ALMOST DIEING[m
+[14:47:48] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:47:55] [Server thread/INFO]: SavageEagler issued server command: /home h2
+[14:48:01] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> drop me ur helm[m
 
-[13:14:13] [Server thread/INFO]: SavageEagler lost connection: Disconnected
-[13:14:13] [Server thread/INFO]: SavageEagler left the game.
-[13:14:25] [Thread-13/INFO]: UUID of player SavageEagler is 83949d3a-ab99-3644-a8c0-43977ec748c0
-[13:14:25] [Server thread/INFO]: SavageEagler[/[0:0:0:0:0:0:0:1]:49468] logged in with entity id 1836 at ([world]-100.0, 134.0, 18.0)
-[13:14:34] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> so your in ag right?[m
+[14:48:27] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
+[14:48:27] [Server thread/INFO]: Tox1cFunguss left the game.
+[14:48:29] [Thread-15/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
+[14:48:29] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:53996] logged in with entity id 4642 at ([world]-100.0, 134.0, 18.0)
+[14:48:36] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:48:37] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:48:37] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:48:37] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:48:38] [Server thread/INFO]: Given 1000 experience to SavageEagler
+[14:48:56] [Server thread/INFO]: Enchanting succeeded
+[14:49:09] [Server thread/INFO]: Enchanting succeeded
+[14:49:30] [Server thread/INFO]: Enchanting succeeded
+[14:49:42] [Server thread/INFO]: Thorns III can't be combined with Thorns II
+[14:49:55] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> drop me ur helm gregg[m
 
-[13:14:46] [Server thread/INFO]: SavageEagler issued server command: /home h
-[13:14:47] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> she doesn't make you go outside???[m
+[14:49:59] [Server thread/INFO]: SavageEagler issued server command: /home h
+[14:50:06] [Server thread/INFO]: Tox1cFunguss issued server command: /home h2
+[14:50:06] [Server thread/INFO]: SavageEagler issued server command: /home h2
+[14:50:53] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> on the ground[m
 
-[13:14:48] [Server thread/INFO]: <SavageEagler[0;37;1m> ye[m
+[14:50:57] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> by anvul[m
 
-[13:15:06] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:15:08] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> idk why but we gotta go outsie every damn day[m
+[14:51:01] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> YOOO[m
 
-[13:16:13] [Server thread/INFO]: Tox1cFunguss issued server command: /cast list
-[13:16:16] [Server thread/INFO]: Tox1cFunguss issued server command: /cast list
-[13:17:49] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> i grabbed too much wood[m
+[14:51:06] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> first try[m
 
-[13:17:50] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
-[13:18:28] [Server thread/INFO]: SavageEagler issued server command: /home h
-[13:18:36] [Server thread/INFO]: <SavageEagler[0;37;1m> like the timber mod[m
+[14:51:07] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> aw[m
 
-[13:18:50] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> good[m
+[14:51:10] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> projectice[m
 
-[13:18:54] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:19:09] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> we gonna have enough wood for the house[m
+[14:51:15] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> still good tho[m
 
-[13:19:19] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> ruh[m
+[14:51:19] [Server thread/INFO]: Enchanting succeeded
+[14:51:25] [Server thread/INFO]: Enchanting succeeded
+[14:51:34] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> YOOO[m
 
-[13:19:21] [Craft Scheduler Thread - 10/INFO]: [Metrics] Connection refused
-[13:19:23] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> DUE[m
+[14:51:38] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> what[m
 
-[13:19:30] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> CREEPERS[m
+[14:51:43] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> ill add this to it[m
 
-[13:19:50] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:20:10] [Server thread/INFO]: The selected enchantment can't be added to the target item
-[13:20:18] [Server thread/INFO]: Enchanting succeeded
-[13:21:04] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> lucas sleep[m
+[14:51:47] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> drop ur helm[m
 
-[13:21:10] [Server thread/INFO]: SavageEagler issued server command: /home h
-[13:21:18] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> i need a bed for my own[m
+[14:51:48] [Server thread/INFO]: Kevinthegaint issued server command: /cast list
+[14:52:06] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> W[m
 
-[13:21:22] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> nvm[m
+[14:52:10] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> LES GOO[m
 
-[13:21:25] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:21:37] [Server thread/INFO]: <[0;37;1mTox1cFunguss[0;37;1m> ?[m
+[14:52:11] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> WWWWW[m
 
-[13:21:38] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:21:40] [Server thread/INFO]: Tox1cFunguss issued server command: /set
-[13:21:46] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome h2
-[13:21:54] [Server thread/INFO]: Given [Book] * 64 to SavageEagler
-[13:22:10] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:22:46] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:22:47] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:23:19] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:23:19] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:25:11] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:25:19] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:25:50] [Server thread/INFO]: <SavageEagler[0;37;1m> no stop[m
+[14:52:21] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> DADDY EAGLER WW[m
 
-[13:26:04] [Server thread/INFO]: <SavageEagler[0;37;1m> i did this on purpose[m
+[14:52:24] [Server thread/INFO]: THroat_Goat has just earned the achievement [Taking Inventory]
+[14:52:26] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> yes sir[m
 
-[13:26:20] [Server thread/INFO]: SavageEagler issued server command: /home h
-[13:26:28] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:26:43] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:26:56] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:27:26] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:29:02] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:29:04] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:29:08] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
-[13:29:08] [Server thread/INFO]: Tox1cFunguss left the game.
-[13:29:21] [Craft Scheduler Thread - 11/INFO]: [Metrics] Connection refused
-[13:29:33] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:30:05] [Thread-14/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
-[13:30:05] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:36992] logged in with entity id 4274 at ([world]-112.64099074388464, 65.0, -200.8449401740295)
-[13:30:17] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
-[13:30:57] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:31:09] [Server thread/INFO]: <SavageEagler[0;37;1m> i have enchants in a chest in here for you[m
+[14:52:53] [Server thread/INFO]: Enchanting succeeded
+[14:53:01] [Server thread/INFO]: Set SavageEagler's game mode to Creative Mode
+[14:53:11] [Server thread/INFO]: Set SavageEagler's game mode to Survival Mode
+[14:53:19] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> i need food[m
 
-[13:31:20] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> oh bet[m
+[14:53:28] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i got some[m
 
-[13:31:27] [Server thread/INFO]: Tox1cFunguss issued server command: /tpa sav
-[13:31:36] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> dude[m
+[14:53:33] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> I just need unbreaking on my boots[m
 
-[13:31:37] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:31:40] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:31:44] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> it's cold af and mrs b. is sweating[m
+[14:53:50] [Server thread/INFO]: Tox1cFunguss issued server command: /home h2
+[14:53:52] [Server thread/INFO]: THroat_Goat issued server command: /sethome a
+[14:53:52] [Server thread/INFO]: Given [Steak] * 64 to SavageEagler
+[14:54:05] [Server thread/INFO]: Given [Cooked Mutton] * 64 to SavageEagler
+[14:54:22] [Server thread/INFO]: THroat_Goat was slain by Zombie
+[14:54:32] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> DaTHC_Muncher[m
 
-[13:31:45] [Server thread/INFO]: SavageEagler issued server command: /tpyes
-[13:31:57] [Server thread/INFO]: <SavageEagler[0;37;1m> bottom left[m
+[14:54:36] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> use that eli[m
 
-[13:32:06] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:32:06] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:32:07] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:32:07] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:32:10] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:32:23] [Server thread/INFO]: Tox1cFunguss issued server command: /homes
-[13:32:27] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
-[13:32:34] [Server thread/INFO]: Tox1cFunguss issued server command: /home h2
-[13:33:03] [Server thread/INFO]: SavageEagler lost connection: Disconnected
-[13:33:03] [Server thread/INFO]: SavageEagler left the game.
-[13:33:38] [Thread-15/INFO]: UUID of player SavageEagler is 83949d3a-ab99-3644-a8c0-43977ec748c0
-[13:33:38] [Server thread/INFO]: SavageEagler[/[0:0:0:0:0:0:0:1]:48456] logged in with entity id 4737 at ([world]-100.0, 134.0, 18.0)
-[13:33:46] [Server thread/WARN]: SavageEagler moved wrongly!
-[13:33:50] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> lucas you lvl 30[m
-
-[13:33:58] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i can get pot iv on my helmet rn[m
-
-[13:34:18] [Server thread/INFO]: <SavageEagler[0;37;1m> i have prot iv on my helm boots and chestplate[m
-
-[13:34:36] [Server thread/INFO]: <SavageEagler[0;37;1m> sharp iv book[m
-
-[13:34:53] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i need to go mining[m
-
-[13:34:55] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:34:56] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:34:56] [Server thread/INFO]: Given 1000 experience to SavageEagler
-[13:36:11] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
-[13:36:11] [Server thread/INFO]: Tox1cFunguss left the game.
-[13:36:22] [Server thread/INFO]: SavageEagler issued server command: /home h
-[13:37:49] [Server thread/INFO]: SavageEagler has just earned the achievement [Overkill]
-[13:38:07] [Thread-17/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
-[13:38:07] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:40774] logged in with entity id 5124 at ([world]-100.0, 134.0, 18.0)
-[13:38:26] [Server thread/INFO]: SavageEagler issued server command: /home h
-[13:38:30] [Server thread/INFO]: SavageEagler issued server command: /home h2
-[13:38:42] [Server thread/INFO]: SavageEagler lost connection: Internal Exception: java.net.SocketException: Connection reset
-[13:38:42] [Server thread/INFO]: SavageEagler left the game.
-[13:39:21] [Craft Scheduler Thread - 20/INFO]: [Metrics] Connection refused
-[13:39:36] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
-[13:39:36] [Server thread/INFO]: Tox1cFunguss left the game.
-[13:49:21] [Craft Scheduler Thread - 21/INFO]: [Metrics] Connection refused
-[13:59:21] [Craft Scheduler Thread - 22/INFO]: [Metrics] Connection refused
-[14:00:04] [Thread-18/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
-[14:00:04] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:34740] logged in with entity id 5559 at ([world]-100.0, 134.0, 18.0)
-[14:01:38] [Thread-19/INFO]: UUID of player DaTHC_Gobbler is 80846c0b-8a5a-36ff-8036-aefde2bd7c7b
-[14:01:38] [Server thread/INFO]: DaTHC_Gobbler[/[0:0:0:0:0:0:0:1]:42822] logged in with entity id 5918 at ([world]-100.0, 134.0, 18.0)
-[14:01:38] [Craft Scheduler Thread - 25/WARN]: [LoginSecurity] Failed to set inventory id in profile
-[14:01:39] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+[14:54:36] [Server thread/INFO]: THroat_Goat lost connection: Disconnected
+[14:54:36] [Server thread/INFO]: THroat_Goat left the game.
+[14:54:46] [Server thread/INFO]: Enchanting succeeded
+[14:55:02] [Thread-16/INFO]: UUID of player BOnerking is ccd9b2bf-a446-3b37-b211-93647ad61cc6
+[14:55:02] [Server thread/INFO]: BOnerking[/[0:0:0:0:0:0:0:1]:45150] logged in with entity id 5362 at ([world]-100.0, 134.0, 18.0)
+[14:55:02] [Craft Scheduler Thread - 12/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[14:55:02] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
 java.sql.SQLException: Failed set location id in profile
 	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
 	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
@@ -616,19 +555,1242 @@ java.sql.SQLException: Failed set location id in profile
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[14:03:24] [Server thread/INFO]: DaTHC_Gobbler issued server command: /tpa domo
-[14:03:42] [Server thread/INFO]: DaTHC_Gobbler issued server command: /tpa Tox1c
-[14:03:45] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
-[14:04:40] [Server thread/INFO]: DaTHC_Gobbler has just earned the achievement [Taking Inventory]
-[14:06:11] [Server thread/INFO]: DaTHC_Gobbler issued server command: /sethome a
-[14:06:18] [Server thread/INFO]: DaTHC_Gobbler issued server command: /home
-[14:06:33] [Server thread/INFO]: DaTHC_Gobbler issued server command: /home list
-[14:06:36] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome a
-[14:06:39] [Server thread/INFO]: Tox1cFunguss issued server command: /home
-[14:06:41] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
-[14:06:47] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
-[14:06:48] [Server thread/INFO]: DaTHC_Gobbler issued server command: /tpa Tox1c
-[14:06:49] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
-[14:07:03] [Server thread/INFO]: DaTHC_Gobbler issued server command: /sethome b
-[14:07:08] [Server thread/INFO]: DaTHC_Gobbler has just earned the achievement [Getting Wood]
-[14:08:01] [Server thread/INFO]: Tox1cFunguss issued server command: /home a
+[14:55:10] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> DaTHC_Muncher[m
+
+[14:55:12] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> use that eli[m
+
+[14:55:45] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> gregg lets find a zombie spawner[m
+
+[14:55:51] [Server thread/INFO]: BOnerking issued server command: /t join CLOWNS
+[14:55:55] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> alr[m
+
+[14:56:01] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> DIG straight down[m
+
+[14:56:03] [Server thread/INFO]: BOnerking issued server command: /tpa Tox1c
+[14:56:05] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> no[m
+
+[14:56:06] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
+[14:56:24] [Server thread/INFO]: Given [Diamond Pickaxe] * 1 to SavageEagler
+[14:56:30] [Server thread/INFO]: Enchanting succeeded
+[14:56:37] [Server thread/INFO]: Enchanting succeeded
+[14:56:42] [Server thread/INFO]: 'silk' is not a valid number
+[14:56:48] [Server thread/INFO]: Enchanting succeeded
+[14:56:48] [Craft Scheduler Thread - 13/INFO]: [Metrics] Connection refused
+[14:57:03] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i'd look around y lvl 30[m
+
+[14:57:33] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i gotta go[m
+
+[14:57:41] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i'll be one mabye next period[m
+
+[14:57:42] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
+[14:57:42] [Server thread/INFO]: Tox1cFunguss left the game.
+[14:57:43] [Server thread/INFO]: BOnerking lost connection: Disconnected
+[14:57:43] [Server thread/INFO]: BOnerking left the game.
+[14:57:44] [Server thread/INFO]: Kevinthegaint lost connection: Disconnected
+[14:57:44] [Server thread/INFO]: Kevinthegaint left the game.
+[14:58:10] [Server thread/INFO]: SavageEagler lost connection: Disconnected
+[14:58:10] [Server thread/INFO]: SavageEagler left the game.
+[15:02:27] [Thread-17/INFO]: UUID of player Kevinthegaint is 5601d204-cf2b-37b8-9691-a306ee92e4db
+[15:02:27] [Server thread/INFO]: Kevinthegaint[/[0:0:0:0:0:0:0:1]:33912] logged in with entity id 6901 at ([world]-103.72925037971156, 63.0, -193.3095410369685)
+[15:03:09] [Server thread/INFO]: Kevinthegaint issued server command: /t hq
+[15:06:48] [Craft Scheduler Thread - 17/INFO]: [Metrics] Connection refused
+[15:09:29] [Thread-18/INFO]: UUID of player Dab is 0bc18ffe-919b-326b-9a32-f6c702ffcbe0
+[15:09:29] [Server thread/INFO]: Dab[/[0:0:0:0:0:0:0:1]:52190] logged in with entity id 8133 at ([world]-100.0, 134.0, 18.0)
+[15:09:47] [Server thread/INFO]: <[0;37;1mDab[0;37;1m> hello conner[m
+
+[15:09:54] [Server thread/INFO]: <Kevinthegaint[0;37;1m> hi[m
+
+[15:10:28] [Server thread/WARN]: Kevinthegaint moved wrongly!
+[15:10:51] [Server thread/INFO]: Dab lost connection: Disconnected
+[15:10:51] [Server thread/INFO]: Dab left the game.
+[15:12:48] [Thread-20/INFO]: UUID of player SavageEagler is 83949d3a-ab99-3644-a8c0-43977ec748c0
+[15:12:48] [Server thread/INFO]: SavageEagler[/[0:0:0:0:0:0:0:1]:59864] logged in with entity id 8861 at ([world]-100.0, 134.0, 18.0)
+[15:16:48] [Craft Scheduler Thread - 24/INFO]: [Metrics] Connection refused
+[15:17:24] [Thread-21/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
+[15:17:24] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:45204] logged in with entity id 11285 at ([world]-100.0, 134.0, 18.0)
+[15:17:35] [Server thread/INFO]: <SavageEagler[0;37;1m> hi[m
+
+[15:17:44] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> gota go soon if i gwt caught[m
+
+[15:17:56] [Thread-22/INFO]: UUID of player Dab is 0bc18ffe-919b-326b-9a32-f6c702ffcbe0
+[15:17:56] [Server thread/INFO]: Dab[/[0:0:0:0:0:0:0:1]:56506] logged in with entity id 11472 at ([world]-100.0, 134.0, 18.0)
+[15:18:02] [Server thread/INFO]: <SavageEagler[0;37;1m> hey pookie[m
+
+[15:18:09] [Server thread/INFO]: <Dab[0;37;1m> hey pookie~[m
+
+[15:19:04] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome g
+[15:19:10] [Server thread/INFO]: Dab issued server command: /tell SavageEagler too bad nothing happens after death :/
+[15:19:17] [Server thread/WARN]: SavageEagler moved wrongly!
+[15:19:17] [Server thread/WARN]: SavageEagler moved wrongly!
+[15:19:23] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> found a spide spawner[m
+
+[15:19:29] [Server thread/INFO]: <Dab[0;37;1m> dont die :D[m
+
+[15:19:41] [Server thread/INFO]: <SavageEagler[0;37;1m> lol imagine[m
+
+[15:19:52] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> lucas wanna make it a grinder?[m
+
+[15:19:56] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[15:20:14] [Server thread/INFO]: <Dab[0;37;1m> helo[m
+
+[15:20:34] [Server thread/INFO]: <Dab[0;37;1m> nice enchanted helm and boots :D[m
+
+[15:20:47] [Server thread/INFO]: <SavageEagler[0;37;1m> ik right[m
+
+[15:20:53] [Server thread/INFO]: <SavageEagler[0;37;1m> i have god set already[m
+
+[15:21:04] [Server thread/INFO]: <Dab[0;37;1m> i still only have iron :([m
+
+[15:21:17] [Server thread/INFO]: <SavageEagler[0;37;1m> tp[m
+
+[15:21:20] [Server thread/INFO]: SavageEagler issued server command: /tpahere Dab
+[15:21:24] [Server thread/INFO]: Dab issued server command: /tpyes
+[15:21:32] [Server thread/INFO]: <Dab[0;37;1m> oh[m
+
+[15:21:41] [Server thread/INFO]: <Dab[0;37;1m> your pocket change?[m
+
+[15:21:46] [Server thread/INFO]: <SavageEagler[0;37;1m> yep[m
+
+[15:21:49] [Server thread/INFO]: Dab issued server command: /home e
+[15:21:53] [Server thread/INFO]: Dab issued server command: /home h
+[15:23:30] [Server thread/INFO]: Tox1cFunguss issued server command: /home g
+[15:23:32] [Server thread/INFO]: Kevinthegaint lost connection: Disconnected
+[15:23:32] [Server thread/INFO]: Kevinthegaint left the game.
+[15:23:43] [Server thread/INFO]: <Dab[0;37;1m> time to cause some war crimes :/[m
+
+[15:23:48] [Server thread/INFO]: <SavageEagler[0;37;1m> no[m
+
+[15:23:56] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> lucas how to make spider grinder[m
+
+[15:23:58] [Server thread/INFO]: <Dab[0;37;1m> jkjk[m
+
+[15:24:25] [Server thread/INFO]: Dab lost connection: Disconnected
+[15:24:25] [Server thread/INFO]: Dab left the game.
+[15:24:35] [Server thread/INFO]: SavageEagler issued server command: /sethome random
+[15:24:38] [Server thread/INFO]: SavageEagler issued server command: /tpa Tox1cFunguss
+[15:24:42] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
+[15:25:04] [Thread-23/INFO]: UUID of player Dab is 0bc18ffe-919b-326b-9a32-f6c702ffcbe0
+[15:25:05] [Server thread/INFO]: Dab[/[0:0:0:0:0:0:0:1]:57752] logged in with entity id 19321 at ([world]-100.0, 134.0, 18.0)
+[15:25:26] [Server thread/INFO]: <SavageEagler[0;37;1m> 9 by 9 square room[m
+
+[15:25:27] [Server thread/INFO]: Dab issued server command: /tell SavageEagler uzy=122
+[15:25:33] [Server thread/INFO]: Dab issued server command: /tell SavageEagler its kinda ez
+[15:25:41] [Server thread/INFO]: SavageEagler issued server command: /tell Dab ik its funny
+[15:26:11] [Server thread/INFO]: Dab issued server command: /tell SavageEagler imma speedrun #3
+[15:26:15] [Server thread/INFO]: <Dab[0;37;1m> [0;31;22mE[m
+
+[15:26:32] [Server thread/INFO]: SavageEagler issued server command: /tell Dab i cant acces my google classroom can you email me the doc
+[15:26:49] [Craft Scheduler Thread - 30/INFO]: [Metrics] Connection refused
+[15:27:49] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> ij back[m
+
+[15:27:54] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> how did yoy do that will[m
+
+[15:28:33] [Server thread/INFO]: <Dab[0;37;1m> huh?[m
+
+[15:28:41] [Server thread/INFO]: <Dab[0;37;1m> [0;31;22m[21m[3mDo what?[m
+
+[15:28:46] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> tell me[m
+
+[15:28:48] [Server thread/INFO]: <SavageEagler[0;37;1m> do the & symbol before your sentence[m
+
+[15:28:56] [Server thread/INFO]: <Dab[0;37;1m> yeah... definitely[m
+
+[15:28:56] [Server thread/INFO]: <SavageEagler[0;37;1m> like this [0;37;22mballs[m
+
+[15:28:58] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;32;22m P[m
+
+[15:29:04] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> & [[m
+
+[15:29:04] [Server thread/INFO]: <SavageEagler[0;37;1m> like this [0;34;22mballs[m
+
+[15:29:09] [Server thread/INFO]: <SavageEagler[0;37;1m> like this [0;32;22mballs[m
+
+[15:29:09] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> &[[m
+
+[15:29:18] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> &po[m
+
+[15:29:24] [Server thread/INFO]: <Dab[0;37;1m> [0;33;22m[21mPorn[0;30;22m[21mHub[m
+
+[15:29:28] [Server thread/INFO]: <SavageEagler[0;37;1m> lol[m
+
+[15:29:30] [Server thread/INFO]: <Dab[0;37;1m> teehee[m
+
+[15:30:00] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> &gyuu[m
+
+[15:30:05] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> & gorl[m
+
+[15:30:08] [Server thread/INFO]: SavageEagler issued server command: /tell Dab SEND ME THE ANSWERS
+[15:30:09] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> WTF[m
+
+[15:30:18] [Server thread/INFO]: <SavageEagler[0;37;1m> what[m
+
+[15:31:03] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> it's nto working[m
+
+[15:31:06] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> $k[m
+
+[15:31:07] [Server thread/INFO]: Dab issued server command: /tell SavageEagler "its easy"
+[15:31:09] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [5m[m
+
+[15:31:10] [Server thread/INFO]: <SavageEagler[0;37;1m> &[m
+
+[15:31:13] [Server thread/INFO]: <SavageEagler[0;37;1m> not $[m
+
+[15:31:18] [Server thread/INFO]: <Dab[0;37;1m> do better?[m
+
+[15:31:21] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [5mill[m
+
+[15:31:26] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [5mIETOEATOANTONEGT[m
+
+[15:31:31] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [mKKEFSEFENSF[m
+
+[15:31:32] [Server thread/INFO]: <Dab[0;37;1m> [0;31;22m[21m[3mDab[0;30;22m[21m[3m1080[m
+
+[15:31:46] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [21meETSERgrknNGESIGNEASFMRKGS:SGEONGEJBGEJ:GHESIGEAgONHGSOEGONgonregosfnONGSOEG[m
+
+[15:32:46] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> no fuciing way[m
+
+[15:32:53] [Server thread/INFO]: <SavageEagler[0;37;1m> wtf[m
+
+[15:32:56] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> dipapnpds!!![m
+
+[15:33:03] [Server thread/INFO]: <SavageEagler[0;37;1m> i have fortune 3[m
+
+[15:33:10] [Server thread/INFO]: <SavageEagler[0;37;1m> lava[m
+
+[15:33:13] [Server thread/INFO]: <Dab[0;37;1m> [0;31;22m[21m[3mR[0;33;22m[21m[3ma[0;33;1m[21m[3mi[0;32;1m[21m[3mn[0;34;1m[21m[3mb[0;35;22m[21m[3mo[0;35;1m[21m[3mw[m
+
+[15:33:48] [Server thread/INFO]: <Dab[0;37;1m> thats a challenge to do lol[m
+
+[15:34:40] [Server thread/INFO]: Dab issued server command: /tell SavageEagler honors course?
+[15:34:52] [Server thread/INFO]: <Dab[0;37;1m> [0;31;22m[21m[3mR[0;33;22m[21m[3ma[0;33;1m[21m[3mi[0;32;1m[21m[3mn[0;34;1m[21m[3mb[0;35;22m[21m[3mo[0;35;1m[21m[3mw[m
+
+[15:34:57] [Server thread/INFO]: SavageEagler issued server command: /tell Dab i think it was fake
+[15:35:09] [Server thread/INFO]: Dab issued server command: /tell SavageEagler you mf
+[15:36:16] [Server thread/INFO]: <SavageEagler[0;37;1m> we need water[m
+
+[15:36:22] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> oh yeah[m
+
+[15:36:28] [Server thread/INFO]: Dab issued server command: /sethome enc
+[15:36:30] [Server thread/INFO]: SavageEagler issued server command: /tell Tox1cFunguss ik ur using xray
+[15:36:32] [Server thread/INFO]: Dab issued server command: /homes
+[15:36:36] [Server thread/INFO]: Dab issued server command: /home h
+[15:36:42] [Server thread/INFO]: Dab issued server command: /home s
+[15:36:49] [Craft Scheduler Thread - 31/INFO]: [Metrics] Connection refused
+[15:36:49] [Server thread/INFO]: Tox1cFunguss issued server command: /tell savage how would you know
+[15:36:49] [Server thread/INFO]: [Tox1cFunguss: That player cannot be found]
+[15:36:59] [Server thread/INFO]: SavageEagler issued server command: /tell Tox1cFunguss i checked console
+[15:37:10] [Server thread/INFO]: Tox1cFunguss issued server command: /tell savage i have a reason
+[15:37:10] [Server thread/INFO]: [Tox1cFunguss: That player cannot be found]
+[15:37:15] [Server thread/INFO]: Tox1cFunguss issued server command: /tell SavageEagler i have a reason
+[15:37:22] [Server thread/INFO]: SavageEagler issued server command: /tell Tox1cFunguss we need water
+[15:37:26] [Server thread/INFO]: SavageEagler issued server command: /tell Tox1cFunguss we need water buckets
+[15:37:40] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> it's impossible to find a dungeon with no sound[m
+
+[15:37:52] [Server thread/INFO]: <Dab[0;37;1m> i forgot theres dungeons[m
+
+[15:38:47] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i'll go make water buckets[m
+
+[15:38:52] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[15:39:28] [Server thread/INFO]: <Dab[0;37;1m> hmm. pickaxe not enchanted but coal ore?[m
+
+[15:39:33] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> lucas[m
+
+[15:39:33] [Server thread/INFO]: <SavageEagler[0;37;1m> lol[m
+
+[15:39:35] [Server thread/INFO]: <Dab[0;37;1m> hmm...[m
+
+[15:39:39] [Server thread/INFO]: <SavageEagler[0;37;1m> ye[m
+
+[15:39:45] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> how could i even pick it up?[m
+
+[15:39:46] [Server thread/INFO]: <SavageEagler[0;37;1m> gregg we dont go down[m
+
+[15:39:51] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> why[m
+
+[15:39:52] [Server thread/INFO]: <SavageEagler[0;37;1m> pick what up[m
+
+[15:40:03] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> grab coal ore[m
+
+[15:40:10] [Server thread/INFO]: <SavageEagler[0;37;1m> silk touch[m
+
+[15:40:15] [Server thread/INFO]: <Dab[0;37;1m> idk, but you had some[m
+
+[15:40:25] [Server thread/INFO]: <SavageEagler[0;37;1m> i have 20 dim ore[m
+
+[15:40:27] [Server thread/INFO]: <Dab[0;37;1m> kinda sis...[m
+
+[15:40:29] [Server thread/INFO]: <SavageEagler[0;37;1m> on me rn[m
+
+[15:40:30] [Server thread/INFO]: <Dab[0;37;1m> sus oops[m
+
+[15:40:33] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[15:40:34] [Server thread/INFO]: Tox1cFunguss issued server command: /home g
+[15:40:41] [Server thread/INFO]: <SavageEagler[0;37;1m> from trying to find a dungeon will[m
+
+[15:40:47] [Server thread/INFO]: Dab issued server command: /tell SavageEagler did you give him coal ore or is he consoling
+[15:40:49] [Server thread/INFO]: <SavageEagler[0;37;1m> gregg[m
+
+[15:41:06] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> MOVE[m
+
+[15:41:10] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> oh[m
+
+[15:41:15] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> ididn't know you ahd one[m
+
+[15:41:16] [Server thread/INFO]: <SavageEagler[0;37;1m> move[m
+
+[15:41:23] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> why don't we go down[m
+
+[15:41:29] [Server thread/INFO]: <SavageEagler[0;37;1m> no[m
+
+[15:41:39] [Server thread/INFO]: <SavageEagler[0;37;1m> spiders can climb[m
+
+[15:41:41] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> oh yeah[m
+
+[15:41:46] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i forgot it was a spier spawner[m
+
+[15:41:50] [Server thread/INFO]: <Dab[0;37;1m> dumbass[m
+
+[15:42:02] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> your a bitch fuck face[m
+
+[15:42:08] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> fucker head[m
+
+[15:42:13] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> poop breath[m
+
+[15:42:17] [Server thread/INFO]: <Dab[0;37;1m> and your an autistic inbread fetis?[m
+
+[15:42:31] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NO ONW WAS SUPOSE TO KNOW[m
+
+[15:42:32] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
+[15:42:32] [Server thread/INFO]: Tox1cFunguss left the game.
+[15:42:34] [Server thread/INFO]: <Dab[0;37;1m> i bet your mother is your aunt[m
+
+[15:42:37] [Thread-25/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
+[15:42:37] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:46022] logged in with entity id 88544 at ([world]-100.0, 134.0, 18.0)
+[15:42:43] [Server thread/INFO]: <Dab[0;37;1m> oh dam. he left[m
+
+[15:42:49] [Server thread/INFO]: <Dab[0;37;1m> couldnt take it...[m
+
+[15:42:49] [Server thread/INFO]: <SavageEagler[0;37;1m> lol[m
+
+[15:43:10] [Server thread/INFO]: SavageEagler issued server command: /sethome spider
+[15:43:13] [Server thread/INFO]: SavageEagler issued server command: /homes
+[15:43:17] [Server thread/INFO]: SavageEagler issued server command: /delhome spider
+[15:43:19] [Server thread/INFO]: SavageEagler issued server command: /sethome s
+[15:43:21] [Server thread/INFO]: SavageEagler issued server command: /home h
+[15:43:56] [Server thread/INFO]: Tox1cFunguss issued server command: /sethomeg
+[15:43:57] [Server thread/INFO]: Tox1cFunguss issued server command: /home g
+[15:44:00] [Server thread/INFO]: Tox1cFunguss issued server command: /home a
+[15:44:06] [Server thread/INFO]: SavageEagler issued server command: /home h2
+[15:44:46] [Server thread/INFO]: SavageEagler issued server command: /home h
+[15:44:59] [Server thread/INFO]: <SavageEagler[0;37;1m> tf u doing will[m
+
+[15:45:11] [Server thread/INFO]: <Dab[0;37;1m> huh[m
+
+[15:45:15] [Server thread/INFO]: SavageEagler issued server command: /home s
+[15:45:16] [Server thread/INFO]: Tox1cFunguss issued server command: /home a
+[15:45:19] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[15:45:19] [Server thread/INFO]: Dab lost connection: Disconnected
+[15:45:19] [Server thread/INFO]: Dab left the game.
+[15:45:26] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> imma go now[m
+
+[15:45:27] [Server thread/INFO]: SavageEagler lost connection: Disconnected
+[15:45:27] [Server thread/INFO]: SavageEagler left the game.
+[15:45:29] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i'[m
+
+[15:45:30] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
+[15:45:30] [Server thread/INFO]: Tox1cFunguss left the game.
+[15:46:49] [Craft Scheduler Thread - 35/INFO]: [Metrics] Connection refused
+[15:49:19] [Thread-26/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
+[15:49:19] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:44446] logged in with entity id 96892 at ([world]-100.0, 134.0, 18.0)
+[15:49:26] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[15:49:28] [Server thread/INFO]: Tox1cFunguss issued server command: /home g
+[15:49:31] [Thread-27/INFO]: UUID of player Kevinthegaint is 5601d204-cf2b-37b8-9691-a306ee92e4db
+[15:49:31] [Server thread/INFO]: Kevinthegaint[/[0:0:0:0:0:0:0:1]:60314] logged in with entity id 97685 at ([world]-100.0, 134.0, 18.0)
+[15:49:56] [Server thread/INFO]: Usage: /tellraw <player> <raw json message>
+[15:49:58] [Thread-28/INFO]: UUID of player ExtraCri5py is 0cfdc367-4fa1-3e0c-90e7-989ce0333608
+[15:49:59] [Server thread/INFO]: ExtraCri5py[/[0:0:0:0:0:0:0:1]:45832] logged in with entity id 100397 at ([world]-100.0, 134.0, 18.0)
+[15:50:10] [Thread-29/INFO]: UUID of player Dab is 0bc18ffe-919b-326b-9a32-f6c702ffcbe0
+[15:50:10] [Server thread/INFO]: Dab[/[0:0:0:0:0:0:0:1]:48340] logged in with entity id 101474 at ([world]-100.0, 134.0, 18.0)
+[15:50:36] [Server thread/INFO]: ExtraCri5py issued server command: /t join CLOWNS
+[15:50:42] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[15:50:43] [Server thread/INFO]: Dab issued server command: /tell ExtraCri5py teehee
+[15:50:50] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> i have 11 spells[m
+
+[15:50:52] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> rn[m
+
+[15:51:06] [Thread-30/INFO]: UUID of player SavageEagler is 83949d3a-ab99-3644-a8c0-43977ec748c0
+[15:51:06] [Server thread/INFO]: SavageEagler[/[0:0:0:0:0:0:0:1]:34924] logged in with entity id 106004 at ([world]-100.0, 134.0, 18.0)
+[15:51:11] [Server thread/INFO]: <Dab[0;37;1m> IM NOT ON FKN CONSOLE[m
+
+[15:51:19] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> thn who was it[m
+
+[15:51:23] [Server thread/INFO]: <Dab[0;37;1m> idk[m
+
+[15:51:28] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> liar[m
+
+[15:51:31] [Server thread/INFO]: <Dab[0;37;1m> prob lucas[m
+
+[15:51:32] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> FIND AND KILL him[m
+
+[15:51:33] [Server thread/INFO]: ExtraCri5py issued server command: /homes
+[15:51:39] [Server thread/INFO]: <Dab[0;37;1m> ME?![m
+
+[15:51:40] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> burn him on the steka[m
+
+[15:51:42] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> steak[m
+
+[15:51:45] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> FOR ADMIN ABUSE[m
+
+[15:51:46] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> FOR ADMIN ABUSE[m
+
+[15:51:46] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> FOR ADMIN ABUSE[m
+
+[15:51:48] [Server thread/INFO]: <Dab[0;37;1m> stake DUMBASS[m
+
+[15:51:50] [Server thread/INFO]: ExtraCri5py issued server command: /sethome o
+[15:51:52] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;37;1mOR ADMIN ABUSE[m
+
+[15:51:59] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [5m FOR ADMIN ABUSE[m
+
+[15:52:06] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;37;1m FOR ADMIN ABUSE[m
+
+[15:52:10] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;32;1m FOR ADMIN ABUSE[m
+
+[15:52:10] [Server thread/INFO]: <Dab[0;37;1m> [0;31;22m[21mYou shall burn for your sins[m
+
+[15:52:14] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m FOR ADMIN ABUSE[m
+
+[15:52:18] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> oooo pink[m
+
+[15:52:23] [Server thread/INFO]: <Dab[0;37;1m> oh wow. you know colors[m
+
+[15:52:38] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> &y I will take your skin alive[m
+
+[15:52:38] [Server thread/INFO]: <SavageEagler[0;37;1m> [0;36;22mBALLS[m
+
+[15:52:43] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [m I will take your skin alive[m
+
+[15:52:47] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> &w I will take your skin alive[m
+
+[15:52:54] [Server thread/INFO]: <Kevinthegaint[0;37;1m> you damn right i know colors[m
+
+[15:52:55] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> idk all the collors[m
+
+[15:53:05] [Server thread/INFO]: <SavageEagler[0;37;1m> move gregg[m
+
+[15:53:07] [Thread-31/INFO]: UUID of player BOnerking is ccd9b2bf-a446-3b37-b211-93647ad61cc6
+[15:53:07] [Server thread/INFO]: BOnerking[/[0:0:0:0:0:0:0:1]:58282] logged in with entity id 116255 at ([world]-120.6999999880791, 63.0, -148.8317734301684)
+[15:53:16] [Server thread/INFO]: BOnerking issued server command: /bonerking
+[15:53:21] [Server thread/INFO]: <Dab[0;37;1m> [0;31;22mc[0;33;22mo[0;33;1ml[0;32;1mo[0;34;1mr[0;35;22ms[m
+
+[15:53:35] [Server thread/INFO]: BOnerking issued server command: /home a
+[15:53:36] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;32;1m Pink PP[m
+
+[15:53:44] [Server thread/INFO]: BOnerking issued server command: /home a
+[15:53:46] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m PINK PP[m
+
+[15:53:49] [Server thread/INFO]: <SavageEagler[0;37;1m> [0;35;22mMOVE[m
+
+[15:53:53] [Server thread/INFO]: BOnerking issued server command: /home b
+[15:54:06] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}---[m
+
+[15:54:12] [Server thread/INFO]: <Dab[0;37;1m> wrong[m
+
+[15:54:12] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|} ----[m
+
+[15:54:19] [Server thread/INFO]: BOnerking issued server command: /tpa tox1c
+[15:54:19] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}&----[m
+
+[15:54:25] [Server thread/INFO]: <SavageEagler[0;37;1m> [0;37;22mBALLS[m
+
+[15:54:27] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[15:54:29] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
+[15:54:33] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> [0;34;22m IMA VBUSS[m
+
+[15:54:36] [Server thread/INFO]: BOnerking issued server command: /sethome a
+[15:54:40] [Server thread/INFO]: <Dab[0;37;1m> [0;33;22m8===[0;35;1m|D[0;37;1m---[m
+
+[15:54:49] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> [0;34;22m guys, who needs v-buvks[m
+
+[15:54:53] [Server thread/INFO]: <Dab[0;37;1m> me[m
+
+[15:55:03] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> [0;34;22m9 e[m
+
+[15:55:06] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> sgut[m
+
+[15:55:08] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> shit[m
+
+[15:55:18] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> [0;34;1m e[m
+
+[15:55:25] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> [0;30;22m e[m
+
+[15:55:44] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> [0;30;22m I HAVE AIDS[m
+
+[15:55:54] [Server thread/INFO]: <Dab[0;37;1m> we know[m
+
+[15:55:59] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> [0;30;22m THE AIDS ARE TAKING OVER MY BODY RAHHHHHHH[m
+
+[15:56:12] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> [0;30;22m THE AIDS ARE TAKING OVER MY BODY RAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH[m
+
+[15:56:17] [Server thread/INFO]: <Dab[0;37;1m> yo lucas, want me to make a color code book?[m
+
+[15:56:28] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> yes[m
+
+[15:56:35] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> FUCKKK[m
+
+[15:56:40] [Server thread/INFO]: <Dab[0;37;1m> i need a book and quill for that[m
+
+[15:56:45] [Server thread/INFO]: <Dab[0;37;1m> oh dam[m
+
+[15:56:49] [Craft Scheduler Thread - 44/INFO]: [Metrics] Connection refused
+[15:56:53] [Server thread/INFO]: <Dab[0;37;1m> LUCAS[m
+
+[15:56:55] [Server thread/INFO]: ExtraCri5py issued server command: /t leave
+[15:57:08] [Server thread/INFO]: SavageEagler issued server command: /sethome s
+[15:57:11] [Server thread/INFO]: SavageEagler issued server command: /delhome s
+[15:57:13] [Server thread/INFO]: SavageEagler issued server command: /sethome s
+[15:57:15] [Server thread/INFO]: Dab issued server command: /tell Tox1cFunguss i should go kill eli
+[15:57:32] [Server thread/INFO]: Tox1cFunguss issued server command: /tell dab yes and be like, my finger slipeed bro im so sorry
+[15:57:34] [Server thread/INFO]: ExtraCri5py has just earned the achievement [Monster Hunter]
+[15:57:54] [Server thread/INFO]: Dab issued server command: /tell ExtraCri5py im on the hunt for a BOnerking
+[15:58:03] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> stay away from my shit[m
+
+[15:58:12] [Server thread/INFO]: ExtraCri5py issued server command: /tell Dab same, im gonna kill him on lucas orders
+[15:58:18] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> fuck off gregg[m
+
+[15:58:24] [Server thread/INFO]: Dab issued server command: /tell ExtraCri5py im just gonna kill him anyways
+[15:58:30] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> pissy[m
+
+[15:58:31] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[15:58:33] [Server thread/INFO]: Tox1cFunguss issued server command: /home g
+[15:58:39] [Server thread/INFO]: Tox1cFunguss issued server command: /tpa sav
+[15:58:49] [Server thread/INFO]: SavageEagler issued server command: /tpyes
+[15:58:54] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome b
+[15:58:57] [Server thread/INFO]: Tox1cFunguss issued server command: /home g
+[15:59:04] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[15:59:23] [Server thread/INFO]: ExtraCri5py issued server command: /home
+[15:59:32] [Server thread/INFO]: ExtraCri5py issued server command: /home w
+[15:59:36] [Server thread/INFO]: ExtraCri5py issued server command: /tpa BOnerking
+[15:59:43] [Server thread/INFO]: BOnerking issued server command: /tpyes
+[15:59:49] [Server thread/INFO]: BOnerking was slain by ExtraCri5py
+[15:59:51] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> im going to get supplise lucas brb[m
+
+[15:59:54] [Server thread/INFO]: <Dab[0;37;1m> YO[m
+
+[15:59:56] [Server thread/INFO]: ExtraCri5py issued server command: /homw q
+[16:00:00] [Server thread/INFO]: ExtraCri5py issued server command: /home w
+[16:00:05] [Server thread/INFO]: ExtraCri5py issued server command: /t join CLOWNS
+[16:00:09] [Server thread/INFO]: <SavageEagler[0;37;1m> not yet[m
+
+[16:00:27] [Server thread/INFO]: Dab issued server command: /tell ExtraCri5py good job
+[16:00:29] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> we smooch on the bed[m
+
+[16:00:38] [Server thread/INFO]: Tox1cFunguss issued server command: /tell SavageEagler if i kill someone randomly is that fiar game
+[16:00:45] [Server thread/INFO]: BOnerking lost connection: Disconnected
+[16:00:45] [Server thread/INFO]: BOnerking left the game.
+[16:00:50] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> mosters[m
+
+[16:01:01] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[16:01:08] [Thread-32/INFO]: UUID of player boner is 70c17a1f-7877-3c37-8680-0bd3826f9710
+[16:01:09] [Server thread/INFO]: boner[/[0:0:0:0:0:0:0:1]:50562] logged in with entity id 141428 at ([world]-100.0, 134.0, 18.0)
+[16:01:09] [Craft Scheduler Thread - 45/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:01:09] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:01:26] [Server thread/INFO]: Dab issued server command: /tphere boner
+[16:01:27] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[16:01:30] [Server thread/INFO]: Dab issued server command: /tpahere boner
+[16:01:32] [Server thread/INFO]: boner issued server command: /tpa Tox1c
+[16:01:36] [Server thread/INFO]: <SavageEagler[0;37;1m> lol[m
+
+[16:01:37] [Server thread/INFO]: Dab issued server command: /tell ExtraCri5py watch this
+[16:01:38] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[16:01:39] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
+[16:01:41] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
+[16:01:45] [Server thread/INFO]: boner was slain by Dab
+[16:01:52] [Server thread/INFO]: boner lost connection: Disconnected
+[16:01:52] [Server thread/INFO]: boner left the game.
+[16:01:57] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> d[m
+
+[16:01:59] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> :>[m
+
+[16:02:01] [Server thread/INFO]: <Dab[0;37;1m> its just eli :/[m
+
+[16:02:10] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> fai game is fair game[m
+
+[16:02:15] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> dumbass[m
+
+[16:02:16] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> fuck you[m
+
+[16:02:18] [Server thread/INFO]: ExtraCri5py issued server command: /home o
+[16:02:20] [Server thread/INFO]: Dab issued server command: /tell Tox1cFunguss you should tp him here next and kill him
+[16:02:28] [Thread-33/INFO]: UUID of player Skellaboner is f268af69-dfe6-3e31-a08a-f836d8c235ea
+[16:02:28] [Server thread/INFO]: Skellaboner[/[0:0:0:0:0:0:0:1]:51176] logged in with entity id 141772 at ([world]-100.0, 134.0, 18.0)
+[16:02:28] [Craft Scheduler Thread - 46/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:02:28] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:02:30] [Server thread/INFO]: <Dab[0;37;1m> ah, brotherly love[m
+
+[16:02:49] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[16:02:53] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> yes :D[m
+
+[16:02:56] [Server thread/INFO]: Dab issued server command: /tell Tox1cFunguss bro, tp eli here frfr
+[16:02:58] [Server thread/INFO]: Skellaboner lost connection: Login timed out!
+[16:02:58] [Server thread/INFO]: Skellaboner left the game.
+[16:02:58] [Server thread/WARN]: handleDisconnection() called twice
+[16:03:01] [Server thread/INFO]: ExtraCri5py issued server command: /home w
+[16:03:02] [Thread-34/INFO]: UUID of player Skellaboner is f268af69-dfe6-3e31-a08a-f836d8c235ea
+[16:03:02] [Server thread/INFO]: Skellaboner[/[0:0:0:0:0:0:0:1]:35186] logged in with entity id 141851 at ([world]-100.0, 134.0, 18.0)
+[16:03:02] [Craft Scheduler Thread - 46/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:03:02] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:03:03] [Server thread/INFO]: Tox1cFunguss issued server command: /tell dab al
+[16:03:09] [Server thread/INFO]: Tox1cFunguss issued server command: /tell dab oj
+[16:03:11] [Server thread/INFO]: Tox1cFunguss issued server command: /tell dab ok
+[16:03:14] [Server thread/INFO]: <SavageEagler[0;37;1m> leave these floors stone[m
+
+[16:03:25] [Server thread/INFO]: Skellaboner issued server command: /t join CLOWNS
+[16:03:38] [Server thread/INFO]: Skellaboner issued server command: /tpa Tox1c
+[16:03:44] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[16:03:45] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[16:03:52] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
+[16:03:54] [Server thread/INFO]: ExtraCri5py issued server command: /home o
+[16:03:57] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> GET EM[m
+
+[16:03:58] [Server thread/WARN]: Skellaboner moved wrongly!
+[16:04:18] [Server thread/INFO]: The entity UUID provided is in an invalid format
+[16:04:31] [Server thread/INFO]: <Dab[0;37;1m> how tf[m
+
+[16:04:32] [Server thread/INFO]: Skellaboner has just earned the achievement [Taking Inventory]
+[16:04:38] [Server thread/INFO]: Skellaboner fell out of the world
+[16:04:38] [Server thread/INFO]: Killed Skellaboner
+[16:04:39] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> eli hacking??????[m
+
+[16:04:48] [Server thread/INFO]: <Dab[0;37;1m> laggy?[m
+
+[16:04:52] [Server thread/INFO]: Skellaboner lost connection: Disconnected
+[16:04:52] [Server thread/INFO]: Skellaboner left the game.
+[16:05:03] [Server thread/INFO]: <Dab[0;37;1m> lets repeat this process[m
+
+[16:05:08] [Server thread/INFO]: <Dab[0;37;1m> lucas, you next?[m
+
+[16:05:15] [Thread-35/INFO]: UUID of player LucasIsaNIGGER is e24e17d5-2f42-3635-8a1c-b542fe4f1956
+[16:05:15] [Server thread/INFO]: LucasIsaNIGGER[/[0:0:0:0:0:0:0:1]:36466] logged in with entity id 142397 at ([world]-100.0, 134.0, 18.0)
+[16:05:15] [Craft Scheduler Thread - 47/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:05:15] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:05:20] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> LOL[m
+
+[16:05:23] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> LOL[m
+
+[16:05:23] [Server thread/INFO]: <Dab[0;37;1m> nah, def lucas now[m
+
+[16:05:25] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> WILD NAME[m
+
+[16:05:26] [Server thread/INFO]: <SavageEagler[0;37;1m> who is that[m
+
+[16:05:30] [Server thread/INFO]: <Dab[0;37;1m> eli[m
+
+[16:05:32] [Server thread/INFO]: Killed LucasIsaNIGGER
+[16:05:39] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> snitch[m
+
+[16:05:43] [Server thread/INFO]: <SavageEagler[0;37;1m> lol[m
+
+[16:05:44] [Server thread/INFO]: LucasIsaNIGGER issued server command: /t join CLOWNS
+[16:05:52] [Server thread/INFO]: <Dab[0;37;1m> huh?[m
+
+[16:05:53] [Server thread/INFO]: LucasIsaNIGGER issued server command: /tpa Tox1c
+[16:05:55] [Server thread/INFO]: Tox1cFunguss issued server command: /tpyes
+[16:06:00] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> gimmie the godamd enderperal[m
+
+[16:06:09] [Server thread/INFO]: ExtraCri5py issued server command: /t leave
+[16:06:10] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> what ender pearl[m
+
+[16:06:11] [Server thread/INFO]: LucasIsaNIGGER fell out of the world
+[16:06:11] [Server thread/INFO]: Killed LucasIsaNIGGER
+[16:06:19] [Server thread/INFO]: LucasIsaNIGGER lost connection: Disconnected
+[16:06:19] [Server thread/INFO]: LucasIsaNIGGER left the game.
+[16:06:20] [Server thread/INFO]: ExtraCri5py issued server command: /t join CLOWNS
+[16:06:27] [Server thread/INFO]: <Dab[0;37;1m> lol[m
+
+[16:06:40] [Server thread/INFO]: ExtraCri5py issued server command: /t leave
+[16:06:43] [Server thread/INFO]: Tox1cFunguss issued server command: /ome b
+[16:06:46] [Server thread/INFO]: ExtraCri5py issued server command: /t join CLOWNS
+[16:06:48] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[16:06:49] [Craft Scheduler Thread - 48/INFO]: [Metrics] Connection refused
+[16:07:00] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[16:07:02] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[16:07:12] [Thread-36/INFO]: UUID of player LucasisaNigger1 is e6188c20-150e-392b-ba95-24ef5cbc5989
+[16:07:12] [Server thread/INFO]: LucasisaNigger1[/[0:0:0:0:0:0:0:1]:34978] logged in with entity id 142848 at ([world]-100.0, 134.0, 18.0)
+[16:07:12] [Craft Scheduler Thread - 48/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:07:12] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:07:18] [Server thread/INFO]: Killed LucasisaNigger1
+[16:07:22] [Server thread/INFO]: LucasisaNigger1 fell out of the world
+[16:07:22] [Server thread/INFO]: Killed LucasisaNigger1
+[16:07:22] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[16:07:32] [Server thread/INFO]: <Dab[0;37;1m> HE DIDNT EVEN REGISTER[m
+
+[16:07:49] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> good ide??[m
+
+[16:07:53] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> yes orn o[m
+
+[16:07:57] [Server thread/INFO]: <Dab[0;37;1m> huh?[m
+
+[16:08:00] [Server thread/INFO]: LucasisaNigger1 lost connection: Disconnected
+[16:08:00] [Server thread/INFO]: LucasisaNigger1 left the game.
+[16:08:03] [Server thread/INFO]: <SavageEagler[0;37;1m> ye[m
+
+[16:08:07] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
+[16:08:07] [Server thread/INFO]: Tox1cFunguss left the game.
+[16:08:19] [Thread-37/INFO]: UUID of player Fyallhackinmfs is 48833067-ac9d-3367-9696-4af2e97764c7
+[16:08:20] [Server thread/INFO]: Fyallhackinmfs[/[0:0:0:0:0:0:0:1]:59612] logged in with entity id 143138 at ([world]-100.0, 134.0, 18.0)
+[16:08:20] [Craft Scheduler Thread - 49/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:08:20] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:08:37] [Server thread/INFO]: <Dab[0;37;1m> turn around lil bro[m
+
+[16:08:39] [Thread-38/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
+[16:08:39] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:36246] logged in with entity id 143192 at ([world]-100.0, 134.0, 18.0)
+[16:08:41] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> sorry i pissed[m
+
+[16:08:44] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> it wasnt cum[m
+
+[16:08:45] [Server thread/INFO]: Fyallhackinmfs issued server command: /t join CLOWNS
+[16:09:11] [Server thread/INFO]: <Dab[0;37;1m> putting my meat inside you[m
+
+[16:09:30] [Server thread/INFO]: <Dab[0;37;1m> alr lets stop[m
+
+[16:09:31] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> i nutted'[m
+
+[16:09:34] [Server thread/INFO]: <SavageEagler[0;37;1m> lag[m
+
+[16:10:00] [Server thread/INFO]: Dab issued server command: /tell SavageEagler you should /kill eli again :D
+[16:10:19] [Server thread/INFO]: Tox1cFunguss issued server command: /
+[16:10:24] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome a
+[16:10:25] [Server thread/INFO]: SavageEagler issued server command: /tell Dab he had bad name :(
+[16:10:28] [Server thread/INFO]: Tox1cFunguss issued server command: /delhome a
+[16:10:29] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome a
+[16:10:30] [Server thread/INFO]: Tox1cFunguss issued server command: /home g
+[16:10:40] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[16:10:40] [Server thread/INFO]: Dab issued server command: /tell SavageEagler i can tell
+[16:10:41] [Server thread/INFO]: Tox1cFunguss issued server command: /
+[16:10:44] [Server thread/INFO]: <SavageEagler[0;37;1m> get out gregg[m
+
+[16:10:52] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i wante to say hi[m
+
+[16:10:57] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> WTF[m
+
+[16:10:59] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> WILL[m
+
+[16:11:05] [Server thread/INFO]: <Dab[0;37;1m> should i /suicide?[m
+
+[16:11:06] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> GIVE ME MY SHIT BAC[m
+
+[16:11:09] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> lucas will took my shit[m
+
+[16:11:14] [Server thread/INFO]: <Dab[0;37;1m> huh?[m
+
+[16:11:18] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> WILLIAM DUNCNA[m
+
+[16:11:19] [Server thread/INFO]: <Dab[0;37;1m> WHICH ONE[m
+
+[16:11:20] [Server thread/INFO]: <Dab[0;37;1m> oh[m
+
+[16:11:24] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> i dont got shit?[m
+
+[16:11:24] [Server thread/INFO]: <Dab[0;37;1m> OH[m
+
+[16:11:24] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> that[m
+
+[16:11:27] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> you fucking retard[m
+
+[16:11:27] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> im confused[m
+
+[16:11:34] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> BUT HTA SHIT BACK WILLIAM[m
+
+[16:11:40] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> but that shit back[m
+
+[16:11:44] [Server thread/INFO]: <SavageEagler[0;37;1m> what did he take[m
+
+[16:11:48] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> everything[m
+
+[16:11:50] [Server thread/INFO]: <Dab[0;37;1m> I DONT HAVE ANYTHING[m
+
+[16:11:56] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> WHERES MY SHIT THEN[m
+
+[16:12:00] [Server thread/INFO]: Tox1cFunguss lost connection: Kicked by an operator.
+[16:12:00] [Server thread/INFO]: Tox1cFunguss left the game.
+[16:12:00] [Server thread/INFO]: Kicked Tox1cFunguss from the game
+[16:12:00] [Server thread/WARN]: handleDisconnection() called twice
+[16:12:01] [Server thread/INFO]: <Dab[0;37;1m> I DONT KNOW[m
+
+[16:12:07] [Thread-40/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
+[16:12:07] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:58642] logged in with entity id 144876 at ([world]-100.0, 134.0, 18.0)
+[16:12:07] [Server thread/INFO]: <Dab[0;37;1m> this mf accusing me[m
+
+[16:12:10] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> lucas[m
+
+[16:12:18] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> IM SAYING WILLIAM DUNCAN[m
+
+[16:12:21] [Server thread/INFO]: <SavageEagler[0;37;1m> stop fucking arguing[m
+
+[16:12:29] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> tell will to give my shit back[m
+
+[16:12:31] [Server thread/INFO]: <SavageEagler[0;37;1m> what did he apparently take[m
+
+[16:12:35] [Server thread/INFO]: <Dab[0;37;1m> mods, explode this guys balls[m
+
+[16:12:41] [Server thread/INFO]: SavageEagler lost connection: Disconnected
+[16:12:41] [Server thread/INFO]: SavageEagler left the game.
+[16:12:43] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> everything i had in those chests in the dirt[m
+
+[16:12:50] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> mods, use tuisk act 4 on his balls[m
+
+[16:12:50] [Thread-41/INFO]: UUID of player Admin_1 is a7f24b7a-7a28-358c-8df2-c1184ee8627f
+[16:12:50] [Server thread/INFO]: Admin_1[/[0:0:0:0:0:0:0:1]:45416] logged in with entity id 145437 at ([world]-100.0, 134.0, 18.0)
+[16:12:58] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> will give my shit back[m
+
+[16:13:04] [Server thread/INFO]: Admin_1 issued server command: /tp Tox1cFunguss
+[16:13:04] [Server thread/INFO]: [Admin_1: Teleported Admin_1 to Tox1cFunguss]
+[16:13:13] [Server thread/INFO]: <Dab[0;37;1m> mods, use reverb act 3 three freeze on his balls[m
+
+[16:13:15] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> check wills inventory[m
+
+[16:13:21] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> and check what he did[m
+
+[16:13:22] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> i dont got ya shit[m
+
+[16:13:33] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> on chi chi[m
+
+[16:13:34] [Server thread/INFO]: <[0;37;1mAdmin_1[0;37;1m> he doesnt have ur shit eli did moron[m
+
+[16:13:37] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> ????[m
+
+[16:13:45] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> on chi chi retard[m
+
+[16:13:55] [Server thread/INFO]: Admin_1 issued server command: //set dirt
+[16:14:10] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> william[m
+
+[16:14:13] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> took my shit[m
+
+[16:14:31] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> i dont got ur shit, dont know where ur sdhit is[m
+
+[16:14:37] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> not you[m
+
+[16:14:42] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> ok[m
+
+[16:15:02] [Server thread/INFO]: <Dab[0;37;1m> you really need to specify[m
+
+[16:15:03] [Server thread/INFO]: Fyallhackinmfs has just earned the achievement [Taking Inventory]
+[16:15:24] [Server thread/INFO]: Dab issued server command: /ec
+[16:15:27] [Server thread/INFO]: Dab issued server command: /cast list
+[16:15:32] [Server thread/INFO]: ExtraCri5py issued server command: /sethome r
+[16:15:34] [Server thread/INFO]: ExtraCri5py issued server command: /home o
+[16:15:38] [Server thread/INFO]: <Dab[0;37;1m> i forgot spells still existed[m
+
+[16:15:44] [Server thread/INFO]: Dab issued server command: /cast mana
+[16:16:04] [Server thread/INFO]: Admin_1 issued server command: //set stone
+[16:16:16] [Server thread/INFO]: Admin_1 issued server command: //set obsidian
+[16:16:28] [Server thread/INFO]: <Dab[0;37;1m> reverb act 2 was stronger than act 3[m
+
+[16:16:47] [Server thread/INFO]: Fyallhackinmfs issued server command: /sethome a
+[16:16:50] [Craft Scheduler Thread - 55/INFO]: [Metrics] Connection refused
+[16:17:28] [Server thread/INFO]: ExtraCri5py issued server command: /home r
+[16:17:43] [Server thread/INFO]: Admin_1 issued server command: //set stone
+[16:17:43] [Server thread/INFO]: <Dab[0;37;1m> koichi was the main character of josuke arc[m
+
+[16:17:46] [Server thread/INFO]: Admin_1 issued server command: /undo
+[16:17:50] [Server thread/INFO]: Admin_1 issued server command: /undo
+[16:17:53] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> lair[m
+
+[16:17:53] [Server thread/INFO]: Admin_1 issued server command: /redo
+[16:17:56] [Server thread/INFO]: Admin_1 issued server command: //set stone
+[16:18:03] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> koichi was a little shit[m
+
+[16:18:07] [Server thread/INFO]: <Dab[0;37;1m> and?[m
+
+[16:18:10] [Server thread/INFO]: Fyallhackinmfs has just earned the achievement [Getting Wood]
+[16:18:16] [Server thread/INFO]: Fyallhackinmfs issued server command: /home a
+[16:18:19] [Server thread/INFO]: <Dab[0;37;1m> did he not get the most character development?[m
+
+[16:18:33] [Server thread/INFO]: <Dab[0;37;1m> koichi had more screen time than josuke[m
+
+[16:19:16] [Server thread/INFO]: <Dab[0;37;1m> im spitting facts[m
+
+[16:19:23] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> shut up[m
+
+[16:19:27] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> sjenakdj[m
+
+[16:19:40] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> kira was NOT that good of a villain[m
+
+[16:19:51] [Server thread/INFO]: <Dab[0;37;1m> Kira was a smart villain[m
+
+[16:19:56] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> kira got his ass beat by a tired, bullet ridden jotaro[m
+
+[16:20:04] [Server thread/INFO]: Kevinthegaint has just earned the achievement [Benchmarking]
+[16:20:11] [Server thread/INFO]: <Dab[0;37;1m> cause his dads a bitch[m
+
+[16:20:38] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> will[m
+
+[16:20:43] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> what[m
+
+[16:20:43] [Server thread/INFO]: <Dab[0;37;1m> ;p[m
+
+[16:20:49] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> fuck off not you will[m
+
+[16:20:54] [Server thread/INFO]: <Dab[0;37;1m> that was kinda funny ngl[m
+
+[16:21:06] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> yea will fk off[m
+
+[16:21:25] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[16:22:16] [Server thread/INFO]: Fyallhackinmfs issued server command: /home a
+[16:22:17] [Server thread/INFO]: ExtraCri5py issued server command: /sethome r
+[16:22:20] [Server thread/INFO]: ExtraCri5py issued server command: /delhome r
+[16:22:21] [Server thread/INFO]: ExtraCri5py issued server command: /sethome r
+[16:22:24] [Server thread/INFO]: ExtraCri5py issued server command: /home w
+[16:22:26] [Server thread/INFO]: Admin_1 issued server command: //set air
+[16:22:44] [Server thread/INFO]: Admin_1 issued server command: //set sand
+[16:23:00] [Server thread/INFO]: Admin_1 issued server command: //set sand
+[16:23:07] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:08] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> ''[m
+
+[16:23:08] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:09] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:09] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> ''[m
+
+[16:23:09] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:09] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:09] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:09] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:10] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:10] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:10] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:10] [Server thread/INFO]: <[0;37;1mExtraCri5py[0;37;1m> '[m
+
+[16:23:10] [Server thread/INFO]: ExtraCri5py lost connection: disconnect.spam
+[16:23:10] [Server thread/INFO]: ExtraCri5py left the game.
+[16:23:13] [Server thread/INFO]: Admin_1 issued server command: //set sand
+[16:23:15] [Server thread/INFO]: <Dab[0;37;1m> why?[m
+
+[16:23:16] [Thread-42/INFO]: UUID of player ExtraCri5py is 0cfdc367-4fa1-3e0c-90e7-989ce0333608
+[16:23:16] [Server thread/INFO]: ExtraCri5py[/[0:0:0:0:0:0:0:1]:38134] logged in with entity id 150455 at ([world]-100.0, 134.0, 18.0)
+[16:23:23] [Server thread/INFO]: ExtraCri5py lost connection: Disconnected
+[16:23:23] [Server thread/INFO]: ExtraCri5py left the game.
+[16:23:24] [Thread-43/INFO]: UUID of player ExtraCri5py is 0cfdc367-4fa1-3e0c-90e7-989ce0333608
+[16:23:24] [Server thread/INFO]: ExtraCri5py[/[0:0:0:0:0:0:0:1]:58742] logged in with entity id 150522 at ([world]-100.0, 134.0, 18.0)
+[16:23:42] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}&w----[m
+
+[16:23:48] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|} &w----[m
+
+[16:23:49] [Server thread/INFO]: Admin_1 issued server command: //fill stone 5
+[16:23:53] [Server thread/INFO]: Admin_1 issued server command: /undo
+[16:23:54] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}[m
+
+[16:23:56] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}[m
+
+[16:23:56] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}[m
+
+[16:23:56] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}[m
+
+[16:23:57] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}[m
+
+[16:23:57] [Server thread/INFO]: Admin_1 issued server command: //fill stone 50
+[16:24:12] [Thread-44/INFO]: Disconnecting com.mojang.authlib.GameProfile@1d41fd5e[id=0bc18ffe-919b-326b-9a32-f6c702ffcbe0,name=Dab,properties={textures=[com.mojang.authlib.properties.Property@48bf1b0b], isEaglerPlayer=[com.mojang.authlib.properties.Property@7d1f90]},legacy=false] (/[0:0:0:0:0:0:0:1]:38234): [LoginSecurity] This player is already online!
+[16:24:17] [Thread-45/INFO]: Disconnecting com.mojang.authlib.GameProfile@1e8f59ba[id=5601d204-cf2b-37b8-9691-a306ee92e4db,name=Kevinthegaint,properties={textures=[com.mojang.authlib.properties.Property@785b7a4b], isEaglerPlayer=[com.mojang.authlib.properties.Property@2bb0fe8]},legacy=false] (/[0:0:0:0:0:0:0:1]:38240): [LoginSecurity] This player is already online!
+[16:24:18] [Thread-46/INFO]: Disconnecting com.mojang.authlib.GameProfile@28ba1017[id=0bc18ffe-919b-326b-9a32-f6c702ffcbe0,name=Dab,properties={textures=[com.mojang.authlib.properties.Property@4f3d3d98], isEaglerPlayer=[com.mojang.authlib.properties.Property@1f32f9b8]},legacy=false] (/[0:0:0:0:0:0:0:1]:37078): [LoginSecurity] This player is already online!
+[16:24:23] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}[m
+
+[16:24:23] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> [0;35;1m 8===|}[m
+
+[16:24:23] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i'll stop[m
+
+[16:24:23] [Server thread/INFO]: <[0;37;1mAdmin_1[0;37;1m> lag[m
+
+[16:24:23] [Server thread/INFO]: Kevinthegaint lost connection: Disconnected
+[16:24:23] [Server thread/INFO]: Kevinthegaint left the game.
+[16:24:23] [Server thread/INFO]: Dab lost connection: Disconnected
+[16:24:23] [Server thread/INFO]: Dab left the game.
+[16:24:23] [Server thread/INFO]: Admin_1 lost connection: Disconnected
+[16:24:23] [Server thread/INFO]: Admin_1 left the game.
+[16:24:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@1d41fd5e[id=0bc18ffe-919b-326b-9a32-f6c702ffcbe0,name=Dab,properties={textures=[com.mojang.authlib.properties.Property@48bf1b0b], isEaglerPlayer=[com.mojang.authlib.properties.Property@7d1f90]},legacy=false] (/[0:0:0:0:0:0:0:1]:38234) lost connection: [LoginSecurity] This player is already online!
+[16:24:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@1e8f59ba[id=5601d204-cf2b-37b8-9691-a306ee92e4db,name=Kevinthegaint,properties={textures=[com.mojang.authlib.properties.Property@785b7a4b], isEaglerPlayer=[com.mojang.authlib.properties.Property@2bb0fe8]},legacy=false] (/[0:0:0:0:0:0:0:1]:38240) lost connection: [LoginSecurity] This player is already online!
+[16:24:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@28ba1017[id=0bc18ffe-919b-326b-9a32-f6c702ffcbe0,name=Dab,properties={textures=[com.mojang.authlib.properties.Property@4f3d3d98], isEaglerPlayer=[com.mojang.authlib.properties.Property@1f32f9b8]},legacy=false] (/[0:0:0:0:0:0:0:1]:37078) lost connection: [LoginSecurity] This player is already online!
+[16:24:23] [Server thread/WARN]: Fyallhackinmfs moved wrongly!
+[16:24:23] [Thread-47/INFO]: UUID of player Admin_1 is a7f24b7a-7a28-358c-8df2-c1184ee8627f
+[16:24:23] [Server thread/INFO]: Admin_1[/[0:0:0:0:0:0:0:1]:37090] logged in with entity id 150645 at ([world]388.23050425296447, 136.52877216711988, 146.68353195137684)
+[16:24:28] [Thread-48/INFO]: UUID of player Kevinthegaint is 5601d204-cf2b-37b8-9691-a306ee92e4db
+[16:24:28] [Server thread/INFO]: Kevinthegaint[/[0:0:0:0:0:0:0:1]:35916] logged in with entity id 150791 at ([world]-100.0, 134.0, 18.0)
+[16:24:33] [Server thread/INFO]: Admin_1 issued server command: /undo
+[16:24:34] [Thread-49/INFO]: UUID of player Dab is 0bc18ffe-919b-326b-9a32-f6c702ffcbe0
+[16:24:35] [Server thread/INFO]: Dab[/[0:0:0:0:0:0:0:1]:35920] logged in with entity id 150943 at ([world]-100.0, 134.0, 18.0)
+[16:24:39] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> somone tried logging in conners account[m
+
+[16:24:45] [Server thread/INFO]: Admin_1 issued server command: //fill stone 20
+[16:24:49] [Server thread/INFO]: <Dab[0;37;1m> same[m
+
+[16:24:49] [Server thread/INFO]: <Kevinthegaint[0;37;1m> stay the fuck off my accont[m
+
+[16:24:49] [Server thread/INFO]: Fyallhackinmfs was blown up by Creeper
+[16:24:57] [Server thread/INFO]: Fyallhackinmfs lost connection: Disconnected
+[16:24:57] [Server thread/INFO]: Fyallhackinmfs left the game.
+[16:24:58] [Server thread/INFO]: Admin_1 issued server command: /undo
+[16:25:04] [Server thread/INFO]: <Dab[0;37;1m> it said someone was on my account too[m
+
+[16:25:04] [Server thread/INFO]: Admin_1 issued server command: //fill bedrock 20
+[16:25:20] [Server thread/INFO]: Admin_1 issued server command: //fill stone 20
+[16:25:55] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> lucas, where's the nether[m
+
+[16:26:06] [Server thread/INFO]: <Admin_1[0;37;1m> in the nether[m
+
+[16:26:11] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> ahh smart[m
+
+[16:26:14] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> ok lucas nvm[m
+
+[16:26:21] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> wheres the portal[m
+
+[16:26:32] [Server thread/INFO]: Admin_1 issued server command: //brush red_wool 2
+[16:26:37] [Server thread/INFO]: Tox1cFunguss issued server command: /home a
+[16:26:39] [Server thread/INFO]: <Dab[0;37;1m> make one?[m
+
+[16:26:41] [Server thread/INFO]: Tox1cFunguss issued server command: /delhome a
+[16:26:42] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome a
+[16:26:42] [Server thread/INFO]: Admin_1 issued server command: //brush sphere wool 2
+[16:26:47] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> one was already made[m
+
+[16:26:50] [Craft Scheduler Thread - 59/INFO]: [Metrics] Connection refused
+[16:27:03] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> pick up the speed if your gonna try and talk shit[m
+
+[16:27:12] [Server thread/INFO]: Admin_1 issued server command: /undo
+[16:27:16] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[16:27:17] [Server thread/INFO]: Admin_1 issued server command: /undo
+[16:27:18] [Server thread/INFO]: Tox1cFunguss issued server command: /home
+[16:27:21] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[16:27:43] [Thread-50/INFO]: UUID of player Lucasisafaggot is 2453862c-e9e9-3cc2-9d71-5268562f8232
+[16:27:43] [Server thread/INFO]: Lucasisafaggot[/[0:0:0:0:0:0:0:1]:48604] logged in with entity id 152879 at ([world]-100.0, 134.0, 18.0)
+[16:27:43] [Craft Scheduler Thread - 59/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:27:43] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:27:51] [Server thread/INFO]: Lucasisafaggot lost connection: You are banned from this server.
+[16:27:51] [Server thread/INFO]: Lucasisafaggot left the game.
+[16:27:51] [Server thread/INFO]: Banned player Lucasisafaggot
+[16:27:51] [Server thread/WARN]: handleDisconnection() called twice
+[16:27:52] [Server thread/INFO]: ExtraCri5py issued server command: /sethome i
+[16:28:03] [Thread-51/INFO]: UUID of player Lucasisafaggot is 2453862c-e9e9-3cc2-9d71-5268562f8232
+[16:28:03] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3a5f8315[id=2453862c-e9e9-3cc2-9d71-5268562f8232,name=Lucasisafaggot,properties={textures=[com.mojang.authlib.properties.Property@4d25e1f3], isEaglerPlayer=[com.mojang.authlib.properties.Property@197c6af5]},legacy=false] (/[0:0:0:0:0:0:0:1]:46732): You are banned from this server!
+Reason: Banned by an operator.
+[16:28:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@3a5f8315[id=2453862c-e9e9-3cc2-9d71-5268562f8232,name=Lucasisafaggot,properties={textures=[com.mojang.authlib.properties.Property@4d25e1f3], isEaglerPlayer=[com.mojang.authlib.properties.Property@197c6af5]},legacy=false] (/[0:0:0:0:0:0:0:1]:46732) lost connection: You are banned from this server!
+Reason: Banned by an operator.
+[16:28:08] [Server thread/INFO]: <Dab[0;37;1m> so aggresive for no reason[m
+
+[16:28:13] [Thread-52/INFO]: UUID of player Lucasisafaggot1 is 9073c000-9bd4-3c36-a965-66160878769b
+[16:28:13] [Server thread/INFO]: Lucasisafaggot1[/[0:0:0:0:0:0:0:1]:39806] logged in with entity id 153441 at ([world]-100.0, 134.0, 18.0)
+[16:28:13] [Craft Scheduler Thread - 59/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:28:13] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:28:20] [Server thread/INFO]: <Admin_1[0;37;1m> if ANYONE gets on with another name like that im banning them[m
+
+[16:28:29] [Server thread/INFO]: Lucasisafaggot1 lost connection: You are banned from this server.
+[16:28:29] [Server thread/INFO]: Lucasisafaggot1 left the game.
+[16:28:29] [Server thread/INFO]: Banned player Lucasisafaggot1
+[16:28:29] [Server thread/WARN]: handleDisconnection() called twice
+[16:28:34] [Server thread/INFO]: <Dab[0;37;1m> i hope you know thats just eli[m
+
+[16:28:38] [Thread-53/INFO]: UUID of player Lucasisafaggot12 is 2f705455-f0fa-3b66-a464-351bbf046b4e
+[16:28:38] [Server thread/INFO]: Lucasisafaggot12[/[0:0:0:0:0:0:0:1]:35730] logged in with entity id 153662 at ([world]-100.0, 134.0, 18.0)
+[16:28:38] [Craft Scheduler Thread - 59/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:28:39] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:28:49] [Server thread/INFO]: Lucasisafaggot12 lost connection: You are banned from this server.
+[16:28:49] [Server thread/INFO]: Lucasisafaggot12 left the game.
+[16:28:49] [Server thread/INFO]: Banned player Lucasisafaggot12
+[16:28:49] [Server thread/WARN]: handleDisconnection() called twice
+[16:29:23] [Thread-54/INFO]: UUID of player Lucasisafaggot3 is e507ebd4-c4fc-3058-adad-0da62765b23e
+[16:29:23] [Server thread/INFO]: Lucasisafaggot3[/[0:0:0:0:0:0:0:1]:59692] logged in with entity id 153994 at ([world]-100.0, 134.0, 18.0)
+[16:29:23] [Craft Scheduler Thread - 59/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[16:29:23] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:29:32] [Server thread/INFO]: <Dab[0;37;1m> he needs to stop this[m
+
+[16:29:34] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome b
+[16:29:37] [Server thread/INFO]: Tox1cFunguss issued server command: /delhome b
+[16:29:38] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome b
+[16:30:12] [Server thread/INFO]: Lucasisafaggot3 lost connection: Disconnected
+[16:30:12] [Server thread/INFO]: Lucasisafaggot3 left the game.
+[16:30:39] [Server thread/INFO]: Tox1cFunguss issued server command: /home a
+[16:30:42] [Server thread/INFO]: Tox1cFunguss issued server command: /home
+[16:30:45] [Server thread/INFO]: Tox1cFunguss issued server command: /homes
+[16:30:51] [Server thread/INFO]: Tox1cFunguss issued server command: /home g
+[16:30:53] [Server thread/INFO]: Tox1cFunguss issued server command: /home h
+[16:30:56] [Server thread/INFO]: Tox1cFunguss issued server command: /home h2
+[16:30:59] [Server thread/INFO]: Tox1cFunguss issued server command: /home b
+[16:31:00] [Server thread/INFO]: Tox1cFunguss issued server command: /home a
+[16:31:05] [Server thread/INFO]: Tox1cFunguss issued server command: /tpa kevin
+[16:31:14] [Server thread/INFO]: Kevinthegaint issued server command: /tpaccept
+[16:32:13] [Server thread/INFO]: Tox1cFunguss issued server command: /sethome con
+[16:32:29] [Server thread/INFO]: Tox1cFunguss issued server command: /wb
+[16:32:37] [Server thread/INFO]: Kevinthegaint lost connection: Disconnected
+[16:32:37] [Server thread/INFO]: Kevinthegaint left the game.
+[16:32:40] [Server thread/INFO]: Admin_1 issued server command: //replace wool obsidian
+[16:32:43] [Server thread/INFO]: Tox1cFunguss has just earned the achievement [Benchmarking]
+[16:32:49] [Server thread/INFO]: Admin_1 issued server command: /undo
+[16:32:57] [Server thread/INFO]: Admin_1 issued server command: //replace wool obsidian
+[16:33:03] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
+[16:33:04] [Server thread/INFO]: Tox1cFunguss left the game.
+[16:33:08] [Server thread/INFO]: Admin_1 issued server command: //replace stone air
+[16:33:13] [Server thread/INFO]: Admin_1 issued server command: /undo
+[16:33:13] [Server thread/INFO]: Dab lost connection: Disconnected
+[16:33:13] [Server thread/INFO]: Dab left the game.
+[16:34:13] [Server thread/INFO]: ExtraCri5py lost connection: Disconnected
+[16:34:13] [Server thread/INFO]: ExtraCri5py left the game.
+[16:34:22] [Server thread/INFO]: Admin_1 issued server command: /give Admin_1 command_block
+[16:34:22] [Server thread/INFO]: [Admin_1: Given [Command Block] * 1 to Admin_1]
+[16:35:08] [Server thread/INFO]: [@: You must specify which player you wish to perform this action on.]
+[16:35:17] [Server thread/INFO]: [@: Teleported Admin_1 to 398.5, 143.0, 161.5]
+[16:35:21] [Server thread/INFO]: Admin_1 lost connection: Disconnected
+[16:35:21] [Server thread/INFO]: Admin_1 left the game.
+[16:36:45] [Thread-55/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
+[16:36:45] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:52076] logged in with entity id 158844 at ([world]-100.0, 134.0, 18.0)
+[16:36:50] [Craft Scheduler Thread - 60/INFO]: [Metrics] Connection refused
+[16:37:13] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:14] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:14] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:15] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:15] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:16] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:16] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:17] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:20] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:20] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:20] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:21] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:22] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:22] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:23] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:23] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> NIGGER[m
+
+[16:37:27] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
+[16:37:27] [Server thread/INFO]: Tox1cFunguss left the game.
+[16:40:59] [Thread-56/INFO]: UUID of player Kevinthegaint is 5601d204-cf2b-37b8-9691-a306ee92e4db
+[16:40:59] [Server thread/INFO]: Kevinthegaint[/[0:0:0:0:0:0:0:1]:33566] logged in with entity id 159237 at ([world]-100.0, 134.0, 18.0)
+[16:41:00] [Thread-57/INFO]: UUID of player Tox1cFunguss is ad31481c-8af3-3458-821c-64132cdc8666
+[16:41:00] [Server thread/INFO]: Tox1cFunguss[/[0:0:0:0:0:0:0:1]:33568] logged in with entity id 159295 at ([world]-100.0, 134.0, 18.0)
+[16:41:14] [Server thread/INFO]: Tox1cFunguss issued server command: /homes
+[16:41:18] [Server thread/INFO]: Tox1cFunguss issued server command: /home a
+[16:44:24] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> lvl 15[m
+
+[16:45:38] [Server thread/INFO]: Kevinthegaint lost connection: Disconnected
+[16:45:38] [Server thread/INFO]: Kevinthegaint left the game.
+[16:45:45] [Server thread/INFO]: <Tox1cFunguss[0;37;1m> i gotta go now[m
+
+[16:45:53] [Server thread/INFO]: Tox1cFunguss lost connection: Disconnected
+[16:45:53] [Server thread/INFO]: Tox1cFunguss left the game.
+[16:46:50] [Craft Scheduler Thread - 66/INFO]: [Metrics] Connection refused
+[16:56:50] [Craft Scheduler Thread - 67/INFO]: [Metrics] Connection refused
+[17:01:49] [Thread-59/INFO]: UUID of player Kevinthegaint is 5601d204-cf2b-37b8-9691-a306ee92e4db
+[17:01:49] [Server thread/INFO]: Kevinthegaint[/[0:0:0:0:0:0:0:1]:59040] logged in with entity id 160165 at ([world]-100.0, 134.0, 18.0)
