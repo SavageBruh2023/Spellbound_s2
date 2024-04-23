@@ -36,9 +36,9 @@ world-settings:
       flat-bedrock: false
     allow-block-location-tab-completion: true
     cache-chunk-maps: false
-    remove-invalid-mob-spawner-tile-entities: true
     tnt-explosion-volume: 4.0
     optimize-explosions: false
+    remove-invalid-mob-spawner-tile-entities: true
     disable-teleportation-suffocation-check: false
     player-blocking-damage-multiplier: 0.5
     mob-spawner-tick-rate: 1
