@@ -349,3 +349,6 @@ java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version i
 
 [14:36:04] [Craft Scheduler Thread - 0/INFO]: [0;32;1m[CE] You are using the latest Version of CE![m
 
+[14:40:59] [Server thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+
+[14:40:59] [Thread-2/INFO]: Stopping server

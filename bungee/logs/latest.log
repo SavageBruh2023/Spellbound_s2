@@ -56,3 +56,12 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [14:36:20] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
 [14:36:20] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
 [14:36:20] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[14:41:04] [Shutdown Thread/INFO]: Closing listener [id: 0x39f6901f, L:/127.0.0.1:25577]
+[14:41:04] [Shutdown Thread/INFO]: Closing pending connections
+[14:41:04] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[14:41:04] [Shutdown Thread/INFO]: Disabling plugins
+[14:41:04] [Shutdown Thread/INFO] [EaglercraftXBungee]: Eaglercraft listener closed: /0.0.0.0:8081
+[14:41:04] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[14:41:04] [Shutdown Thread/INFO] [EaglercraftXBungee]: Stopping skin cache HTTP client...
+[14:41:06] [Shutdown Thread/INFO]: Closing IO threads
+[14:41:08] [Shutdown Thread/INFO]: Thank you and goodbye
