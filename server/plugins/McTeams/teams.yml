@@ -131,6 +131,70 @@ players:
     teamchat: 'false'
     chatspy: 'false'
     team: CLOWNS
+  f3dc55b2-547a-30f6-9bf6-f52d08087123:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  327f27a7-cee6-3283-8043-54881adfe82c:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  9e94f506-b74b-310c-a334-931b4779e37f:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  e37d0331-1f34-341c-9a6b-d3db340fc0c6:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  57535fce-2fff-38e3-bab5-4173f1880520:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  83dd624f-93e9-3425-bca2-e3ac60fed2c3:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  9c3f3ea7-f6fb-324f-befb-ade3c61df6f6:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  698e495f-5fa2-3f95-ade5-0426320ddb70:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  2885bcc4-c038-349f-953e-f288239be7e8:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  8cc444b5-7ab8-3ec6-bb19-7f86d9ff597e:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  8d70f69c-0179-38ec-80ab-044a12ef6d0a:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  fb06252e-2128-3b55-bb03-60470fd5ad4b:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  f980ff93-239d-37a5-9da5-0a6d6507c7af:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  b3aca7b1-fc1d-370b-a0de-f4b9713de065:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  fc60f37c-a882-3ba9-814e-6d97090d3173:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
 CLOWNS:
   ff: 'false'
   memberlist:
@@ -146,6 +210,10 @@ CLOWNS:
   - 48833067-ac9d-3367-9696-4af2e97764c7
   - 4d4536fa-8e14-359f-b3df-8259c6d9ad6e
   - 5d12d167-4852-3bc5-8e14-5d3e157d5b58
+  - 698e495f-5fa2-3f95-ade5-0426320ddb70
+  - 8cc444b5-7ab8-3ec6-bb19-7f86d9ff597e
+  - 8d70f69c-0179-38ec-80ab-044a12ef6d0a
+  - fc60f37c-a882-3ba9-814e-6d97090d3173
   hq:
     x: -118.70010447606339
     y: 67.0
