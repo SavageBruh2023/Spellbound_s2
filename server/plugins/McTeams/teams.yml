@@ -195,6 +195,43 @@ players:
     teamchat: 'false'
     chatspy: 'false'
     team: CLOWNS
+  24c06a8d-ede0-3c31-bcf0-eb6f4ab431f6:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  0030250c-71ae-3ae0-99bd-5a835d3789de:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  3d5c59d1-632a-3ec0-bd12-8cb8899e3eba:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  d4d897e5-7318-30f3-8820-4852b5c27e39:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  00165dc4-ac24-3713-af5f-2b9e886ad18c:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  52c97ce0-34f8-3d97-aedc-97588e87098c:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  ce5e36b1-9eed-31d0-8edd-c9bfb38b047a:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  0dc7e8d8-8d56-3abf-b36c-0cde61e99b7b:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  d23520cc-3d9f-323c-9b8a-48ed004df2de:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
 CLOWNS:
   ff: 'false'
   memberlist:
@@ -214,6 +251,7 @@ CLOWNS:
   - 8cc444b5-7ab8-3ec6-bb19-7f86d9ff597e
   - 8d70f69c-0179-38ec-80ab-044a12ef6d0a
   - fc60f37c-a882-3ba9-814e-6d97090d3173
+  - 24c06a8d-ede0-3c31-bcf0-eb6f4ab431f6
   hq:
     x: -118.70010447606339
     y: 67.0
