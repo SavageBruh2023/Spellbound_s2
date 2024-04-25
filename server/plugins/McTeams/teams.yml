@@ -241,6 +241,14 @@ players:
     teamchat: 'false'
     chatspy: 'false'
     team: CLOWNS
+  55966c89-01aa-3ac9-b599-9f4cce50be26:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  72832729-6ca8-37b7-a02e-53d3a253d140:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
 CLOWNS:
   ff: 'false'
   memberlist:
