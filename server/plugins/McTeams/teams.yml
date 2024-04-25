@@ -236,6 +236,11 @@ players:
     teammanager: 'false'
     teamchat: 'false'
     chatspy: 'false'
+  251a8824-7c33-348a-8939-e5377c244f8f:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
 CLOWNS:
   ff: 'false'
   memberlist:
@@ -256,6 +261,7 @@ CLOWNS:
   - 8d70f69c-0179-38ec-80ab-044a12ef6d0a
   - fc60f37c-a882-3ba9-814e-6d97090d3173
   - 24c06a8d-ede0-3c31-bcf0-eb6f4ab431f6
+  - 251a8824-7c33-348a-8939-e5377c244f8f
   hq:
     x: -118.70010447606339
     y: 67.0
