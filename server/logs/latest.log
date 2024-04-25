@@ -390,3 +390,169 @@ Caused by: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for lengt
 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
 	... 4 more
 
+[17:32:48] [Thread-8/INFO]: UUID of player Dab__ is 0030250c-71ae-3ae0-99bd-5a835d3789de
+[17:32:49] [Server thread/INFO]: Dab__[/[0:0:0:0:0:0:0:1]:41810] logged in with entity id 379 at ([world]179.0, 86.0, 1009.0)
+[17:33:02] [Thread-9/INFO]: UUID of player SavageEagler is 83949d3a-ab99-3644-a8c0-43977ec748c0
+[17:33:02] [Server thread/INFO]: SavageEagler[/[0:0:0:0:0:0:0:1]:35622] logged in with entity id 562 at ([world]179.0, 86.0, 1009.0)
+[17:33:28] [Thread-10/INFO]: UUID of player ToxicCarcass_ is 24c06a8d-ede0-3c31-bcf0-eb6f4ab431f6
+[17:33:28] [Server thread/INFO]: ToxicCarcass_[/[0:0:0:0:0:0:0:1]:43546] logged in with entity id 750 at ([world]179.0, 86.0, 1009.0)
+[17:33:59] [Server thread/INFO]: ToxicCarcass_ lost connection: Login timed out!
+[17:33:59] [Server thread/INFO]: ToxicCarcass_ left the game.
+[17:33:59] [Server thread/WARN]: handleDisconnection() called twice
+[17:34:09] [Thread-11/INFO]: UUID of player ToxicCarcass_ is 24c06a8d-ede0-3c31-bcf0-eb6f4ab431f6
+[17:34:09] [Server thread/INFO]: ToxicCarcass_[/[0:0:0:0:0:0:0:1]:50474] logged in with entity id 849 at ([world]179.0, 86.0, 1009.0)
+[17:34:11] [Server thread/INFO]: <[0;37;1mSavageEagler[0;37;1m> penis[m
+
+[17:35:36] [Server thread/INFO]: ToxicCarcass_ lost connection: Disconnected
+[17:35:36] [Server thread/INFO]: ToxicCarcass_ left the game.
+[17:35:38] [Thread-12/INFO]: UUID of player ToxicCarcass_ is 24c06a8d-ede0-3c31-bcf0-eb6f4ab431f6
+[17:35:39] [Server thread/INFO]: ToxicCarcass_[/[0:0:0:0:0:0:0:1]:58430] logged in with entity id 1043 at ([world]179.0, 86.0, 1009.0)
+[17:41:12] [Server thread/INFO]: Dab__ lost connection: Disconnected
+[17:41:12] [Server thread/INFO]: Dab__ left the game.
+[17:41:18] [Craft Scheduler Thread - 9/INFO]: [Metrics] Connection refused
+[17:42:54] [Thread-14/INFO]: UUID of player Dab__ is 0030250c-71ae-3ae0-99bd-5a835d3789de
+[17:42:54] [Server thread/INFO]: Dab__[/[0:0:0:0:0:0:0:1]:55388] logged in with entity id 3059 at ([world]179.0, 86.0, 1009.0)
+[17:43:11] [Server thread/INFO]: <Dab__[0;37;1m> i like to press the soft spot on a babies skull[m
+
+[17:46:22] [Server thread/INFO]: SavageEagler lost connection: Disconnected
+[17:46:22] [Server thread/INFO]: SavageEagler left the game.
+[17:46:23] [Server thread/INFO]: Given [Sign] * 1 to ToxicCarcass_
+[17:46:26] [Server thread/INFO]: ToxicCarcass_ lost connection: Disconnected
+[17:46:26] [Server thread/INFO]: ToxicCarcass_ left the game.
+[17:46:35] [Thread-15/INFO]: UUID of player SavageEagler____ is 5b197e17-b622-35ae-ba40-baf9278c6783
+[17:46:35] [Server thread/INFO]: SavageEagler____[/[0:0:0:0:0:0:0:1]:44176] logged in with entity id 3858 at ([world]179.0, 86.0, 1009.0)
+[17:46:35] [Craft Scheduler Thread - 13/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[17:46:35] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[17:46:44] [Thread-16/INFO]: UUID of player ToxicCarcass____ is e4f10a95-2539-364a-b739-9726f3fdfeef
+[17:46:44] [Server thread/INFO]: ToxicCarcass____[/[0:0:0:0:0:0:0:1]:34900] logged in with entity id 4017 at ([world]179.0, 86.0, 1009.0)
+[17:46:44] [Craft Scheduler Thread - 13/WARN]: [LoginSecurity] Failed to set inventory id in profile
+[17:46:44] [Server thread/ERROR]: [LoginSecurity] Failed to save player location
+java.sql.SQLException: Failed set location id in profile
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.insertLoginLocationBlocking(LocationRepository.java:57) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.LocationRepository.lambda$insertLoginLocation$0(LocationRepository.java:26) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[17:46:53] [Server thread/INFO]: ToxicCarcass____ issued server command: /
+[17:46:56] [Server thread/INFO]: ToxicCarcass____ has just earned the achievement [Taking Inventory]
+[17:47:16] [Server thread/INFO]: ToxicCarcass____ issued server command: /tpa savage
+[17:47:16] [Server thread/INFO]: Dab__ issued server command: /tp ToxicCarcass_
+[17:47:22] [Server thread/INFO]: SavageEagler____ issued server command: /tpyes
+[17:47:22] [Server thread/INFO]: Opped Dab__
+[17:47:25] [Server thread/INFO]: Dab__ issued server command: /tp ToxicCarcass_
+[17:47:25] [Server thread/INFO]: [Dab__: The entity UUID provided is in an invalid format]
+[17:47:28] [Server thread/INFO]: SavageEagler____ has just earned the achievement [Taking Inventory]
+[17:47:32] [Server thread/INFO]: Dab__ issued server command: /tpa SavageEagler____
+[17:47:35] [Server thread/INFO]: SavageEagler____ issued server command: /tpyes
+[17:51:02] [Server thread/INFO]: Dab__ issued server command: /tp SavageEagler____ ToxicCarcass____
+[17:51:02] [Server thread/INFO]: [Dab__: Teleported SavageEagler____ to ToxicCarcass____]
+[17:51:05] [Server thread/INFO]: Dab__ issued server command: /tp SavageEagler____ ToxicCarcass____
+[17:51:05] [Server thread/INFO]: [Dab__: Teleported SavageEagler____ to ToxicCarcass____]
+[17:51:05] [Server thread/INFO]: Dab__ issued server command: /tp SavageEagler____ ToxicCarcass____
+[17:51:05] [Server thread/INFO]: [Dab__: Teleported SavageEagler____ to ToxicCarcass____]
+[17:51:08] [Server thread/INFO]: ToxicCarcass____ was slain by SavageEagler____
+[17:51:08] [Server thread/INFO]: Dab__ lost connection: Disconnected
+[17:51:08] [Server thread/INFO]: Dab__ left the game.
+[17:51:09] [Server thread/INFO]: SavageEagler____ tried to swim in lava to escape ToxicCarcass____
+[17:51:12] [Server thread/INFO]: ToxicCarcass____ lost connection: Disconnected
+[17:51:12] [Server thread/INFO]: ToxicCarcass____ left the game.
+[17:51:13] [Server thread/INFO]: SavageEagler____ lost connection: Disconnected
+[17:51:13] [Server thread/INFO]: SavageEagler____ left the game.
+[17:51:18] [Craft Scheduler Thread - 14/INFO]: [Metrics] Connection refused
+[17:55:03] [Thread-17/INFO]: UUID of player Dab__ is 0030250c-71ae-3ae0-99bd-5a835d3789de
+[17:55:03] [Server thread/INFO]: Dab__[/[0:0:0:0:0:0:0:1]:49102] logged in with entity id 7268 at ([world]179.0, 86.0, 1009.0)
+[17:55:35] [Server thread/INFO]: Dab__ issued server command: /gamemode 0
+[17:55:35] [Server thread/INFO]: [Dab__: Set own game mode to Survival Mode]
+[17:56:01] [Server thread/INFO]: Dab__ issued server command: /gamemode 1
+[17:56:01] [Server thread/INFO]: [Dab__: Set own game mode to Creative Mode]
+[17:56:45] [Server thread/INFO]: Dab__ issued server command: /tp 1000000 100 -1000000
+[17:56:45] [Server thread/INFO]: [Dab__: Teleported Dab__ to 1000000.5, 100.0, -999999.5]
+[17:57:34] [Server thread/INFO]: Dab__ issued server command: //wand
+[17:57:52] [Server thread/INFO]: Dab__ issued server command: //set chest
+[17:59:07] [Server thread/INFO]: Dab__ issued server command: //set chest
+[18:00:21] [Server thread/INFO]: Dab__ issued server command: /tp 1 64 0
+[18:00:21] [Server thread/INFO]: [Dab__: Teleported Dab__ to 1.5, 64.0, 0.5]
+[18:01:18] [Craft Scheduler Thread - 18/INFO]: [Metrics] Connection refused
+[18:02:54] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_chesplate 1 0 {ench:[{id:0,lvl:26548}{id:7,lvl:26548}]}
+[18:02:54] [Server thread/INFO]: [Dab__: There is no such item with name minecraft:diamond_chesplate]
+[18:03:05] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_chestplate 1 0 {ench:[{id:0,lvl:26548}{id:7,lvl:26548}]}
+[18:03:05] [Server thread/INFO]: [Dab__: Data tag parsing failed: Unbalanced curly brackets {}: lvl:26548}{id:7,lvl:26548]
+[18:03:21] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_chestplate 1 0 {ench:[{id:0,lvl:26548},{id:7,lvl:26548}]}
+[18:03:21] [Server thread/INFO]: [Dab__: Given [Diamond Chestplate] * 1 to Dab__]
+[18:03:37] [Server thread/INFO]: Dab__ issued server command: /cast repair
+[18:04:03] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_leggings 1 0 {ench:[{id:0,lvl:26548},{id:7,lvl:26548}]}
+[18:04:03] [Server thread/INFO]: [Dab__: Given [Diamond Leggings] * 1 to Dab__]
+[18:04:21] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_helmet 1 0 {ench:[{id:0,lvl:**:**},{id:7,lvl:26548}]}
+[18:04:21] [Server thread/INFO]: [Dab__: Given [Diamond Helmet] * 1 to Dab__]
+[18:04:37] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_helmet 1 0 {ench:[{id:0,lvl:26548},{id:7,lvl:26548}]}
+[18:04:37] [Server thread/INFO]: [Dab__: Given [Diamond Helmet] * 1 to Dab__]
+[18:05:05] [Thread-18/INFO]: UUID of player ToxicCarcass____ is e4f10a95-2539-364a-b739-9726f3fdfeef
+[18:05:05] [Server thread/INFO]: ToxicCarcass____[/[0:0:0:0:0:0:0:1]:38048] logged in with entity id 8902 at ([world]139.3000000119209, 60.0, 898.6999999880791)
+[18:05:08] [Server thread/INFO]: ToxicCarcass____ lost connection: Disconnected
+[18:05:08] [Server thread/INFO]: ToxicCarcass____ left the game.
+[18:05:14] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_sword 1 0 {ench:[{id:34,lvl:26548},{id:20,lvl:26548}]}
+[18:05:14] [Server thread/INFO]: [Dab__: Given [Diamond Sword] * 1 to Dab__]
+[18:05:14] [Thread-19/INFO]: UUID of player ToxicCarcass_ is 24c06a8d-ede0-3c31-bcf0-eb6f4ab431f6
+[18:05:14] [Server thread/INFO]: ToxicCarcass_[/[0:0:0:0:0:0:0:1]:54042] logged in with entity id 9461 at ([world]179.0, 86.0, 1009.0)
+[18:05:33] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_sword 1 0 {ench:[{id:34,lvl:26548},{id:20,lvl:26548}{id:17,lvl:26548}]}
+[18:05:33] [Server thread/INFO]: [Dab__: Data tag parsing failed: Unbalanced curly brackets {}: lvl:26548}{id:17,lvl:26548]
+[18:05:38] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_sword 1 0 {ench:[{id:34,lvl:26548},{id:20,lvl:26548},{id:17,lvl:26548}]}
+[18:05:38] [Server thread/INFO]: [Dab__: Given [Diamond Sword] * 1 to Dab__]
+[18:05:53] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_sword 1 0 {ench:[{id:34,lvl:26548},{id:20,lvl:26548},{id:16,lvl:26548}]}
+[18:05:53] [Server thread/INFO]: [Dab__: Given [Diamond Sword] * 1 to Dab__]
+[18:06:01] [Server thread/INFO]: Dab__ issued server command: /give Dab__ diamond_sword 1 0 {ench:[{id:34,lvl:26548},{id:20,lvl:26548},{id:16,lvl:26548}]}
+[18:06:01] [Server thread/INFO]: [Dab__: Given [Diamond Sword] * 1 to Dab__]
+[18:06:24] [Server thread/INFO]: Dab__ issued server command: //set grass
+[18:07:18] [Server thread/INFO]: <Dab__[0;37;1m> greggory[m
+
+[18:07:21] [Server thread/INFO]: <ToxicCarcass_[0;37;1m> wyah[m
+
+[18:07:25] [Server thread/INFO]: <Dab__[0;37;1m> should i crash the server?[m
+
+[18:07:33] [Server thread/INFO]: <ToxicCarcass_[0;37;1m> no[m
+
+[18:07:54] [Server thread/INFO]: Dab__ issued server command: /tp -1000000 80 -1000000
+[18:07:54] [Server thread/INFO]: [Dab__: Teleported Dab__ to -999999.5, 80.0, -999999.5]
+[18:07:54] [Server thread/INFO]: ToxicCarcass_ lost connection: Disconnected
+[18:07:54] [Server thread/INFO]: ToxicCarcass_ left the game.
+[18:09:08] [Server thread/INFO]: <Dab__[0;37;1m> its your call[m
+
+[18:09:48] [Server thread/INFO]: <Dab__[0;37;1m> OH[m
+
+[18:09:58] [Server thread/INFO]: <Dab__[0;37;1m> 27 MIL BLOCKS CAPTURed[m
+
+[18:10:01] [Server thread/INFO]: <Dab__[0;37;1m> mb[m
+
+[18:10:04] [Server thread/INFO]: <Dab__[0;37;1m> 270 mil[m
+
+[18:10:27] [Server thread/INFO]: Dab__ issued server command: /tp -1000000 80 1000000
+[18:10:27] [Server thread/INFO]: [Dab__: Teleported Dab__ to -999999.5, 80.0, 1000000.5]
+[18:10:50] [Server thread/INFO]: Dab__ issued server command: /tp -1100000 80 1000000
+[18:10:50] [Server thread/INFO]: [Dab__: Teleported Dab__ to -1099999.5, 80.0, 1000000.5]
+[18:11:19] [Craft Scheduler Thread - 22/INFO]: [Metrics] Connection refused
+[18:11:36] [Server thread/INFO]: Dab__ issued server command: /give Dab__ night_vision 60
+[18:11:36] [Server thread/INFO]: [Dab__: There is no such item with name minecraft:night_vision]
+[18:11:43] [Server thread/INFO]: Dab__ issued server command: /give Dab__ night_vision
+[18:11:43] [Server thread/INFO]: [Dab__: There is no such item with name minecraft:night_vision]
+[18:13:16] [Server thread/INFO]: <Dab__[0;37;1m> gregg[m
+
+[18:14:40] [Server thread/INFO]: Dab__ issued server command: //set air
+[18:15:38] [Thread-21/INFO]: Disconnecting com.mojang.authlib.GameProfile@245f18a0[id=0030250c-71ae-3ae0-99bd-5a835d3789de,name=Dab__,properties={textures=[com.mojang.authlib.properties.Property@2b487f13], isEaglerPlayer=[com.mojang.authlib.properties.Property@2db6b3c3]},legacy=false] (/[0:0:0:0:0:0:0:1]:48826): [LoginSecurity] This player is already online!
+[18:15:47] [PaperSpigot Watchdog Thread/ERROR]: The server has stopped responding!
+[18:15:47] [PaperSpigot Watchdog Thread/ERROR]: Please report this to PaperSpigot directly!
+[18:15:47] [PaperSpigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[18:15:47] [PaperSpigot Watchdog Thread/ERROR]: PaperSpigot version: git-PaperSpigot-445 (MC: 1.8.8)
+[18:15:50] [PaperSpigot Watchdog Thread/ERROR]: ------------------------------
+[18:15:50] [PaperSpigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to PaperSpigot!):

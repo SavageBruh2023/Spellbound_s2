@@ -56,3 +56,231 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [17:31:35] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
 [17:31:35] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
 [17:31:35] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[17:32:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38364]: Connected via websocket
+[17:32:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38364]: Origin header is http://localhost:8081
+[17:32:48] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38364]: Logged in as 'Dab__'
+[17:32:48] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38364|Dab__] -> UpstreamBridge has connected
+[17:32:48] [Netty Worker IO Thread #1/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:38364] <-> ServerConnector [lobby] has connected
+[17:33:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55816]: Connected via websocket
+[17:33:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55816]: Origin header is http://localhost:8081
+[17:33:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:55816]: Logged in as 'SavageEagler'
+[17:33:02] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55816|SavageEagler] -> UpstreamBridge has connected
+[17:33:02] [Netty Worker IO Thread #2/INFO]: [SavageEagler|/[0:0:0:0:0:0:0:1%0]:55816] <-> ServerConnector [lobby] has connected
+[17:33:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46868]: Connected via websocket
+[17:33:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46868]: Origin header is http://localhost:8081
+[17:33:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46868]: Logged in as 'ToxicCarcass_'
+[17:33:28] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46868|ToxicCarcass_] -> UpstreamBridge has connected
+[17:33:28] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46868] <-> ServerConnector [lobby] has connected
+[17:33:59] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_] disconnected with: Login timed out!
+[17:33:59] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46868|ToxicCarcass_] -> UpstreamBridge has disconnected
+[17:33:59] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46868|ToxicCarcass_] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:34:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56386]: Connected via websocket
+[17:34:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56386]: Origin header is http://localhost:8081
+[17:34:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56386]: Logged in as 'ToxicCarcass_'
+[17:34:09] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56386|ToxicCarcass_] -> UpstreamBridge has connected
+[17:34:09] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:56386] <-> ServerConnector [lobby] has connected
+[17:35:36] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56386|ToxicCarcass_] -> UpstreamBridge has disconnected
+[17:35:36] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_] disconnected with: Proxy lost connection to server.
+[17:35:36] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56386|ToxicCarcass_] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:35:38] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43162]: Connected via websocket
+[17:35:38] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43162]: Origin header is http://localhost:8081
+[17:35:38] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43162]: Logged in as 'ToxicCarcass_'
+[17:35:38] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43162|ToxicCarcass_] -> UpstreamBridge has connected
+[17:35:38] [Netty Worker IO Thread #2/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43162] <-> ServerConnector [lobby] has connected
+[17:41:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38364|Dab__] -> UpstreamBridge has disconnected
+[17:41:12] [Netty Worker IO Thread #1/INFO]: [Dab__] disconnected with: Proxy lost connection to server.
+[17:41:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38364|Dab__] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:42:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46044]: Connected via websocket
+[17:42:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46044]: Origin header is http://localhost:8081
+[17:42:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46044]: Logged in as 'Dab__'
+[17:42:54] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46044|Dab__] -> UpstreamBridge has connected
+[17:42:54] [Netty Worker IO Thread #0/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:46044] <-> ServerConnector [lobby] has connected
+[17:46:22] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55816|SavageEagler] -> UpstreamBridge has disconnected
+[17:46:22] [Netty Worker IO Thread #2/INFO]: [SavageEagler] disconnected with: Proxy lost connection to server.
+[17:46:22] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:55816|SavageEagler] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:46:26] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43162|ToxicCarcass_] -> UpstreamBridge has disconnected
+[17:46:26] [Netty Worker IO Thread #2/INFO]: [ToxicCarcass_] disconnected with: Proxy lost connection to server.
+[17:46:26] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43162|ToxicCarcass_] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:46:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34138]: Connected via websocket
+[17:46:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34138]: Origin header is http://localhost:8081
+[17:46:35] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34138]: Logged in as 'SavageEagler____'
+[17:46:35] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34138|SavageEagler____] -> UpstreamBridge has connected
+[17:46:35] [Netty Worker IO Thread #0/INFO]: [SavageEagler____|/[0:0:0:0:0:0:0:1%0]:34138] <-> ServerConnector [lobby] has connected
+[17:46:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41138]: Connected via websocket
+[17:46:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41138]: Origin header is http://localhost:8081
+[17:46:44] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41138]: Logged in as 'ToxicCarcass____'
+[17:46:44] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:41138|ToxicCarcass____] -> UpstreamBridge has connected
+[17:46:44] [Netty Worker IO Thread #2/INFO]: [ToxicCarcass____|/[0:0:0:0:0:0:0:1%0]:41138] <-> ServerConnector [lobby] has connected
+[17:51:08] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46044|Dab__] -> UpstreamBridge has disconnected
+[17:51:08] [Netty Worker IO Thread #0/INFO]: [Dab__] disconnected with: Proxy lost connection to server.
+[17:51:08] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46044|Dab__] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:51:12] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:41138|ToxicCarcass____] -> UpstreamBridge has disconnected
+[17:51:12] [Netty Worker IO Thread #2/INFO]: [ToxicCarcass____] disconnected with: Proxy lost connection to server.
+[17:51:12] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:41138|ToxicCarcass____] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:51:13] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34138|SavageEagler____] -> UpstreamBridge has disconnected
+[17:51:13] [Netty Worker IO Thread #0/INFO]: [SavageEagler____] disconnected with: Proxy lost connection to server.
+[17:51:13] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34138|SavageEagler____] <-> DownstreamBridge <-> [lobby] has disconnected
+[17:55:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44666]: Connected via websocket
+[17:55:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44666]: Origin header is http://localhost:8081
+[17:55:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44666]: Logged in as 'Dab__'
+[17:55:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:44666|Dab__] -> UpstreamBridge has connected
+[17:55:03] [Netty Worker IO Thread #3/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:44666] <-> ServerConnector [lobby] has connected
+[18:05:05] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43496]: Connected via websocket
+[18:05:05] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43496]: Origin header is http://localhost:8081
+[18:05:05] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43496]: Logged in as 'ToxicCarcass____'
+[18:05:05] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43496|ToxicCarcass____] -> UpstreamBridge has connected
+[18:05:05] [Netty Worker IO Thread #2/INFO]: [ToxicCarcass____|/[0:0:0:0:0:0:0:1%0]:43496] <-> ServerConnector [lobby] has connected
+[18:05:08] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43496|ToxicCarcass____] -> UpstreamBridge has disconnected
+[18:05:08] [Netty Worker IO Thread #2/INFO]: [ToxicCarcass____] disconnected with: Proxy lost connection to server.
+[18:05:08] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43496|ToxicCarcass____] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:05:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47758]: Connected via websocket
+[18:05:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47758]: Origin header is http://localhost:8081
+[18:05:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47758]: Logged in as 'ToxicCarcass_'
+[18:05:14] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47758|ToxicCarcass_] -> UpstreamBridge has connected
+[18:05:14] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:47758] <-> ServerConnector [lobby] has connected
+[18:07:54] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47758|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:07:54] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_] disconnected with: Proxy lost connection to server.
+[18:07:54] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:47758|ToxicCarcass_] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:14:51] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:44666|Dab__] -> UpstreamBridge has disconnected
+[18:14:51] [Netty Worker IO Thread #3/INFO]: [Dab__] disconnected with: Proxy lost connection to server.
+[18:14:51] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:44666|Dab__] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:15:33] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37540]: Connected via websocket
+[18:15:33] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37540]: Origin header is http://localhost:8081
+[18:15:33] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37540]: Logged in as 'Dab__'
+[18:15:33] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37540|Dab__] -> UpstreamBridge has connected
+[18:15:33] [Netty Worker IO Thread #3/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:37540] <-> ServerConnector [lobby] has connected
+[18:15:37] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37540|Dab__] -> UpstreamBridge has disconnected
+[18:15:40] [Netty Worker IO Thread #3/INFO]: [Dab__] disconnected with: Kicked whilst connecting to lobby: [LoginSecurity] This player is already online!
+[18:15:40] [Netty Worker IO Thread #3/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:37540] <-> ServerConnector [lobby] has disconnected
+[18:17:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44728]: Connected via websocket
+[18:17:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44728]: Origin header is http://localhost:8081
+[18:17:09] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:44728]: Logged in as 'Dab__'
+[18:17:09] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:44728|Dab__] -> UpstreamBridge has connected
+[18:17:09] [Netty Worker IO Thread #1/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:44728] <-> ServerConnector [lobby] has connected
+[18:17:24] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:44728|Dab__] -> UpstreamBridge has disconnected
+[18:17:27] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52524]: Connected via websocket
+[18:17:27] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52524]: Origin header is http://localhost:8081
+[18:17:27] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52524]: Logged in as 'Dab__'
+[18:17:27] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52524|Dab__] -> UpstreamBridge has connected
+[18:17:27] [Netty Worker IO Thread #2/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:52524] <-> ServerConnector [lobby] has connected
+[18:17:31] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52524|Dab__] -> UpstreamBridge has disconnected
+[18:17:39] [Netty Worker IO Thread #1/WARN]: [Dab__|/[0:0:0:0:0:0:0:1%0]:44728] <-> ServerConnector [lobby] - read timed out
+[18:17:39] [Netty Worker IO Thread #1/INFO]: [Dab__] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:17:39] [Netty Worker IO Thread #1/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:44728] <-> ServerConnector [lobby] has disconnected
+[18:17:57] [Netty Worker IO Thread #2/WARN]: [Dab__|/[0:0:0:0:0:0:0:1%0]:52524] <-> ServerConnector [lobby] - read timed out
+[18:17:57] [Netty Worker IO Thread #2/INFO]: [Dab__] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:17:57] [Netty Worker IO Thread #2/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:52524] <-> ServerConnector [lobby] has disconnected
+[18:19:41] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38504]: Connected via websocket
+[18:19:41] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38504]: Origin header is http://localhost:8081
+[18:19:41] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38504]: Logged in as 'Dab__'
+[18:19:41] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38504|Dab__] -> UpstreamBridge has connected
+[18:19:41] [Netty Worker IO Thread #0/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:38504] <-> ServerConnector [lobby] has connected
+[18:19:56] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38504|Dab__] -> UpstreamBridge has disconnected
+[18:20:06] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45708]: Connected via websocket
+[18:20:06] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45708]: Origin header is http://localhost:8081
+[18:20:06] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45708]: Logged in as 'ToxicCarcass_'
+[18:20:06] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45708|ToxicCarcass_] -> UpstreamBridge has connected
+[18:20:06] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:45708] <-> ServerConnector [lobby] has connected
+[18:20:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45714]: Connected via websocket
+[18:20:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45714]: Origin header is http://localhost:8081
+[18:20:06] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45714]: Logged in as 'Dab__'
+[18:20:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45714|Dab__] -> UpstreamBridge has connected
+[18:20:06] [Netty Worker IO Thread #2/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:45714] <-> ServerConnector [lobby] has connected
+[18:20:11] [Netty Worker IO Thread #0/WARN]: [Dab__|/[0:0:0:0:0:0:0:1%0]:38504] <-> ServerConnector [lobby] - read timed out
+[18:20:11] [Netty Worker IO Thread #0/INFO]: [Dab__] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:20:11] [Netty Worker IO Thread #0/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:38504] <-> ServerConnector [lobby] has disconnected
+[18:20:18] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45714|Dab__] -> UpstreamBridge has disconnected
+[18:20:19] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:45708|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:20:23] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48396]: Connected via websocket
+[18:20:23] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48396]: Origin header is http://localhost:8081
+[18:20:23] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48396]: Logged in as 'ToxicCarcass_'
+[18:20:23] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:48396|ToxicCarcass_] -> UpstreamBridge has connected
+[18:20:23] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:48396] <-> ServerConnector [lobby] has connected
+[18:20:36] [Netty Worker IO Thread #1/WARN]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:45708] <-> ServerConnector [lobby] - read timed out
+[18:20:36] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:20:36] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:45708] <-> ServerConnector [lobby] has disconnected
+[18:20:36] [Netty Worker IO Thread #2/WARN]: [Dab__|/[0:0:0:0:0:0:0:1%0]:45714] <-> ServerConnector [lobby] - read timed out
+[18:20:36] [Netty Worker IO Thread #2/INFO]: [Dab__] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:20:36] [Netty Worker IO Thread #2/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:45714] <-> ServerConnector [lobby] has disconnected
+[18:20:38] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:48396|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:20:41] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43372]: Connected via websocket
+[18:20:41] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43372]: Origin header is http://localhost:8081
+[18:20:41] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43372]: Logged in as 'ToxicCarcass_'
+[18:20:41] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:43372|ToxicCarcass_] -> UpstreamBridge has connected
+[18:20:41] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43372] <-> ServerConnector [lobby] has connected
+[18:20:42] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:43372|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:20:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46878]: Connected via websocket
+[18:20:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46878]: Origin header is http://localhost:8081
+[18:20:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46878]: Logged in as 'ToxicCarcass_'
+[18:20:50] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46878|ToxicCarcass_] -> UpstreamBridge has connected
+[18:20:50] [Netty Worker IO Thread #3/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46878] <-> ServerConnector [lobby] has connected
+[18:20:53] [Netty Worker IO Thread #0/WARN]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:48396] <-> ServerConnector [lobby] - read timed out
+[18:20:53] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:20:53] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:48396] <-> ServerConnector [lobby] has disconnected
+[18:20:53] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46878|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:20:57] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46884]: Connected via websocket
+[18:20:57] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46884]: Origin header is http://localhost:8081
+[18:20:57] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46884]: Logged in as 'ToxicCarcass_'
+[18:20:57] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46884|ToxicCarcass_] -> UpstreamBridge has connected
+[18:20:57] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46884] <-> ServerConnector [lobby] has connected
+[18:20:58] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:46884|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:20:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46894]: Connected via websocket
+[18:20:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46894]: Origin header is http://localhost:8081
+[18:20:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46894]: Logged in as 'ToxicCarcass_'
+[18:20:59] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:46894|ToxicCarcass_] -> UpstreamBridge has connected
+[18:20:59] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46894] <-> ServerConnector [lobby] has connected
+[18:20:59] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:46894|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:21:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43342]: Connected via websocket
+[18:21:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43342]: Origin header is http://localhost:8081
+[18:21:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43342]: Logged in as 'ToxicCarcass_'
+[18:21:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43342|ToxicCarcass_] -> UpstreamBridge has connected
+[18:21:00] [Netty Worker IO Thread #3/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43342] <-> ServerConnector [lobby] has connected
+[18:21:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:43342|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:21:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43378]: Connected via websocket
+[18:21:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43378]: Origin header is http://localhost:8081
+[18:21:02] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43378]: Logged in as 'ToxicCarcass_'
+[18:21:02] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43378|ToxicCarcass_] -> UpstreamBridge has connected
+[18:21:02] [Netty Worker IO Thread #2/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43378] <-> ServerConnector [lobby] has connected
+[18:21:04] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:43378|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:21:11] [Netty Worker IO Thread #1/WARN]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43372] <-> ServerConnector [lobby] - read timed out
+[18:21:11] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:21:11] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43372] <-> ServerConnector [lobby] has disconnected
+[18:21:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60566]: Connected via websocket
+[18:21:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60566]: Origin header is http://localhost:8081
+[18:21:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60566]: Logged in as 'ToxicCarcass_'
+[18:21:14] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60566|ToxicCarcass_] -> UpstreamBridge has connected
+[18:21:14] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:60566] <-> ServerConnector [lobby] has connected
+[18:21:20] [Netty Worker IO Thread #3/WARN]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46878] <-> ServerConnector [lobby] - read timed out
+[18:21:20] [Netty Worker IO Thread #3/INFO]: [ToxicCarcass_] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:21:20] [Netty Worker IO Thread #3/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46878] <-> ServerConnector [lobby] has disconnected
+[18:21:25] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35272]: Connected via websocket
+[18:21:25] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35272]: Origin header is http://localhost:8081
+[18:21:25] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35272]: Logged in as 'Dab__'
+[18:21:25] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:35272|Dab__] -> UpstreamBridge has connected
+[18:21:25] [Netty Worker IO Thread #1/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:35272] <-> ServerConnector [lobby] has connected
+[18:21:26] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:60566|ToxicCarcass_] -> UpstreamBridge has disconnected
+[18:21:27] [Netty Worker IO Thread #0/WARN]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46884] <-> ServerConnector [lobby] - read timed out
+[18:21:27] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:21:27] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46884] <-> ServerConnector [lobby] has disconnected
+[18:21:29] [Netty Worker IO Thread #1/WARN]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46894] <-> ServerConnector [lobby] - read timed out
+[18:21:29] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:21:29] [Netty Worker IO Thread #1/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:46894] <-> ServerConnector [lobby] has disconnected
+[18:21:30] [Netty Worker IO Thread #3/WARN]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43342] <-> ServerConnector [lobby] - read timed out
+[18:21:30] [Netty Worker IO Thread #3/INFO]: [ToxicCarcass_] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:21:30] [Netty Worker IO Thread #3/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43342] <-> ServerConnector [lobby] has disconnected
+[18:21:32] [Netty Worker IO Thread #2/WARN]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43378] <-> ServerConnector [lobby] - read timed out
+[18:21:32] [Netty Worker IO Thread #2/INFO]: [ToxicCarcass_] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:21:32] [Netty Worker IO Thread #2/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:43378] <-> ServerConnector [lobby] has disconnected
+[18:21:40] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:35272|Dab__] -> UpstreamBridge has disconnected
+[18:21:44] [Netty Worker IO Thread #0/WARN]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:60566] <-> ServerConnector [lobby] - read timed out
+[18:21:44] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:21:44] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:60566] <-> ServerConnector [lobby] has disconnected
+[18:21:55] [Netty Worker IO Thread #1/WARN]: [Dab__|/[0:0:0:0:0:0:0:1%0]:35272] <-> ServerConnector [lobby] - read timed out
+[18:21:55] [Netty Worker IO Thread #1/INFO]: [Dab__] disconnected with: Exception Connecting:ReadTimeoutException : null
+[18:21:55] [Netty Worker IO Thread #1/INFO]: [Dab__|/[0:0:0:0:0:0:0:1%0]:35272] <-> ServerConnector [lobby] has disconnected
+[18:22:19] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50982]: Connected via websocket
+[18:22:19] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50982]: Origin header is http://localhost:8081
+[18:22:19] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50982]: Logged in as 'ToxicCarcass_'
+[18:22:19] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50982|ToxicCarcass_] -> UpstreamBridge has connected
+[18:22:19] [Netty Worker IO Thread #0/INFO]: [ToxicCarcass_|/[0:0:0:0:0:0:0:1%0]:50982] <-> ServerConnector [lobby] has connected
+[18:22:21] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:50982|ToxicCarcass_] -> UpstreamBridge has disconnected
