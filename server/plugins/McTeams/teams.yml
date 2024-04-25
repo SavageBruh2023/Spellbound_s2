@@ -249,6 +249,14 @@ players:
     teammanager: 'false'
     teamchat: 'false'
     chatspy: 'false'
+  8a42ad79-ab88-3273-8ac3-24b5888123d1:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  2c6d2892-1cf7-3974-8d30-2bc1280ba234:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
 CLOWNS:
   ff: 'false'
   memberlist:
