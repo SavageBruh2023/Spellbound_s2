@@ -273,6 +273,103 @@ players:
     teammanager: 'false'
     teamchat: 'false'
     chatspy: 'false'
+  b35dd130-232f-3aac-abdf-3b7f771c9393:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  5d6f6a6f-2dd5-35c9-ba4d-43f196a6535d:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  e1e8d257-9e79-332f-bd58-453b258cc759:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  bbc61b50-4f1f-359e-89f6-353c21686ae6:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  3355da49-1570-3e1c-89ce-ef90620724c2:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  c65d93c5-2e2e-38cb-b93b-7ea135fa44f7:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  01265fc4-e6fa-3282-b6a7-770454f48046:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  92e822b3-7aa0-34fb-b472-867eeca4ec4c:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  c662b53c-9482-366a-b073-0324a434f720:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  7b24afae-758d-3da9-b6c8-0860e3e0f765:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  93eb4f94-3980-316b-b75c-5ac472d20b54:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  c499dd30-de93-3226-b011-e09bd34ac5d2:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  8fac962a-e77d-37aa-b08a-9a1c1a622aff:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  f0885a62-961a-386f-9f23-6340d7e6bd51:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  c93abb2d-c44c-3112-bf45-7f86500e3469:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  8e0aec75-56ff-344b-a21b-a025a951f6b5:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  da6e878e-ab76-3b32-ba7e-ebf7e621bf90:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  13f20a28-539a-3880-a61b-d1403cc11869:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  b2911072-8d81-369d-a9a9-1e2e5b288aaa:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+    team: CLOWNS
+  3aa10d45-6372-352e-b9af-2eba497ed912:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  868f2716-9574-3831-b585-2434047f7252:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  fe84fc5c-4a78-3002-85d0-eb7a63e78c16:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
+  b9dce578-50a1-3a50-9634-541e00850862:
+    teammanager: 'false'
+    teamchat: 'false'
+    chatspy: 'false'
 CLOWNS:
   ff: 'false'
   memberlist:
@@ -294,6 +391,11 @@ CLOWNS:
   - fc60f37c-a882-3ba9-814e-6d97090d3173
   - 24c06a8d-ede0-3c31-bcf0-eb6f4ab431f6
   - 251a8824-7c33-348a-8939-e5377c244f8f
+  - c662b53c-9482-366a-b073-0324a434f720
+  - 93eb4f94-3980-316b-b75c-5ac472d20b54
+  - c499dd30-de93-3226-b011-e09bd34ac5d2
+  - da6e878e-ab76-3b32-ba7e-ebf7e621bf90
+  - b2911072-8d81-369d-a9a9-1e2e5b288aaa
   hq:
     x: -118.70010447606339
     y: 67.0
